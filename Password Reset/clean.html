@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Invoice {{ invoice.id }}</title>
+  <style>
+  /* ----- Client Fixes ----- */
+
+  /* Force Outlook to provide a "view in browser" message */
+  #outlook a {
+    padding: 0;
+  }
+
+  /* Force Hotmail to display emails at full width */
+  .ReadMsgBody {
+    width: 100%;
+  }
+
+  .ExternalClass {
+    width: 100%;
+  }
+
+  /* Force Hotmail to display normal line spacing */
+  .ExternalClass,
+  .ExternalClass p,
+  .ExternalClass span,
+  .ExternalClass font,
+  .ExternalClass td,
+  .ExternalClass div {
+    line-height: 100%;
+  }
+
+  /* Prevent WebKit and Windows mobile changing default text sizes */
+  body, table, td, p, a, li, blockquote {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+
+  /* Remove spacing between tables in Outlook 2007 and up */
+  table, td {
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+  }
+
+  /* Allow smoother rendering of resized image in Internet Explorer */
+  img {
+    -ms-interpolation-mode: bicubic;
+  }
+
+
+  /* ----- Reset ----- */
+
+  html,
+  body,
+  .body-wrap,
+  .body-wrap-cell,
+  table,
+  td {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    display: block;
+    border: 0;
+    line-height: 100%;
+    outline: none;
+    text-decoration: none;
+  }
+
+  table {
+    border-collapse: collapse !important;
+  }
+
+
+  /* ----- Base ----- */
+
+  body {
+    width: 100% !important;
+    height: 100%;
+  }
+
+  td, h1, h2 {
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #89898d;
+  }
+
+  td {
+    text-align: left;
+  }
+
+  h1, h2 {
+    line-height: 1.1;
+  }
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  td, p {
+    font-size: 20px;
+  }
+
+  p {
+    margin-top: 16px;
+    margin-bottom: 38px;
+    font-weight: normal;
+    line-height: 22px;
+  }
+
+
+  /* ----- Utilities ----- */
+
+  .center {
+    text-align: center;
+  }
+
+
+  /* ----- Layout ----- */
+
+  .body-cell {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .footer .footer-tagline {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 5px;
+    font-size: 45px;
+  }
+
+  .footer .footer-signature {
+    padding-top: 18px;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+
+  /* ----- Modules ----- */
+
+  .brand a {
+    font-size: 16px;
+    line-height: 180px;
+    font-weight: bold;
+  }
+
+  .block td {
+    color: #ffffff;
+  }
+
+  .block .block-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 26px;
+  }
+
+  .block .block-body {
+    font-size: 24px;
+    text-align: center;
+  }
+
+
+  </style>
+
+</head>
+
+
+
+<body>
+  <table class="background" align="center" width="100%" height="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td class="background-cell" width="100%" height="100%">
+        <center>
+          <table class="body" width="600" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="body-cell" width="600" height="180">
+                <table class="brand" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td>
+                      <a href="{{ brand_url }}" target="_blank">
+                        <img alt="{{ brand_name }}" width="600" height="180" src="https://www.filepicker.io/api/file/f4ti1niDQvOhmCAA8Atx">
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img alt="Invoice" width="600" height="78" src="https://www.filepicker.io/api/file/2S4NiFIMQEGolxEP7I0w">
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="body-row">
+              <td class="body-cell" width="600" valign="top">
+                <h1>
+                  Hi <span class="swu-variable" data-swu-variable='{"name": "customer.email", "preview": "customer@example.com", "readonly": true}'>customer@example.com</span>,
+                </h1><br>
+
+                Your credit card ending in
+                <span class="swu-variable" data-swu-variable='{"name": "charge.card.last4", "preview": "1234", "readonly": true}'>
+                  1234
+                </span>
+                has been charged:<br>
+                <br>
+
+                <table>
+                  <tr>
+                    <td class="block" width="184" style="background-color: #6f0795;">
+                      <table>
+                        <tr>
+                          <td class="block-title" width="184" height="24">
+                            Plan
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="block-body" width="184" height="130" align="center" valign="middle">
+                            <span class="swu-variable" data-swu-variable='{"name": "subscription.plan.name", "preview": "Gold Plan", "readonly": true}'>
+                              Gold Plan
+                            </span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="24">&nbsp;</td>
+                    <td class="block" width="184" style="background-color: #f39200;">
+                      <table>
+                        <tr>
+                          <td class="block-title" width="184" height="24">
+                            Date
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="block-body" width="184" height="130" align="center" valign="middle">
+                            <span class="swu-variable" data-swu-variable='{"name": "invoice.date", "preview": "04/01/2013", "readonly": true}'>
+                              04/01/2013
+                            </span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td width="24">&nbsp;</td>
+                    <td class="block" width="184" style="background-color: #3aaa35;">
+                      <table>
+                        <tr>
+                          <td class="block-title" width="184" height="24">
+                            Amount
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="block-body" width="184" height="130" align="center" valign="middle">
+                            <span class="swu-variable" data-swu-variable='{"name": "charge.amount", "preview": "$49.99", "readonly": true}'>
+                              $49.99
+                            </span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <table class="footer">
+                  <tr>
+                    <td class="footer-tagline" width="600" align="center">
+                      Thanks for being a customer!
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="footer-signature" align="center">
+                      <span data-bind="initFromMarkup: { html: 'signature' }, initFromMarkupArray: 'template_vars'">Bill and Ted<br>My Company</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
