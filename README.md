@@ -1,4 +1,4 @@
-Transactional Email Templates
+Templates
 =========
 
 Transactional email templates for the next generation.
