@@ -86,6 +86,7 @@
   }
 
   td, div {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-align: center;
   }
 
@@ -154,7 +155,7 @@
   }
 
   .head-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
     background-color: #f9f8f8;
     border-bottom: 1px solid #d8d8d8;
@@ -290,7 +291,7 @@
   }
 
   .footer-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
     clear: both !important;
     background-color: #e5e5e5;
@@ -360,6 +361,12 @@
 
   @media only screen {
 
+    table[class*="head-wrap"],
+    table[class*="body-wrap"],
+    table[class*="footer-wrap"] {
+      width: 100% !important;
+    }
+
     td[class*="container"] {
       margin: 0 auto !important;
     }
@@ -415,10 +422,20 @@
 <body bgcolor="#ffffff">
 
   <div align="center">
-    <table class="head-wrap w320" bgcolor="#f9f8f8" cellspacing="0">
+    <table class="head-wrap w320" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0" width="100%">
       <tr>
-        <td width="505" height="8" class="w320" colspan="3" valign="top">
-          <img class="image-fix w320" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" width="505" height="8">
+        <td background="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" bgcolor="#ffffff" width="100%" colspan="3" height="8" valign="top">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">
+            <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+          <div height="8">
+          </div>
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
         </td>
       </tr>
       <tr class="header-background">
