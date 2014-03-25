@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>You're almost there!</title>
+  <style type="text/css">
+  /* -------------------------------------
+    GLOBAL
+  ------------------------------------- */
+  * {
+    margin:0;
+    padding:0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  }
+
+  img {
+    max-width: 100%;
+    outline: none;
+    text-decoration: none;
+    -ms-interpolation-mode: bicubic;
+  }
+  .image-fix {
+    display:block;
+  }
+  .collapse {
+    margin:0;
+    padding:0;
+  }
+  body {
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    width: 100%!important;
+    height: 100%;
+    text-align: center;
+    color: #747474;
+    background-color: #ffffff;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.1;
+  }
+  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-size: 60%;
+    line-height: 0;
+    text-transform: none;
+  }
+
+  h1 {
+    font-weight:200;
+    font-size: 44px;
+  }
+  h2 {
+    font-weight:200;
+    font-size: 32px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-weight:500;
+    font-size: 27px;
+  }
+  h4 {
+    font-weight:500;
+    font-size: 23px;
+  }
+  h5 {
+    font-weight:900;
+    font-size: 17px;
+  }
+  h6 {
+    font-weight:900;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .collapse {
+    margin:0!important;
+  }
+
+  td, div {
+    text-align: center;
+  }
+
+  p, ul {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size:14px;
+    line-height:1.6;
+  }
+  p.lead {
+    font-size:17px;
+  }
+  p.last {
+    margin-bottom:0px;
+  }
+
+  ul li {
+    margin-left:5px;
+    list-style-position: inside;
+  }
+
+  a {
+    color: #747474;
+    text-decoration: none;
+  }
+
+  a img {
+    border: none;
+  }
+
+  /* -------------------------------------
+      ELEMENTS
+  ------------------------------------- */
+
+
+  .btn {
+    width: 190px !important;
+  }
+
+  .btn td {
+    color: #ffffff;
+    border: 1px solid #407429;
+    padding: 10px 18px;
+    margin-right: 10px;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    text-shadow: -1px -1px #47A54B;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    width: 190px;
+    height: 20px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: #41CC00 url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);
+  }
+
+  .btn td a {
+    color: #ffffff;
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+
+
+
+
+  table.head-wrap {
+    width: 505px;
+    margin: 0 auto;
+    background-color: #f9f8f8;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .head-wrap * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .head-stripes {
+    background-position: center top;
+    background-repeat: repeat-x;
+    background-image: url(https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC);
+  }
+
+  .header-background {
+    background: repeat-x url(https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh) left bottom;
+  }
+
+
+  .header {
+    height: 42px;
+  }
+  .header .content {
+    padding: 0;
+  }
+  .header .brand {
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: bold;
+  }
+  .header .brand a {
+    color: #464646;
+  }
+
+
+
+
+
+  table.body-wrap {
+    width: 505px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+
+
+  .soapbox .soapbox-title {
+    font-size: 30px;
+    color: #464646;
+    padding-top: 25px;
+    padding-bottom: 28px;
+  }
+
+  .content .status {
+    width: 90%;
+  }
+
+  .status {
+    border-collapse: collapse;
+    margin-left: 15px;
+    color: #656565;
+  }
+  .status .status-cell {
+    border: 1px solid #b3b3b3;
+    height: 50px;
+  }
+  .status .status-cell.success,
+  .status .status-cell.active {
+    height: 65px;
+  }
+  .status .status-cell.success {
+    background: #f2ffeb;
+    color: #51da42;
+  }
+  .status .status-cell.success .status-title {
+    font-size: 15px;
+  }
+  .status .status-cell.active {
+    background: #fffde0;
+    width: 135px;
+  }
+  .status .status-title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+  }
+  .status .status-image {
+    vertical-align: text-bottom;
+  }
+
+
+  .body .body-padded,
+  .body .body-padding {
+    padding-top: 34px;
+  }
+  .body .body-padding {
+    width: 41px;
+  }
+  .body-padded,
+  .body-title {
+    text-align: left;
+  }
+  .body .body-title {
+    font-weight: bold;
+    font-size: 17px;
+    color: #464646;
+  }
+  .body .body-text .body-text-cell {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 9px 0 17px;
+  }
+  .body .body-signature-block .body-signature-cell {
+    padding: 25px 0 30px;
+    text-align: left;
+  }
+  .body .body-signature {
+    font-family: "Comic Sans MS", Textile, cursive;
+    font-weight: bold;
+  }
+
+
+
+  .footer-wrap {
+    width: 505px;
+    margin: 0 auto;
+    clear:both !important;
+    background-color: #e5e5e5;
+    border-top: 1px solid #b3b3b3;
+    font-size: 12px;
+    color: #656565;
+    line-height: 30px;
+  }
+  .footer-wrap .container {
+    padding: 14px 0;
+  }
+  .footer-wrap .container .content {
+    padding: 0;
+  }
+  .footer-wrap .container .footer-lead {
+    font-size: 14px;
+  }
+  .footer-wrap .container .footer-lead a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #535353;
+  }
+  .footer-wrap .container a {
+    font-size: 12px;
+    color: #656565;
+  }
+  .footer-wrap .container a.last {
+    margin-right: 0;
+  }
+  .footer-wrap .footer-group {
+    display: inline-block;
+  }
+
+
+
+  /* ---------------------------------------------------
+      RESPONSIVENESS
+  ------------------------------------------------------ */
+
+  /* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+  .container {
+    display: block !important;
+    max-width: 505px !important;
+    clear: both !important;
+  }
+
+  /* This should also be a block element, so that it will fill 100% of the .container */
+  .content {
+    padding: 0;
+    max-width: 505px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Let's make sure tables in the content area are 100% wide */
+  .content table {
+    width: 100%;
+  }
+
+
+  /* Be sure to place a .clear element after each set of columns, just to be safe */
+  .clear {
+    display: block;
+    clear: both;
+  }
+
+</style>
+<style type="text/css" media="only screen">
+
+
+  /* -------------------------------------------
+      PHONE
+      For clients that support media queries.
+      Nothing fancy.
+  -------------------------------------------- */
+  @media only screen {
+
+    table[class="head-wrap"],
+    table[class="body-wrap"],
+    table[class*="footer-wrap"] {
+      width: 100% !important;
+    }
+
+    td[class*="container"] {
+      margin: 0 auto !important;
+    }
+
+    td[class="head-stripes"] {
+      background-color: transparent !important;
+      height: 8px !important;
+    }
+
+    td[class="head-stripes"] img {
+      display: none !important;
+    }
+  }
+
+  @media only screen and (max-width: 505px) {
+
+
+    table[class="status"] td[class*="status-cell"],
+    table[class="status"] td[class*="status-cell"].active {
+      display: block !important;
+      width: auto !important;
+    }
+
+    table[class="status"] td[class*="status-cell"],
+    table[class="status"] td[class*="status-cell"].active,
+    table[class="status"] td[class*="status-cell"] [class*="status-title"] {
+      line-height: 65px !important;
+      font-size: 18px !important;
+    }
+
+    table[class="status"] td[class*="status-cell"].active [class*="status-title"] {
+      display: inline !important;
+    }
+
+    table[class="btn"] td {
+      font-size: 14px !important;
+      display: block !important;
+      width: auto !important;
+      margin-bottom: 10px !important;
+      margin-right: 0 !important;
+    }
+
+  }
+  </style>
+</head>
+
+<body bgcolor="#ffffff">
+
+  <div align="center">
+    <table class="head-wrap" bgcolor="#f9f8f8" cellspacing="0">
+      <tr>
+        <td class="head-stripes" colspan="3">
+          <img class="image-fix" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" width="505" height="8">
+        </td>
+      </tr>
+      <tr class="header-background">
+        <td></td>
+        <td class="header container" align="center">
+          <div class="content">
+            <span class="brand">
+              <a href="#">
+                Company Name
+              </a>
+            </span>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+
+    <table class="body-wrap">
+      <tr>
+        <td></td>
+        <td class="container">
+          <div class="content">
+            <table cellspacing="0">
+              <tr>
+                <td>
+                  <table class="soapbox">
+                    <tr>
+                      <td class="soapbox-title">You're almost there!</td>
+                    </tr>
+                  </table>
+                  <table class="status" bgcolor="#fffeea" cellspacing="0">
+                    <tr>
+                      <td class="status-cell success">
+                        <div class="status-title">
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;Step 1
+                        </div>
+                      </td>
+                      <td class="status-cell success">
+                        <div class="status-title">
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;Step 2
+                        </div>
+                      </td>
+                      <td class="status-cell success">
+                        <div class="status-title">
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓"> &nbsp;Step 3
+                        </div>
+                      </td>
+                      <td class="status-cell active">
+                        <div class="status-title">Step 4</div>
+                        Add Info
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="body">
+                    <tr>
+                      <td class="body-padding"></td>
+                      <td class="body-padded">
+                        <div class="body-title">3 of 4 steps completed</div>
+                        <table class="body-text">
+                          <tr>
+                            <td class="body-text-cell">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis semper nisl. Maecenas sed porta nulla. Fusce in congue dui. Duis arcu odio, cursus nec porttitor bibendum, elementum eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubiliav
+                            </td>
+                          </tr>
+                        </table>
+                        <table class="btn" width="190" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="center" width="190" bgcolor="#41CC00"><a href="#">Add more info here</a></td>
+                          </tr>
+                        </table>
+                        <table class="body-signature-block">
+                          <tr>
+                            <td class="body-signature-cell">
+                              <p>Thanks so much,</p>
+                              <p class="body-signature"><img src="https://www.filepicker.io/api/file/2R9HpqboTPaB4NyF35xt" alt="Company Name"></p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td class="body-padding"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+
+    <table class="footer-wrap" bgcolor="#e5e5e5">
+      <tr>
+        <td></td>
+        <td class="container">
+          <div class="content footer-lead">
+            <a href="#"><b>Get in touch</b></a> if you have any questions or feedback
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+    <table class="footer-wrap" bgcolor="#e5e5e5">
+      <tr>
+        <td></td>
+        <td class="container">
+          <div class="content">
+            <a href="#"><unsubscribe>Unsubscribe here</unsubscribe></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span class="footer-group">
+              <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+              <a href="#">Support</a>
+            </span>
+          </div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
