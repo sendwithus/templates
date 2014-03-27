@@ -1,9 +1,8 @@
 {
-  "title"       : "Airmail Invitation",
+  "title"       : "Type Title",
   "description" : "The description for the email type. This could end up being a longer description. Three sentences may not even be enough. It could be multiple paragraphs.",
   "tags": [
-    "invoice",
-    "billing"
+    "multi-step"
   ],
   "themes": [
     "airmail",
