@@ -1,303 +1,293 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta name="viewport" content="width=device-width" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <style>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=320, initial-scale=1" />
+  <style type="text/css" media="screen">
+
   /* ----- Client Fixes ----- */
 
-  /* Force Outlook to provide a "view in browser" message */
-  #outlook a {
-    padding: 0;
-  }
+      /* Force Outlook to provide a "view in browser" message */
+      #outlook a {
+        padding: 0;
+      }
 
-  /* Force Hotmail to display emails at full width */
-  .ReadMsgBody {
-    width: 100%;
-  }
+      /* Force Hotmail to display emails at full width */
+      .ReadMsgBody {
+        width: 100%;
+      }
 
-  .ExternalClass {
-    width: 100%;
-  }
+      .ExternalClass {
+        width: 100%;
+      }
 
-  /* Force Hotmail to display normal line spacing */
-  .ExternalClass,
-  .ExternalClass p,
-  .ExternalClass span,
-  .ExternalClass font,
-  .ExternalClass td,
-  .ExternalClass div {
-    line-height: 100%;
-  }
-
-  /* Prevent WebKit and Windows mobile changing default text sizes */
-  body, table, td, p, a, li, blockquote {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-  }
-
-  /* Remove spacing between tables in Outlook 2007 and up */
-  table, td {
-    mso-table-lspace: 0pt;
-    mso-table-rspace: 0pt;
-  }
-
-  /* Allow smoother rendering of resized image in Internet Explorer */
-  img {
-    -ms-interpolation-mode: bicubic;
-  }
+      /* Force Hotmail to display normal line spacing */
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
 
 
-  /* ----- Reset ----- */
+       /* Prevent WebKit and Windows mobile changing default text sizes */
+      body, table, td, p, a, li, blockquote {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
 
-  html,
-  body,
-  .body-wrap,
-  .body-wrap-cell {
-    margin: 0;
-    padding: 0;
-  }
+      /* Remove spacing between tables in Outlook 2007 and up */
+      table, td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
 
-  img {
-    display: block;
-    border: 0;
-    line-height: 100%;
-    outline: none;
-    text-decoration: none;
-  }
+      /* Allow smoother rendering of resized image in Internet Explorer */
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
 
-  table {
-    border-collapse: collapse !important;
-  }
+       /* ----- Reset ----- */
 
+      html,
+      body,
+      .body-wrap,
+      .body-wrap-cell {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #89898D;
+        text-align: left;
+      }
 
-  /* ----- Base ----- */
+      img {
+        border: 0;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
 
-  body {
-    width: 100% !important;
-    height: 100%;
-  }
+      table {
+        border-collapse: collapse !important;
+      }
 
-  th, td, h1, h2 {
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #89898d;
-  }
+      td, th {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #89898D;
+        line-height:1.5em;
+      }
 
-  th, td {
-    text-align: left;
-  }
+      /* ----- General ----- */
 
-  h1, h2 {
-    line-height: 1.1;
-    text-align: right;
-  }
+      .col-1 {
+        border-right: 1px solid #D9DADA;
+        width: 180px;
+      }
 
-  h1 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 24px;
-  }
+      .col-2 {
 
-  h2 {
-    margin-top: 0;
-    margin-bottom: 60px;
-    font-weight: normal;
-    font-size: 17px;
-  }
+      }
 
-  th, td, p {
-    font-size: 16px;
-    line-height: 22px;
-  }
+      td.hide-for-desktop-text {
+        font-size: 0 !important;
+        height: 0 !important;
+        display: none !important;
+      }
 
-  p {
-    margin-top: 16px;
-    margin-bottom: 38px;
-    font-weight: normal;
-  }
+      img.hide-for-desktop-image {
+        font-size: 0 !important;
+        line-height: 0 !important;
+        width: 0 !important;
+        height: 0 !important;
+        display: none !important;
+      }
 
+</style>
 
-  /* ----- Layout ----- */
+<style type="text/css" media="only screen and (max-width: 650px)">
+     @media only screen and (max-width: 650px) {
+      table[class="w320"] {
+        width: 320px !important;
 
-  .background-cell {
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
+      }
 
-  .body-cell {
-    background-color: #ffffff;
-    padding-top: 60px;
-    vertical-align: top;
-  }
+      td[class="col-1"] {
+        border: none;
+      }
 
-  .body-cell-border {
-    text-align: right;
-    padding-left: 14px;
-    border-right: 1px solid #d9dada;
-  }
+      td[class='hide-for-mobile'] {
+        font-size: 0 !important; line-height: 0 !important; width: 0 !important;
+        height: 0 !important; display: none !important;
+      }
 
-  .body-cell-left-bottom-pad {
-    padding-left: 6px;
-    padding-bottom: 20px;
-  }
+      img[class="hide-for-desktop-image"]{
+        width: 176px !important;
+        height: 135px !important;
+        display:block !important;
+        padding-left: 60px;
+      }
 
-  .body-cell-right-pad {
-    text-align: left;
-    padding-right: 14px;
-  }
+      td[class="hide-for-desktop-image"] {
+        width: 100% !important;
+        display: block !important;
+        text-align: right !important;
+      }
 
+      td[class="hide-for-desktop-text"] {
+        display: block !important;
+        text-align: left !important;
+        font-size: 16px !important;
+        height: 61px !important;
+        width: 100%;
+        border-bottom: 1px solid #D9DADA;
+        padding-bottom: 25px;
+      }
 
-  /* ----- Modules ----- */
-
-  .brand a {
-    font-size: 16px;
-    line-height: 59px;
-    font-weight: bold;
-  }
-
-  .data-table th,
-  .data-table td {
-    width: 350px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-  }
-
-  .data-table th {
-    background-color: #f9f9f9;
-    color: #f8931e;
-  }
-
-  .data-table .data-table-amount {
-    font-weight: bold;
-    font-size: 20px;
-  }
-
+      td[class="mobile-padding"] {
+        padding-top: 15px;
+      }
+    }
 
   </style>
-
 </head>
 
+<body class="body" style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="50" bgcolor="#ffffff">
+<tr>
+  <td valign="top" align="left">
+  <center>
+    <table class="w320" cellspacing="0" cellpadding="0" width="600">
+      <tr>
 
+        <td>
+        <table cellspacing="0" cellpadding="0" width="100%">
+          <tr>
+            <td class="col-1">
 
-<body>
-  <table class="background" align="center" width="100%" height="100%" cellpadding="0" cellspacing="0">
-    <tr>
-      <td class="background-cell" width="100%" height="100%">
-        <center>
-          <table class="body" height="723" width="600" cellpadding="0" cellspacing="0">
-            <tr>
-              <td class="body-cell body-cell-border" height="723" width="186">
-                <table cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td width="200" height="59">
-                      <table class="brand" cellpadding="0" cellspacing="0">
-                        <tbody><tr>
-                          <td>
-                            <a href="{{ brand_url }}" target="_blank">
-                              <img alt="{{ brand_name }}" width="167" height="59" src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx">
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody></table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="body-cell-right-pad" valign="top" width="172" height="150">
-                      <div style="font-size:0pt; line-height:0pt; height:30px">
-                        <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="30" width="1">
-                      </div>
-                      <b>
-                        <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">My Company</span>
+              <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                  <td class="hide-for-mobile" style="padding:30px 0 10px 0;">
+                    <img width="40" height="31" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="hide-for-mobile"  height="150" valign="top" >
+                    <b>
+                      <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
                       </b>
                       <br>
                       <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria, BC A1B 2C3</span>
-                    </td>
-                  </tr>
-                </table>
-                <table cellpadding="0" cellspacing="0">
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="hide-for-mobile" style="height:180px; width:299px;">
+                    <img width="180" height="299"src="https://www.filepicker.io/api/file/3UaTJxcRScNj3PEVofl4" alt="large logo" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        </td>
+
+        <td valign="top" class="col-2">
+          <table cellspacing="0" cellpadding="15" width="100%">
+            <tr>
+              <td valign="top">
+                <table cellspacing="0" cellpadding="0" width="100%">
                   <tr>
-                    <td width="180" height="480" class="body-cell-left-bottom-pad" valign="bottom">
-                      <img width="180" height="299"
-                      src="https://www.filepicker.io/api/file/3UaTJxcRScNj3PEVofl4">
-                    </td>
-                  </tr>
-                </table>
-              </td>
-              <td class="body-cell" width="400" height="661" valign="top">
-                <table width="100%" cellpadding="0" cellspacing="0">
-                  <tr>
-                    <td colspan="3" width="400">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="90" width="1">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="42">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="42">
-                    </td>
-                    <td valign="top" width="329">
-                      <table width="100%" cellpadding="0" cellspacing="0">
+                    <td style="padding:15px; padding-top:45px;">
+
+                      <table cellspacing="0" cellpadding="10" width="100%">
                         <tr>
-                          <td align="left">
-                            Hi <span class="swu-variable" data-swu-variable='{"name": "customer.first_name", "preview": "[first name]", "readonly": true}'>
-                              [first name]
-                            </span>,
-                          </td>
-                          <td align="right">
-                            <span class="swu-variable" data-swu-variable='{"name": "invoice.date", "preview": "05/16/2013", "readonly": true}'>
-                              05/16/2013
-                            </span>
+                          <td class="hide-for-desktop-text">
+                          <b>
+                          <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
+                          </b>
+                          <br>
+                          <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria,<br/> BC A1B 2C3</span>
+                          <br/>
                           </td>
                         </tr>
                       </table>
-                      <div style="font-size:0pt; line-height:0pt; height:30px">
-                        <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="30" width="1">
-                      </div>
-                    </td>
-                    <td width="14">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="14">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="42">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="42">
-                    </td>
-                    <td width="329">
-                      Thanks for trying out our service! We hope you enjoyed your trial subscription. We just wanted to pass along this friendly reminder that your trial will be ending soon, after which your credit card will be billed at $49 / month for our bronze plan.
-                      <br>
-                      <br>
-                      You can change your subscription on the <a href="{{ account_link }}">account details</a> page. If you have further questions don‘t hesitate to get in touch with us on our <a href="{{ support_link }}">support page</a>.
-                      <br>
-                      <br>
-                      <br>
-                      <br>
-                    </td>
-                    <td width="14">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="14">
-                    </td>
-                  </tr>
-                  <tr>
-                    <td width="42">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="42">
-                    </td>
-                    <td width="329" class="footer">
-                      <center>
-                        <img width="272" height="100" src="https://www.filepicker.io/api/file/F7k2y1vcTu2AVmcPTkPJ">
-                      </center>
-                    </td>
-                    <td width="14">
-                      <img src="https://www.filepicker.io/api/file/ejSdjZ2qRtKgetmOdtCx" height="1" width="14">
+
+
+                      <table cellspacing="0" cellpadding="10" width="100%">
+                        <tr>
+                          <td class="mobile-padding">
+                            Hi [first name],
+                          </td>
+                          <td class="mobile-padding" style="text-align:right ;">
+                            05/10/2014
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table cellspacing="0" cellpadding="10" width="100%">
+                        <tr>
+                          <td>
+                            <b>Welcome to Awsome Co!</b><br/>
+                            We're really excited for you to join our community! You're just one click away from activate your account.
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table cellspacing="0" cellpadding="10" width="100%">
+                        <tr>
+                          <td class="hide-for-mobile"  width="94.5" style="width:94.5px !important;">
+                            &nbsp;
+                          </td>
+                          <td width="150" style="width:150px !important;">
+                            <div style="text-align:center; background-color:#48be19;"><!--[if mso]>
+                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://" style="height:35px;v-text-anchor:middle;width:150px;" arcsize="8%" stroke="f" fillcolor="#48be19">
+                                    <w:anchorlock/>
+                                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;">Activate Now!</center>
+                                  </v:roundrect>
+                                <![endif]-->
+                                <!--[if !mso]><!-- --><a href="http://"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#48be19;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;line-height:45px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Activate Now!</span></td></tr></table></a>
+                                <!--<![endif]-->
+                              </div>
+                          </td>
+                          <td class="hide-for-mobile"  width="94.5" style="width:94.5px !important;">
+                            &nbsp;
+                          </td>
+                        </tr>
+                      </table>
+
+                      <table cellspacing="0" cellpadding="0" width="100%">
+                        <tr>
+                          <td style="text-align:center; padding:10px; padding-top:30px;">
+                            <img src="https://www.filepicker.io/api/file/F7k2y1vcTu2AVmcPTkPJ" alt="signature" />
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="hide-for-desktop-image">
+                            <img class="hide-for-desktop-image" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+                          </td>
+                        </tr>
+                      </table>
                     </td>
                   </tr>
                 </table>
+
               </td>
             </tr>
           </table>
-        </center>
-      </td>
-    </tr>
-  </table>
-</body>
+        </td>
 
+      </tr>
+    </table>
+  </center>
+  </td>
+</tr>
+</table>
+</body>
 </html>
