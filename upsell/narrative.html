@@ -1,638 +1,368 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>Narrative</title>
-		<style type="text/css">
-			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
-			body{width:100% !important; margin:0; font-family:Open Sans, helvetica, arial, sans-serif; background: #ffffff}
-			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
-			body{margin:0; padding:0;}
-			img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-			table td{border-collapse:collapse;}
-			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
-			body, #backgroundTable{ background-color:#ffffff; }
-			.TopbarLogo{
-			padding:10px;
-			text-align:left;
-			vertical-align:middle;
-			}
-			h1, .h1{
-			color:#444444;
-			display:block;
-			font-family:"Open Sans", helvetica, arial, sans-serif;
-			font-size:35px;
-			font-weight: 400;
-			line-height:100%;
-			margin-top:2%;
-			margin-right:0;
-			margin-bottom:1%;
-			margin-left:0;
-			text-align:left;
-			}
-			h2, .h2{
-			color:#444444;
-			display:block;
-			font-family:"Open Sans", helvetica, arial, sans-serif;
-			font-size:30px;
-			font-weight: 400;
-			line-height:100%;
-			margin-top:2%;
-			margin-right:0;
-			margin-bottom:1%;
-			margin-left:0;
-			text-align:left;
-			}
-			h3, .h3{
-			color:#444444;
-			display:block;
-			font-family:"Open Sans", helvetica, arial, sans-serif;
-			font-size:24px;
-			font-weight:400;
-			margin-top:2%;
-			margin-right:0;
-			margin-bottom:1%;
-			margin-left:0;
-			text-align:left;
-			}
-			h4, .h4{
-			color:#444444;
-			display:block;
-			font-family:"Open Sans", helvetica, arial, sans-serif;
-			font-size:18px;
-			font-weight:400;
-			line-height:100%;
-			margin-top:2%;
-			margin-right:0;
-			margin-bottom:1%;
-			margin-left:0;
-			text-align:left;
-			}
-			h5, .h5{
-			color:#444444;
-			display:block;
-			font-family:"Open Sans", helvetica, arial, sans-serif;
-			font-size:14px;
-			font-weight:400;
-			line-height:100%;
-			margin-top:2%;
-			margin-right:0;
-			margin-bottom:1%;
-			margin-left:0;
-			text-align:left;
-			}
-			.textdark {
-			color: #444444;
-			font-family: "Open Sans", helvetica, arial, sans-serif;
-			font-size: 13px;
-			line-height: 150%;
-			text-align: left;
-			}
-			.textwhite {
-			color: #ffffff;
-			font-family: "Open Sans", helvetica, arial, sans-serif;
-			font-size: 13px;
-			line-height: 150%;
-			text-align: left;
-			}
-			.logotext {
-				font-size: 24px;
-				text-decoration: none;
-			}
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Narrative</title>
+    <style type="text/css">
+      #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+      body{width:100% !important; margin:0; font-family:Open Sans, helvetica, arial, sans-serif; background: #ffffff}
+      body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+      body{margin:0; padding:0;}
+      img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+      table td{border-collapse:collapse;}
+      #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+      body, #backgroundTable{ background-color:#ffffff; }
+      .TopbarLogo{
+      padding:10px;
+      text-align:left;
+      vertical-align:middle;
+      }
+      h1, .h1{
+      color:#444444;
+      display:block;
+      font-family:"Open Sans", helvetica, arial, sans-serif;
+      font-size:35px;
+      font-weight: 400;
+      line-height:100%;
+      margin-top:2%;
+      margin-right:0;
+      margin-bottom:1%;
+      margin-left:0;
+      text-align:left;
+      }
+      h2, .h2{
+      color:#444444;
+      display:block;
+      font-family:"Open Sans", helvetica, arial, sans-serif;
+      font-size:30px;
+      font-weight: 400;
+      line-height:100%;
+      margin-top:2%;
+      margin-right:0;
+      margin-bottom:1%;
+      margin-left:0;
+      text-align:left;
+      }
+      h3, .h3{
+      color:#444444;
+      display:block;
+      font-family:"Open Sans", helvetica, arial, sans-serif;
+      font-size:24px;
+      font-weight:400;
+      margin-top:2%;
+      margin-right:0;
+      margin-bottom:1%;
+      margin-left:0;
+      text-align:left;
+      }
+      h4, .h4{
+      color:#444444;
+      display:block;
+      font-family:"Open Sans", helvetica, arial, sans-serif;
+      font-size:18px;
+      font-weight:400;
+      line-height:100%;
+      margin-top:2%;
+      margin-right:0;
+      margin-bottom:1%;
+      margin-left:0;
+      text-align:left;
+      }
+      h5, .h5{
+      color:#444444;
+      display:block;
+      font-family:"Open Sans", helvetica, arial, sans-serif;
+      font-size:14px;
+      font-weight:400;
+      line-height:100%;
+      margin-top:2%;
+      margin-right:0;
+      margin-bottom:1%;
+      margin-left:0;
+      text-align:left;
+      }
+      .textdark {
+      color: #444444;
+      font-family: "Open Sans", helvetica, arial, sans-serif;
+      font-size: 13px;
+      line-height: 150%;
+      text-align: left;
+      }
+      .textwhite {
+      color: #ffffff;
+      font-family: "Open Sans", helvetica, arial, sans-serif;
+      font-size: 13px;
+      line-height: 150%;
+      text-align: left;
+      }
+      .logotext {
+        font-size: 24px;
+        text-decoration: none;
+      }
 
-			.fontwhite { color:#ffffff; }
-			.btn {
-			background-color: #e5e5e5;
-			background-image: none;
-			filter: none;
-			border: 0;
-			box-shadow: none;
-			padding: 7px 14px;
-			text-shadow: none;
-			font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-			font-size: 14px;
-			color: #333333;
-			cursor: pointer;
-			outline: none;
-			-webkit-border-radius: 0 !important;
-			-moz-border-radius: 0 !important;
-			border-radius: 0 !important;
-			}
-			.btn:hover,
-			.btn:focus,
-			.btn:active,
-			.btn.active,
-			.btn[disabled],
-			.btn.disabled {
-			font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-			color: #333333;
-			box-shadow: none;
-			background-color: #d8d8d8;
-			}
-			.btn.red {
-			color: white;
-			text-shadow: none;
-			background-color: #d84a38;
-			}
-			.btn.red:hover,
-			.btn.red:focus,
-			.btn.red:active,
-			.btn.red.active,
-			.btn.red[disabled],
-			.btn.red.disabled {
-			background-color: #bb2413 !important;
-			color: #fff !important;
-			}
-			.btn.green {
-			color: white;
-			text-shadow: none;
-			background-color: #35aa47;
-			}
-			.btn.green:hover,
-			.btn.green:focus,
-			.btn.green:active,
-			.btn.green.active,
-			.btn.green.disabled,
-			.btn.green[disabled]{
-			background-color: #1d943b !important;
-			color: #fff !important;
-			}
+      .fontwhite { color:#ffffff; }
+      .btn {
+      background-color: #e5e5e5;
+      background-image: none;
+      filter: none;
+      border: 0;
+      box-shadow: none;
+      padding: 7px 14px;
+      text-shadow: none;
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #333333;
+      cursor: pointer;
+      outline: none;
+      -webkit-border-radius: 0 !important;
+      -moz-border-radius: 0 !important;
+      border-radius: 0 !important;
+      }
+      .btn:hover,
+      .btn:focus,
+      .btn:active,
+      .btn.active,
+      .btn[disabled],
+      .btn.disabled {
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      color: #333333;
+      box-shadow: none;
+      background-color: #d8d8d8;
+      }
+      .btn.red {
+      color: white;
+      text-shadow: none;
+      background-color: #d84a38;
+      }
+      .btn.red:hover,
+      .btn.red:focus,
+      .btn.red:active,
+      .btn.red.active,
+      .btn.red[disabled],
+      .btn.red.disabled {
+      background-color: #bb2413 !important;
+      color: #fff !important;
+      }
+      .btn.green {
+      color: white;
+      text-shadow: none;
+      background-color: #35aa47;
+      }
+      .btn.green:hover,
+      .btn.green:focus,
+      .btn.green:active,
+      .btn.green.active,
+      .btn.green.disabled,
+      .btn.green[disabled]{
+      background-color: #1d943b !important;
+      color: #fff !important;
+      }
 
-			.w600 {
-				width: 600px !important;
-			}
+      .w600 {
+        width: 600px;
+      }
 
-		</style>
-	</head>
-	<body style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none">
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#1f1f1f;">
-			<tr>
-				<td align="center" style="padding-top:10px; padding-bottom:10px;">
-					<center>
-						<table  class="w600" border="0" cellpadding="0" cellspacing="0" style="background-color:#1f1f1f;">
-							<tr>
-								<td>
-									<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#1f1f1f">
-									  <tr>
-											<td class="textwhite" align="left" valign="middle" style="padding-left:20px; text-align:left; background:#1f1f1f;">
-												<a href="#" class="textwhite logotext" style="text-decoration:none; text-align:left;">
-												<img src="https://www.filepicker.io/api/file/X9R4FqRPaEIS3vMxFXgl"  width="142" height="30" alt="Your Logo"/>
-												</a>
-											</td>
-											<td align="right" valign="middle" style="padding-right:20px;">
-												<table border="0" cellpadding="0" cellspacing="0" width="200">
-													<tr>
-														<td width="30px">&nbsp;</td>
-														<td align="right">
-															<a href="#">
-															<img src="http://keenthemes.com/assets/img/emailtemplate/social_facebook.png"  width="30px" height="30px" alt="social icon"/>
-															</a>
-														</td>
-														<td align="right" style="padding-left:5px">
-															<a href="#">
-															<img src="http://keenthemes.com/assets/img/emailtemplate/social_twitter.png"  width="30px" height="30px" alt="social icon"/>
-															</a>
-														</td>
-														<td align="right" style="padding-left:5px">
-															<a href="#">
-															<img src="http://keenthemes.com/assets/img/emailtemplate/social_googleplus.png"  width="30px" height="30px" alt="social icon"/>
-															</a>
-														</td>
-														<td align="right" style="padding-left:5px">
-															<a href="#">
-															<img src="http://keenthemes.com/assets/img/emailtemplate/social_linkedin.png"  width="30px" height="30px" alt="social icon"/>
-															</a>
-														</td>
-														<td align="right" style="padding-left:5px">
-															<a href="#">
-															<img src="http://keenthemes.com/assets/img/emailtemplate/social_rss.png"  width="30px" height="30px" alt="social icon"/>
-															</a>
-														</td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #e7e7e7;" bgcolor="#ffffff">
-			<tr>
-				<td align="center">
-					<center>
-						<table class="w600" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;" bgcolor="#ffffff">
-							<tr>
-								<td height="20px" style="height:20px !important;">&nbsp;</td>
-							</tr>
-							<tr>
-								<td>
-									<table cellpadding="0" cellspacing="0" width="100%">
-										<tr>
-											<td align="left" valign="bottom" style="padding-left:20px; padding-bottom:20px; padding-right:20px;">
-												<h1>We miss you!</h1>
-												<br />
-												<div class="textdark">
-													We know it's only been a few months but since you've been gone, we've recieved a ton of amazing new products that we think you might like.<br/>
-													<br/>
-													We hope you will give us another chance and come have look. We would also like to offer you a 50% discount on your next purchase!
-												</div>
-												<br />
-												<div>
-													<div><!--[if mso]>
-													  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:100px;" arcsize="0%" stroke="f" fillcolor="#D84A38">
-													    <w:anchorlock/>
-													    <center>
-													  <![endif]-->
-													      <a href="#"
-													style="background-color:#D84A38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:33px;text-align:center;text-decoration:none;width:100px;-webkit-text-size-adjust:none;">Come back!</a>
-													  <!--[if mso]>
-													    </center>
-													  </v:roundrect>
-													<![endif]--></div>
-												</div>
-											</td>
-										</tr>
-									</table>
-								</td>
-								<td style="padding-bottom:0; vertical-align:bottom;" valign="bottom">
-									<table cellspacing="0" cellpadding="0" width="100%">
-										<tr>
-											<td align="right" valign="bottom" width="220px" style="padding-right:20px; padding-bottom:0; vertical-align:bottom;">
-											<img  style="vertical-align:bottom;" src="https://www.filepicker.io/api/file/AvB8yENR7OdiUqonW05y"  width="174px" height="294px" alt="iphone"/>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f8f8f8;border-bottom:1px solid #e7e7e7;">
-			<tr>
-				<td align="center">
-					<center>
-						<table class="w600" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
-							<tr>
-								<td valign="top" style="padding:20px;">
-									<h2>Enjoy 50% off! </h2>
-									<br />
-									<div class="textdark">
-										You'll be the first to hear about new arrivals, exclusive promotionas, cool collaborations, and the latest in everything.
-										<br/><br/>
-										Enter <strong>XLKIJP6887F</strong> at your next checkout!
-									</div>
-									<br />
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-				<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td style="padding-top:20px;padding-bottom:20px;">
-					<center>
-						<table border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
-							<tr>
-								<td valign="top" width="280">
-									<table border="0" cellpadding="20" cellspacing="0" width="100%">
-										<tr>
-											<td valign="top">
-												<img src="http://keenthemes.com/assets/img/emailtemplate/photo1.jpg"  width="260px" height="200px" alt="photo"/>
-												<br />
-												<h3>New Xperia</h3>
-												<div class="textdark">
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-													<a href="#" target="_blank">Checkout it here</a>.
-													Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
-												</div>
-											</td>
-										</tr>
-									</table>
-								</td>
-								<td valign="top" width="280">
-									<table border="0" cellpadding="20" cellspacing="0" width="100%">
-										<tr>
-											<td valign="top">
-												<img src="http://keenthemes.com/assets/img/emailtemplate/photo2.jpg"  width="260px" height="200px" alt="photo"/>
-												<br />
-												<h3>New Canon</h3>
-												<div class="textdark">
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-													<a href="#" target="_blank">Checkout it here</a>.
-													Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
-												</div>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#4aabf9;">
-			<tr>
-				<td>
-					<center>
-						<table border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
-							<tr>
-								<td valign="top" style="padding:20px;">
-									<h1 class="fontwhite">70% Discount!</h1>
-									<br />
-									<div class="textwhite">
-										<strong>Getting started:</strong>
-										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
-									</div>
-									<br />
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tr>
-				<td style="padding-bottom:20px;">
-					<center>
-						<table border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
-							<tr>
-								<td valign="top" class="bodyContent">
-									<table border="0" cellpadding="20" cellspacing="0" width="100%">
-										<tr>
-											<td valign="top">
-												<h2 class="h2">Some Content</h2>
-												<div class="textdark">
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
-													<a href="#" target="_blank">Checkout it here</a>.
-													Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
-												</div>
-											</td>
-										</tr>
-									</table>
-									<table border="0" cellpadding="20" cellspacing="0" width="100%">
-										<tr>
-											<td align="center" valign="top">
-												<img src="http://keenthemes.com/assets/img/emailtemplate/photo1.jpg"  width="260px" height="200px" alt="photo"/>
-											</td>
-											<td valign="top">
-												<h3 class="h3">Some Title</h3>
-												<div class="textdark">
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-													<a href="#" target="_blank">see here</a>.
-													Ut wisi enim ad minim veniam.
-												</div>
-												<br />
-												<button type="button" class="btn red">See More</button>
-											</td>
-										</tr>
-									</table>
-									<table border="0" cellpadding="20" cellspacing="0" width="100%">
-										<tr>
-											<td valign="top">
-												<h3 class="h3">Some Title</h3>
-												<div class="textdark">
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-													<a href="#" target="_blank">see here</a>.
-													Ut wisi enim ad minim veniam.
-												</div>
-												<br />
-												<button type="button" class="btn red">See More</button>
-											</td>
-											<td align="center" valign="top">
-												<img src="http://keenthemes.com/assets/img/emailtemplate/photo2.jpg"  width="260px" height="200px" alt="photo"/>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#eb4d41;">
-			<tr>
-				<td>
-					<center>
-						<table border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
-							<tr>
-								<td colspan="2" height="20px"></td>
-							</tr>
-							<tr>
-								<td align="left" valign="bottom" style="padding-left:20px; padding-bottom:20px">
-									<h1 class="fontwhite">Amazing Offer!</h1>
-									<br />
-									<div class="textwhite">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.</div>
-									<br />
-									<button type="button" class="btn green">Purchase!</button>
-								</td>
-								<td align="right" valign="bottom" width="220px" style="padding-right:20px;">
-									<img src="http://keenthemes.com/assets/img/emailtemplate/iphone.png"  width="174px" height="294px" alt="iphone"/>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
-			<tr>
-				<td style="padding:20px;" align="center">
-					<center>
-						<table class="w600" border="0" cellpadding="0" cellspacing="0" width="600" style="padding:20px; height:100%; width:600px;" bgcolor="#ffffff">
-							<tr>
-								<td valign="top">
-									<table cellpadding="0" cellspacing="0" width="100%">
-										<tr>
-											<td>
-												<h3>Check out some of our newest products!</h3>
-												<br />
-												<div class="textdark">
-													<strong>Getting started:</strong>
-													Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis.
-												</div>
-												<br />
-											</td>
-										</tr>
-									</table>
+    </style>
 
-									<table cellspacing="0" cellpadding="0" width="100%">
-										<tr>
+    <style type="text/css" media="only screen and (max-width: 650px)">
+     @media only screen and (max-width: 650px) {
+      table[class="w320"] {
+        width: 320px !important;
+        background: blue !important;
 
-											<td width="135">
-												<table border="0" cellpadding="10" cellspacing="0" width="100%">
-													<tr>
-														<td valign="top">
-															<img src="https://www.filepicker.io/api/file/UwY648YQTRiCsQnfwjAZ"  width="120px" height="100px" alt="photo"/>
-															<br />
-															<h4 class="h4">Item 1</h4>
-															<div class="textdark">
-																Lorem ipsum dolor sit amet, ut laoreet elit, sed diam sed ut dolore.
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<table cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td width="90" style="width:90px !important;">
-						                        <div style="text-align:center; background-color:#d84a38; width:90px;">	<!--[if mso]>
-						                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:90px;" arcsize="8%" stroke="f" fillcolor="#d84a38">
-						                            <w:anchorlock/>
-						                            <center style="color:#ffffff;font-family:sans-serif;font-size:14px;">Buy Now!</center>
-						                          </v:roundrect>
-						                        	<![endif]-->
-						                        	<!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#d84a38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;line-height:33px;text-align:center;text-decoration:none;width:90px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Buy Now!</span></td></tr></table></a>
-						                        	<!--<![endif]-->
-						                      	</div>
-						                      </td>
-						                      <td width="30">&nbsp;</td>
-						                    </tr>
-						                  </table>
-						                </td>
-						              </tr>
-												</table>
-											</td>
+      }
 
-											<td width="135">
-												<table border="0" cellpadding="10" cellspacing="0" width="100%">
-													<tr>
-														<td valign="top">
-															<img src="https://www.filepicker.io/api/file/OmMM5HJxTGuNz3pcwoEt"  width="120px" height="100px" alt="photo"/>
-															<br />
-															<h4 class="h4">Item 2</h4>
-															<div class="textdark">
-																Lorem ipsum dolor sit amet, ut laoreet elit, sed diam sed ut dolore.
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<table cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td width="90" style="width:90px !important;">
-						                        <div style="text-align:center; background-color:#d84a38; width:90px;">	<!--[if mso]>
-						                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:90px;" arcsize="8%" stroke="f" fillcolor="#d84a38">
-						                            <w:anchorlock/>
-						                            <center style="color:#ffffff;font-family:sans-serif;font-size:14px;">Buy Now!</center>
-						                          </v:roundrect>
-						                        	<![endif]-->
-						                        	<!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#d84a38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;line-height:33px;text-align:center;text-decoration:none;width:90px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Buy Now!</span></td></tr></table></a>
-						                        	<!--<![endif]-->
-						                      	</div>
-						                      </td>
-						                      <td width="30">&nbsp;</td>
-						                    </tr>
-						                  </table>
-						                </td>
-						               </tr>
-												</table>
-											</td>
+      td[class="no-p-mobile"] {
+        border: none;
+      }
 
-											<td width="135">
-												<table border="0" cellpadding="10" cellspacing="0" width="100%">
-													<tr>
-														<td valign="top">
-															<img src="https://www.filepicker.io/api/file/c1DD5WObTCam6pJqMS4T"  width="120px" height="100px" alt="photo"/>
-															<br />
-															<h4 class="h4">Item 3</h4>
-															<div class="textdark">
-																Lorem ipsum dolor sit amet, ut laoreet elit, sed diam sed ut dolore.
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td>
-															<table cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td width="90" style="width:90px !important;">
-						                        <div style="text-align:center; background-color:#d84a38; width:90px;">	<!--[if mso]>
-						                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:90px;" arcsize="8%" stroke="f" fillcolor="#d84a38">
-						                            <w:anchorlock/>
-						                            <center style="color:#ffffff;font-family:sans-serif;font-size:14px;">Buy Now!</center>
-						                          </v:roundrect>
-						                        	<![endif]-->
-						                        	<!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#d84a38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;line-height:33px;text-align:center;text-decoration:none;width:90px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Buy Now!</span></td></tr></table></a>
-						                        	<!--<![endif]-->
-						                      	</div>
-						                      </td>
-						                      <td width="30">&nbsp;</td>
-						                    </tr>
-						                  </table>
-						                </td>
-													</tr>
-												</table>
-											</td>
+      td[class='hide-for-mobile'] {
+        font-size: 0 !important; line-height: 0 !important; width: 0 !important;
+        height: 0 !important; display: none !important;
+      }
 
-											<td width="135">
-												<table border="0" cellpadding="10" cellspacing="0" width="100%">
-													<tr>
-														<td valign="top">
-															<img src="https://www.filepicker.io/api/file/gCvsWPniSRWtGnsLfYVw"  width="120px" height="100px" alt="photo"/>
-															<br />
-															<h4 class="h4">Item 4</h4>
-															<div class="textdark">
-																Lorem ipsum dolor sit amet, ut laoreet elit, sed diam sed ut dolore.
-															</div>
-														</td>
-													</tr>
-														<td>
-															<table cellpadding="0" cellspacing="0" width="100%">
-																<tr>
-																	<td width="90" style="width:90px !important;">
-						                        <div style="text-align:center; background-color:#d84a38; width:90px;">	<!--[if mso]>
-						                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:90px;" arcsize="8%" stroke="f" fillcolor="#d84a38">
-						                            <w:anchorlock/>
-						                            <center style="color:#ffffff;font-family:sans-serif;font-size:14px;">Buy Now!</center>
-						                          </v:roundrect>
-						                        	<![endif]-->
-						                        	<!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#d84a38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:14px;line-height:33px;text-align:center;text-decoration:none;width:90px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Buy Now!</span></td></tr></table></a>
-						                        	<!--<![endif]-->
-						                      	</div>
-						                      </td>
-						                      <td width="30">&nbsp;</td>
-						                    </tr>
-						                  </table>
-						                </td>
-						              </table>
-						            </td>
+      img[class="hide-for-desktop-image"]{
+        width: 176px !important;
+        height: 135px !important;
+        display:block !important;
+        padding-left: 60px;
+      }
 
-						          </tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-		<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#1f1f1f" style="background-color:#1f1f1f;">
-			<tr>
-				<td align="center" bgcolor="#1f1f1f">
-					<center>
-						<table class="w600" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;color:#ffffff" bgcolor="#1f1f1f" >
-							<tr>
-								<td align="right" valign="middle" class="textwhite" style="font-size:12px;padding:20px; background-color:#1f1f1f; color:#ffffff; text-align:left; ">
-                  <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href="#">Support</a>
-								</td>
-							</tr>
-						</table>
-					</center>
-				</td>
-			</tr>
-		</table>
-	</body>
+      td[class="hide-for-desktop-image"] {
+        width: 100% !important;
+        display: block !important;
+        text-align: right !important;
+      }
+
+      td[class="hide-for-desktop-text"] {
+        display: block !important;
+        text-align: left !important;
+        font-size: 16px !important;
+        height: 61px !important;
+        width: 100%;
+        border-bottom: 1px solid #D9DADA;
+        padding-bottom: 25px;
+      }
+
+      td[class="mobile-padding"] {
+        padding-top: 15px;
+      }
+    }
+
+  </style>
+
+  </head>
+  <body style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#1f1f1f;">
+      <tr>
+        <td align="center" style="padding-top:10px; padding-bottom:10px;">
+          <center>
+            <table  class="w320" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color:#1f1f1f;">
+              <tr>
+                <td>
+                  <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#1f1f1f">
+                    <tr>
+                      <td class="textwhite" align="left" valign="middle" style="padding-left:20px; text-align:left; background:#1f1f1f;">
+                        <a href="#" class="textwhite logotext" style="text-decoration:none; text-align:left;">
+                        <img src="https://www.filepicker.io/api/file/X9R4FqRPaEIS3vMxFXgl"  width="142" height="30" alt="Your Logo"/>
+                        </a>
+                      </td>
+                      <td align="right" valign="middle" style="padding-right:20px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="200">
+                          <tr>
+                            <td width="30px">&nbsp;</td>
+                            <td align="right">
+                              <a href="#">
+                              <img src="http://keenthemes.com/assets/img/emailtemplate/social_facebook.png"  width="30px" height="30px" alt="social icon"/>
+                              </a>
+                            </td>
+                            <td align="right" style="padding-left:5px">
+                              <a href="#">
+                              <img src="http://keenthemes.com/assets/img/emailtemplate/social_twitter.png"  width="30px" height="30px" alt="social icon"/>
+                              </a>
+                            </td>
+                            <td align="right" style="padding-left:5px">
+                              <a href="#">
+                              <img src="http://keenthemes.com/assets/img/emailtemplate/social_googleplus.png"  width="30px" height="30px" alt="social icon"/>
+                              </a>
+                            </td>
+                            <td align="right" style="padding-left:5px">
+                              <a href="#">
+                              <img src="http://keenthemes.com/assets/img/emailtemplate/social_linkedin.png"  width="30px" height="30px" alt="social icon"/>
+                              </a>
+                            </td>
+                            <td align="right" style="padding-left:5px">
+                              <a href="#">
+                              <img src="http://keenthemes.com/assets/img/emailtemplate/social_rss.png"  width="30px" height="30px" alt="social icon"/>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #e7e7e7;" bgcolor="#ffffff">
+      <tr>
+        <td align="center">
+          <center>
+            <table class="w600 w320" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;" bgcolor="#ffffff">
+              <tr>
+                <td height="20px" style="height:20px !important;">&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <table cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                      <td align="left" valign="bottom" style="padding-left:20px; padding-bottom:20px; padding-right:20px;">
+                        <h1>Upgrade to a full account!</h1>
+                        <br />
+                        <div class="textdark">
+                          By upgrading to a full account you'll be able to enjoy unlimited downloads and no waiting times!<br/>
+                          <br/>
+                          Upgrade now and you'll also recieve a 20% discount! Find out what you've been missing.
+                        </div>
+                        <br />
+                      		<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                            <tr>
+                              <td style="width:100px;background:#D84A38;">
+                                <div><!--[if mso]>
+                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:33px;v-text-anchor:middle;width:100px;" arcsize="8%" stroke="f" fillcolor="#D84A38">
+                                    <w:anchorlock/>
+                                    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;">Upgrade!</center>
+                                  </v:roundrect>
+                                <![endif]-->
+                                <!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#D84A38;border-radius:0px;color:#ffffff;display:inline-block;font-family:sans-serif;font-weight:bold;font-size:13px;line-height:33px;text-align:center;text-decoration:none;width:100px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Upgrade!</span></td></tr></table></a>
+                                <!--<![endif]-->
+                                </div>
+                              </td>
+                              <td width="281" style="background-color:#ffffff; font-size:0; line-height:0;">&nbsp;</td>
+                            </tr>
+                          </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td style="padding-bottom:0; vertical-align:bottom;" valign="bottom">
+                  <table cellspacing="0" cellpadding="0" width="100%">
+                    <tr>
+                      <td align="right" valign="bottom" width="220px" style="padding-right:5px; padding-bottom:0; vertical-align:bottom;">
+                      <img  style="vertical-align:bottom;" src="https://www.filepicker.io/api/file/AvB8yENR7OdiUqonW05y"  width="174px" height="294px" alt="iphone"/>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f8f8f8;border-bottom:1px solid #e7e7e7;">
+      <tr>
+        <td align="center">
+          <center>
+            <table class="w600 w320" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;">
+              <tr>
+                <td valign="top" style="padding:20px;">
+                  <h2>20% Off if you upgrade now!</h2>
+                  <br />
+                  <div class="textdark">
+                    You'll be the first to hear about new arrivals, exclusive promotionas, cool collaborations, and the latest in everything.
+                    <br/>
+                  </div>
+                  <br />
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#1f1f1f" style="background-color:#1f1f1f;">
+      <tr>
+        <td align="center" bgcolor="#1f1f1f">
+          <center>
+            <table class="w600 w320" border="0" cellpadding="0" cellspacing="0" width="600px" style="height:100%;color:#ffffff" bgcolor="#1f1f1f" >
+              <tr>
+                <td align="right" valign="middle" class="textwhite" style="font-size:12px;padding:20px; background-color:#1f1f1f; color:#ffffff; text-align:left; ">
+                  <a style="color:#ffffff;" href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a style="color:#ffffff;" href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a style="color:#ffffff;" href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                  <a style="color:#ffffff;" href="#">Support</a>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
