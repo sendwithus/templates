@@ -1,512 +1,361 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta name="viewport" content="width=device-width" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Come Back</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=320, initial-scale=1" />
   <style type="text/css">
 
-  * {
-    margin:0;
-    padding:0;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  }
+  /* ----- Client Fixes ----- */
 
-  img {
-    max-width: 100%;
-    outline: none;
-    text-decoration: none;
-    -ms-interpolation-mode: bicubic;
-  }
+      /* Force Outlook to provide a "view in browser" message */
+      #outlook a {
+        padding: 0;
+      }
 
-  .image-fix {
-    display:block;
-  }
+      /* Force Hotmail to display emails at full width */
+      .ReadMsgBody {
+        width: 100%;
+      }
 
-  .collapse {
-    margin:0;
-    padding:0;
-  }
+      .ExternalClass {
+        width: 100%;
+      }
 
-  body {
-    -webkit-font-smoothing:antialiased;
-    -webkit-text-size-adjust:none;
-    width: 100%!important;
-    height: 100%;
-    text-align: center;
-    color: #747474;
-    background-color: #ffffff;
-  }
-
-  h1,h2,h3,h4,h5,h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    line-height: 1.1;
-  }
-
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
-    font-size: 60%;
-    line-height: 0;
-    text-transform: none;
-  }
-
-  h1 {
-    font-weight:200;
-    font-size: 44px;
-  }
-
-  h2 {
-    font-weight:200;
-    font-size: 32px;
-    margin-bottom: 14px;
-  }
-
-  h3 {
-    font-weight:500;
-    font-size: 27px;
-  }
-
-  h4 {
-    font-weight:500;
-    font-size: 23px;
-  }
-
-  h5 {
-    font-weight:900;
-    font-size: 17px;
-  }
-
-  h6 {
-    font-weight:900;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-
-  .collapse {
-    margin:0!important;
-  }
-
-  td, div {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    text-align: center;
-  }
-
-  p, ul {
-    margin-bottom: 10px;
-    font-weight: normal;
-    font-size:14px;
-    line-height:1.6;
-  }
-
-  p.lead {
-    font-size:17px;
-  }
-
-  p.last {
-    margin-bottom:0px;
-  }
-
-  ul li {
-    margin-left:5px;
-    list-style-position: inside;
-  }
-
-  a {
-    color: #747474;
-    text-decoration: none;
-  }
-
-  a img {
-    border: none;
-  }
-
-  .head-wrap {
-    width: 100%;
-    margin: 0 auto;
-    background-color: #f9f8f8;
-    border-bottom: 1px solid #d8d8d8;
-  }
-
-  .head-wrap * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .header-background {
-    background: repeat-x url(https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh) left bottom;
-  }
-
-  .header {
-    height: 42px;
-  }
-
-  .header .content {
-    padding: 0;
-  }
-
-  .header .brand {
-    font-size: 16px;
-    line-height: 42px;
-    font-weight: bold;
-  }
-
-  .header .brand a {
-    color: #464646;
-  }
-
-  .body-wrap {
-    width: 505px;
-    margin: 0 auto;
-    background-color: #ffffff;
-  }
-
-  .soapbox .soapbox-title {
-    font-size: 30px;
-    color: #464646;
-    padding-top: 25px;
-    padding-bottom: 28px;
-  }
-
-  .content .status-container.single .status-padding {
-    width: 80px;
-  }
-
-  .content .status {
-    width: 90%;
-  }
-
-  .content .status-container.single .status {
-    width: 300px;
-  }
-
-  .status {
-    border-collapse: collapse;
-    margin-left: 15px;
-    color: #656565;
-  }
-
-  .status .status-cell {
-    border: 1px solid #b3b3b3;
-    height: 50px;
-  }
-
-  .status .status-cell.success,
-  .status .status-cell.active {
-    height: 65px;
-  }
-
-  .status .status-cell.success {
-    background: #f2ffeb;
-    color: #51da42;
-  }
-
-  .status .status-cell.success .status-title {
-    font-size: 15px;
-  }
-
-  .status .status-cell.active {
-    background: #fffde0;
-    width: 135px;
-  }
-
-  .status .status-title {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 23px;
-  }
-
-  .status .status-image {
-    vertical-align: text-bottom;
-  }
-
-  .body .body-padded,
-  .body .body-padding {
-    padding-top: 34px;
-  }
-
-  .body .body-padding {
-    width: 41px;
-  }
-
-  .body-padded,
-  .body-title {
-    text-align: left;
-  }
-
-  .body .body-title {
-    font-weight: bold;
-    font-size: 17px;
-    color: #464646;
-  }
-
-  .body .body-text .body-text-cell {
-    text-align: left;
-    font-size: 14px;
-    line-height: 1.6;
-    padding: 9px 0 17px;
-  }
-
-  .body .body-signature-block .body-signature-cell {
-    padding: 25px 0 30px;
-    text-align: left;
-  }
-
-  .body .body-signature {
-    font-family: "Comic Sans MS", Textile, cursive;
-    font-weight: bold;
-  }
-
-  .footer-wrap {
-    width: 100%;
-    margin: 0 auto;
-    clear: both !important;
-    background-color: #e5e5e5;
-    border-top: 1px solid #b3b3b3;
-    font-size: 12px;
-    color: #656565;
-    line-height: 30px;
-  }
-
-  .footer-wrap .container {
-    padding: 14px 0;
-  }
-
-  .footer-wrap .container .content {
-    padding: 0;
-  }
-
-  .footer-wrap .container .footer-lead {
-    font-size: 14px;
-  }
-
-  .footer-wrap .container .footer-lead a {
-    font-size: 14px;
-    font-weight: bold;
-    color: #535353;
-  }
-
-  .footer-wrap .container a {
-    font-size: 12px;
-    color: #656565;
-  }
-
-  .footer-wrap .container a.last {
-    margin-right: 0;
-  }
-
-  .footer-wrap .footer-group {
-    display: inline-block;
-  }
-
-  .container {
-    display: block !important;
-    max-width: 505px !important;
-    clear: both !important;
-  }
-
-  .content {
-    padding: 0;
-    max-width: 505px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .content table {
-    width: 100%;
-  }
+      /* Force Hotmail to display normal line spacing */
+      .ExternalClass,
+      .ExternalClass p,
+      .ExternalClass span,
+      .ExternalClass font,
+      .ExternalClass td,
+      .ExternalClass div {
+        line-height: 100%;
+      }
 
 
-  .clear {
-    display: block;
-    clear: both;
-  }
+       /* Prevent WebKit and Windows mobile changing default text sizes */
+      body, table, td, p, a, li, blockquote {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+
+      /* Remove spacing between tables in Outlook 2007 and up */
+      table, td {
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      /* Allow smoother rendering of resized image in Internet Explorer */
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+       /* ----- Reset ----- */
+
+      html,
+      body,
+      .body-wrap,
+      .body-wrap-cell {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #464646;
+        text-align: left;
+      }
+
+      img {
+        border: 0;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+      }
+
+      table {
+        border-collapse: collapse !important;
+      }
+
+      td, th {
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #464646;
+        line-height:1.5em;
+      }
+
+      a {
+        text-decoration: none;
+        color: #464646;
+      }
+
+      /* ----- General ----- */
+
+      td.center {
+        text-align: center;
+      }
+
+      .left {
+        text-align: left;
+      }
+
+      .body-padding {
+        padding: 40px;
+      }
+
+      .border-bottom {
+        border-bottom: 1px solid #D8D8D8;
+      }
+
+
+      /* ----- Header ----- */
+      .header-background {
+        background: repeat-x url(https://www.filepicker.io/api/file/wUGKTIOZTDqV2oJx5NCh) left bottom;
+      }
+
+      .header {
+        height: 42px;
+      }
+
+      .header .content {
+        padding: 0;
+      }
+
+      .header .brand {
+        font-size: 16px;
+        line-height: 42px;
+        font-weight: bold;
+      }
+
+      .header .brand a {
+        color: #464646;
+        text-decoration: none;
+      }
+
+    /* ----- Header ----- */
+
+    .footer a {
+      font-size: 12px;
+    }
+  </style>
+
+  <style type="text/css" media="only screen and (max-width: 650px)">
+     @media only screen and (max-width: 650px) {
+      * {
+        font-size: 16px !important;
+      }
+
+      table[class="w320"] {
+        width: 320px !important;
+      }
+
+      td[class="mobile-center"],
+      div[class="mobile-center"] {
+        text-align: center !important;
+      }
+
+      td[class*="body-padding"] {
+        padding: 20px !important;
+      }
+
+      td[class="mobile"] {
+        text-align: right;
+        vertical-align: top;
+      }
+    }
 
   </style>
 
-  <style type="text/css" media="only screen">
-
-  @media only screen {
-
-    table[class*="head-wrap"],
-    table[class*="body-wrap"],
-    table[class*="footer-wrap"] {
-      width: 100% !important;
-    }
-
-    td[class*="container"] {
-      margin: 0 auto !important;
-    }
-
-  }
-
-  @media only screen and (max-width: 505px) {
-
-    *[class*="w320"] {
-      width: 320px !important;
-    }
-
-    table[class="status"] td[class*="status-cell"],
-    table[class="status"] td[class*="status-cell"].active {
-      display: block !important;
-      width: auto !important;
-    }
-
-    table[class="status-container single"] table[class="status"] {
-      width: 270px !important;
-      margin-left: 0;
-    }
-
-    table[class="status"] td[class*="status-cell"],
-    table[class="status"] td[class*="status-cell"].active,
-    table[class="status"] td[class*="status-cell"] [class*="status-title"] {
-      line-height: 65px !important;
-      font-size: 18px !important;
-    }
-
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"],
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"].active,
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"] [class*="status-title"] {
-      line-height: 51px !important;
-    }
-
-    table[class="status"] td[class*="status-cell"].active [class*="status-title"] {
-      display: inline !important;
-    }
-
-  }
-  </style>
 </head>
+<body style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+ <td valign="top" align="left">
+ <center>
 
-<body bgcolor="#ffffff">
-
-  <div align="center">
-    <table class="head-wrap w320" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0" width="100%">
+   <table class="w320" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0" width="100%">
       <tr>
-        <td background="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" bgcolor="#ffffff" width="100%" colspan="3" height="8" valign="top">
-          <!--[if gte mso 9]>
-          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">
-            <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />
-            <v:textbox inset="0,0,0,0">
-          <![endif]-->
-          <div height="8">
-          </div>
-          <!--[if gte mso 9]>
-            </v:textbox>
-          </v:rect>
-          <![endif]-->
+        <td background="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" bgcolor="#ffffff" width="100%" height="8" valign="top">
+            <!--[if gte mso 9]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">
+              <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />
+              <v:textbox inset="0,0,0,0">
+            <![endif]-->
+            <div height="8">
+            </div>
+            <!--[if gte mso 9]>
+              </v:textbox>
+            </v:rect>
+            <![endif]-->
         </td>
-      </tr>
-      <tr class="header-background">
-        <td></td>
-        <td class="header container" align="center">
-          <div class="content">
-            <span class="brand">
-              <a href="#">
-                Company Name
-              </a>
-            </span>
-          </div>
-        </td>
-        <td></td>
       </tr>
     </table>
 
-    <table class="body-wrap w320">
-      <tr>
-        <td></td>
-        <td class="container">
-          <div class="content">
-            <table cellspacing="0">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#f9f8f8">
+      <tr class="header-background">
+        <td class="border-bottom" align="center">
+          <center>
+            <table class="w320" cellspacing="0" cellpadding="0" width="500">
               <tr>
                 <td>
-                  <table class="soapbox">
+                  <table cellspacing="0" cellpadding="0" width="100%">
                     <tr>
-                      <td class="soapbox-title">You haven't been using our product</td>
-                    </tr>
-                  </table>
-                  <table class="status-container single">
-                    <tr>
-                      <td class="status-padding"></td>
-                      <td>
-                        <table class="status" bgcolor="#fffeea" cellspacing="0">
-                          <tr>
-                            <td class="status-cell">
-                              Coupon code: <b>13448278949</b>
-                            </td>
-                          </tr>
-                        </table>
+                      <td class="header center" style="text-align:center;">
+                        <span class="brand">
+                          <a href="#">
+                            Company Name
+                          </a>
+                        </span>
                       </td>
-                      <td class="status-padding"></td>
-                    </tr>
-                  </table>
-                  <table class="body">
-                    <tr>
-                      <td class="body-padding"></td>
-                      <td class="body-padded">
-                        <div class="body-title">Come on back</div>
-                        <table class="body-text">
-                          <tr>
-                            <td class="body-text-cell">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis semper nisl. Maecenas sed porta nulla. Fusce in congue dui. Duis arcu odio, cursus nec porttitor bibendum, elementum eget arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubiliav
-                            </td>
-                          </tr>
-                        </table>
-                        <div><!--[if mso]>
-                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:38px;v-text-anchor:middle;width:190px;" arcsize="11%" strokecolor="#407429" fill="t">
-                            <v:fill type="tile" src="https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7" color="#41CC00" />
-                            <w:anchorlock/>
-                            <center style="color:#ffffff;font-family:sans-serif;font-size:17px;font-weight:bold;">Come on back</center>
-                          </v:roundrect>
-                        <![endif]--><a href="#"
-                        style="background-color:#41CC00;background-image:url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);border:1px solid #407429;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:17px;font-weight:bold;text-shadow: -1px -1px #47A54B;line-height:38px;text-align:center;text-decoration:none;width:190px;-webkit-text-size-adjust:none;mso-hide:all;">Come on back</a></div>
-                        <table class="body-signature-block">
-                          <tr>
-                            <td class="body-signature-cell">
-                              <p>Thanks so much,</p>
-                              <p class="body-signature"><img src="https://www.filepicker.io/api/file/2R9HpqboTPaB4NyF35xt" alt="Company Name"></p>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                      <td class="body-padding"></td>
                     </tr>
                   </table>
                 </td>
               </tr>
             </table>
-          </div>
+          </center>
         </td>
-        <td></td>
       </tr>
     </table>
 
-    <table class="footer-wrap w320" bgcolor="#e5e5e5">
+    <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
       <tr>
-        <td></td>
-        <td class="container">
-          <div class="content footer-lead">
-            <a href="#"><b>Get in touch</b></a> if you have any questions or feedback
-          </div>
-        </td>
-        <td></td>
-      </tr>
-    </table>
-    <table class="footer-wrap w320" bgcolor="#e5e5e5">
-      <tr>
-        <td></td>
-        <td class="container">
-          <div class="content">
-            <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-            <span class="footer-group">
-              <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-              <a href="#">Support</a>
-            </span>
-          </div>
-        </td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
+        <td align="center">
+          <center>
+            <table class="w320" cellspacing="0" cellpadding="0" width="500">
+              <tr>
+                <td class="body-padding mobile-padding">
 
+                <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td class="left" style="padding-bottom:20px; text-align:left;">
+                      <b>Invoice:</b> A80SD99
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left" style="padding-bottom:40px; text-align:left;">
+                    Hi Bob,<br/>
+                    Your credit card ending in 1234 has been charged:
+                    </td>
+                  </tr>
+                </table>
+
+                <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td>
+                      <b>Plan</b>
+                    </td>
+                    <td>
+                      <b>Period</b>
+                    </td>
+                    <td>
+                      <b>Amount</b>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="border-bottom" height="5"></td>
+                    <td class="border-bottom" height="5"></td>
+                    <td class="border-bottom" height="5"></td>
+                  </tr>
+                  <tr>
+                    <td style="padding-top:5px;">
+                      Silver Monthly
+                    </td>
+                    <td style="padding-top:5px;">
+                      Dec 4, 2013 - Jan 4, 2014
+                    </td>
+                    <td style="padding-top:5px;" class="mobile">
+                      $39.99
+                    </td>
+                  </tr>
+                </table>
+
+                <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td class="mobile-center" align="left" style="padding:40px 0;">
+                      <div class="mobile-center" align="left"><!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:38px;v-text-anchor:middle;width:190px;" arcsize="11%" strokecolor="#407429" fill="t">
+                            <v:fill type="tile" src="https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7" color="#41CC00" />
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:17px;font-weight:bold;">View Account</center>
+                          </v:roundrect>
+                        <![endif]--><a href="#"
+                        style="background-color:#41CC00;background-image:url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);border:1px solid #407429;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:17px;font-weight:bold;text-shadow: -1px -1px #47A54B;line-height:38px;text-align:center;text-decoration:none;width:190px;-webkit-text-size-adjust:none;mso-hide:all;">View Account</a></div>
+                    </td>
+                  </tr>
+                </table>
+
+                <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td class="left" style="text-align:left;">
+                      Thanks so much,
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left" width="129" height="20" style="padding-top:10px; text-align:left;">
+                      <img class="left" width="129" height="20" src="https://www.filepicker.io/api/file/2R9HpqboTPaB4NyF35xt" alt="Company Name">
+                    </td>
+                  </tr>
+                </table>
+
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w320" bgcolor="#E5E5E5" cellpadding="0" cellspacing="0" border="0" width="100%">
+      <tr>
+        <td style="border-top:1px solid #B3B3B3;" align="center">
+          <center>
+            <table class="w320" cellspacing="0" cellpadding="0" width="500" bgcolor="#E5E5E5">
+              <tr>
+                <td>
+                  <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#E5E5E5">
+                    <tr>
+                      <td class="center" style="padding:25px; text-align:center;">
+                        <b><a href="#">Get in touch</a></b> if you have any questions or feedback
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+
+    <table class="w320" bgcolor="#E5E5E5" cellpadding="0" cellspacing="0" border="0" width="100%">
+      <tr>
+        <td style="border-top:1px solid #B3B3B3; border-bottom:1px solid #B3B3B3;" align="center">
+          <center>
+            <table class="w320" cellspacing="0" cellpadding="0" width="500" bgcolor="#E5E5E5">
+              <tr>
+                <td align="center" style="padding:25px; text-align:center">
+                  <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#E5E5E5">
+                    <tr>
+                      <td class="center footer" style="font-size:12px;">
+                        <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                        <span class="footer-group">
+                          <a href="#">Facebook</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                          <a href="#">Twitter</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                          <a href="#">Support</a>
+                        </span>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+
+  </center>
+  </td>
+</tr>
+</table>
 </body>
 </html>
