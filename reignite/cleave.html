@@ -94,13 +94,27 @@
 
       }
 
-      td.hide-for-desktop-text {
+      span.hide-for-desktop-text {
         font-size: 0 !important;
         height: 0 !important;
         display: none !important;
+        width: 0 !important;
+        line-height: 0 !important;
+        border: none !important;
       }
 
-      img.hide-for-desktop-image {
+      span[class="hide-for-desktop-text"] {
+        font-size: 0 !important;
+        height: 0 !important;
+        display: none !important;
+        width: 0 !important;
+        line-height: 0 !important;
+        border: none !important;
+      }
+
+
+
+      span[class="hide-for-desktop-text2"] {
         font-size: 0 !important;
         line-height: 0 !important;
         width: 0 !important;
@@ -139,12 +153,18 @@
         text-align: right !important;
       }
 
-      td[class="hide-for-desktop-text"] {
+      span[class="hide-for-desktop-text2"] {
         display: block !important;
         text-align: left !important;
         font-size: 16px !important;
-        height: 61px !important;
-        width: 100%;
+        width: 292px !important;
+      }
+
+      span[class="hide-for-desktop-text2"] {
+        display: block !important;
+        text-align: left !important;
+        font-size: 16px !important;
+        width: 292px !important;
         border-bottom: 1px solid #D9DADA;
         padding-bottom: 25px;
       }
@@ -208,12 +228,12 @@
 
                       <table cellspacing="0" cellpadding="10" width="100%">
                         <tr>
-                          <td class="hide-for-desktop-text">
+                          <td  style="font-size:16px; line-height:24px; text-align:left;">
                           <b>
-                          <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
+                          <span class="hide-for-desktop-text" data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
                           </b>
                           <br>
-                          <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria,<br/> BC A1B 2C3</span>
+                          <span class="hide-for-desktop-text2" data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria,<br/> BC A1B 2C3</span>
                           <br/>
                           </td>
                         </tr>
@@ -222,7 +242,7 @@
 
                       <table cellspacing="0" cellpadding="10" width="100%">
                         <tr>
-                          <td class="mobile-padding">
+                          <td class="mobile-padding" style="text-align:left;">
                             Hi {{ first_name }},
                           </td>
                           <td class="mobile-padding" style="text-align:right ;">
@@ -233,7 +253,7 @@
 
                       <table cellspacing="0" cellpadding="10" width="100%">
                         <tr>
-                          <td>
+                          <td style="text-align:left;">
                             <b>We really miss you!</b><br/>
                             Give awesome co another try, and we'll give you a 50% discount on your next months subscription!
                           </td>
@@ -275,7 +295,7 @@
                         </tr>
                         <tr>
                           <td class="hide-for-desktop-image">
-                            <img class="hide-for-desktop-image" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+                            <img width="0" height="0" border="0" class="hide-for-desktop-image" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
                           </td>
                         </tr>
                       </table>
