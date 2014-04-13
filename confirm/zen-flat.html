@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zen Flat Confirm</title>
+  <title>Zen Flat Invoice</title>
   <style type="text/css" media="screen">
 
     /* Force Hotmail to display emails at full width */
@@ -40,6 +40,7 @@
       font-family: Arial, Helvetica, sans-serif;
       font-size: 15px;
       color: #333333;
+      line-height: 1.5em;
     }
 
     h1 {
@@ -82,6 +83,11 @@
     .block-img {
       display: block;
       line-height: 0;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
     }
 
     a,
@@ -129,40 +135,6 @@
       padding-bottom: 34px;
     }
 
-    .progress .progress-marker {
-      width: 24px;
-    }
-
-    .progress .progress-line-pad,
-    .progress .progress-line {
-      width: 8px;
-    }
-
-    .progress.progress-completed .progress-line {
-      background-color: #8cc57f;
-    }
-
-    .progress.progress-active .progress-line {
-      background-color: #cdcdcd;
-    }
-
-    .progress .progress-title,
-    .progress .progress-text {
-      padding-left: 12px;
-    }
-
-    .progress.progress-completed .progress-title {
-      color: #8cc57f;
-    }
-
-    .progress.progress-pending .progress-title {
-      color: #b2b2b2;
-    }
-
-    .progress .progress-text {
-      padding-bottom: 20px;
-    }
-
     .footer-cell {
       background-color: #eeeeee;
       text-align: center;
@@ -187,82 +159,90 @@
         <center>
           <table cellpadding="0" cellspacing="0" width="600" class="wrap">
             <tr>
-              <td valign="top" class="wrap-cell">
+              <td valign="top" class="wrap-cell" style="padding-top:30px; padding-bottom:30px;">
                 <table cellpadding="0" cellspacing="0" width="100%" class="header">
                   <tr>
-                    <td valign="top" class="header-cell">
-                      <img width="196" height="60" src="https://www.filepicker.io/api/file/SU2YFOjPQzahL7orjBgl">
+                   <td height="60" valign="top" class="header-cell">
+                      <img width="196" height="60" src="https://www.filepicker.io/api/file/SU2YFOjPQzahL7orjBgl" alt="logo">
                     </td>
                   </tr>
                 </table>
-                <table cellpadding="0" cellspacing="0" width="100%" class="body">
+                <table cellpadding="0" cellspacing="0" width="100%" class="body" bgcolor="#ffffff">
                   <tr>
-                    <td valign="top" class="body-cell">
-
-                      <table cellpadding="0" cellspacing="0" width="100%">
+                    <td valign="top" class="body-cell" style="padding-right:20px; padding-left:20px;">
+                      <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
                         <tr>
-                          <td valign="top">
-                            <table cellpadding="0" cellspacing="0" width="100%" class="progress progress-completed">
-                              <tr>
-                                <td valign="top" class="progress-marker">
-                                  <img class="block-img" alt="" src="https://www.filepicker.io/api/file/J51uFVbhRfOe7VkurMgD" width="24" height="41">
-                                </td>
-                                <td valign="top" class="progress-title">
-                                  <h1>Order Confirmation</h1>
-                                </td>
-                              </tr>
-                            </table>
+                          <td valign="top" style="padding-bottom:20px; background-color:#ffffff;">
+                          Hi Bob,<br/><br/>
+                          We would like you to know that your order has shipped! To view your order or make any changes please <a href="#">click here.</a>
                           </td>
                         </tr>
                         <tr>
-                          <td valign="top">
-                            <table cellpadding="0" cellspacing="0" width="100%" class="progress progress-active">
-                              <tr>
-                                <td valign="top" colspan="3" class="progress-marker">
-                                  <img alt="" class="block-img" src="https://www.filepicker.io/api/file/KYzgoHxSQEioFO9U4Cwe" width="24" height="35">
-                                </td>
-                                <td valign="top" class="progress-title">
-                                  <h1>Order Processing</h1>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td valign="top" class="progress-line-pad">
-                                </td>
-                                <td valign="top" class="progress-line">
-                                </td>
-                                <td valign="top" class="progress-line-pad">
-                                </td>
-                                <td valign="top" class="progress-text">
-                                  Thanks! We have received your payment. We are processing your order now. Your delivery will be sent to your address shortly.
-                                </td>
-                              </tr>
-                            </table>
+                          <td>
+                            <table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+                            <tr>
+                              <td align="center" style="padding:20px 0;">
+                                <center>
+                                  <table cellspacing="0" cellpadding="0" width="400">
+                                    <tr>
+                                      <td style="background-color:green; text-align:center; padding:10px; color:white; ">
+                                        Shipping Details
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td style="border:1px solid green;">
+                                        <table cellspacing="0" cellpadding="20" width="100%">
+                                          <tr>
+                                            <td>
+                                              <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
+                                                <tr>
+                                                <td width="150" style="text-align:right; padding:10px; background-color:#ffffff;">
+                                                <b>Shipping Date:</b>
+                                                </td>
+                                                <td style="text-align:left; padding:10px; background-color:#ffffff;">
+                                                  January 4th, 2014
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td width="150" style="text-align:right; padding:10px; background-color:#ffffff;">
+                                                  <b>Shipping Address:</b>
+                                                </td>
+                                                <td style="text-align:left; padding:10px; background-color:#ffffff;">
+                                                  Lavender St<br/>
+                                                  Victoria, BC<br/>
+                                                  V8P 2W2
+                                                </td>
+                                              </tr>
+                                            </table>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </center>
+                              </td>
+                            </tr>
+                          </table>
                           </td>
                         </tr>
                         <tr>
-                          <td valign="top">
-                            <table cellpadding="0" cellspacing="0" width="100%" class="progress progress-pending">
-                              <tr>
-                                <td valign="top" class="progress-marker">
-                                  <img alt="" class="block-img" src="https://www.filepicker.io/api/file/DjQh9hYRXm4rx6j7uH0V" width="24" height="31">
-                                </td>
-                                <td valign="top" class="progress-title">
-                                  <h1>Transaction Confirmation</h1>
-                                </td>
-                              </tr>
-                            </table>
+                          <td style="padding-top:20px;background-color:#ffffff;">
+                            Thank you!<br/>
+                            Your Awesome Co team
                           </td>
                         </tr>
                       </table>
-
                     </td>
                   </tr>
                 </table>
+
+
+
                 <table cellpadding="0" cellspacing="0" width="100%" class="footer">
                   <tr>
                     <td valign="top" class="footer-cell">
-                      your company<br />
-                      address here
+                      Awesome Co<br />
+                      an Awesome Co Technologies, INC company
                     </td>
                   </tr>
                 </table>

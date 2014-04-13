@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=320, initial-scale=1" />
-  <title>Cleave Confirm</title>
+  <title>Cleave Invoice</title>
   <style type="text/css" media="screen">
 
   /* ----- Client Fixes ----- */
@@ -86,6 +86,24 @@
 
       /* ----- General ----- */
 
+      h1, h2 {
+        line-height: 1.1;
+        text-align: right;
+      }
+
+      h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-bottom: 60px;
+        font-weight: normal;
+        font-size: 17px;
+      }
+
       .col-1 {
         border-right: 1px solid #D9DADA;
         width: 180px;
@@ -108,6 +126,52 @@
         height: 0 !important;
         display: none !important;
       }
+
+      .body-cell {
+        background-color: #ffffff;
+        padding-top: 60px;
+        vertical-align: top;
+      }
+
+      .body-cell-left-pad {
+        padding-left: 30px;
+        padding-right: 14px;
+      }
+
+      /* ----- Modules ----- */
+
+  .brand td {
+    padding-top: 25px;
+  }
+
+  .brand a {
+    font-size: 16px;
+    line-height: 59px;
+    font-weight: bold;
+  }
+
+  .data-table th,
+  .data-table td {
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+  .data-table th {
+    background-color: #f9f9f9;
+    color: #f8931e;
+  }
+
+  .data-table td {
+    padding-bottom: 30px;
+  }
+
+  .data-table .data-table-amount {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
 
 </style>
 
@@ -163,13 +227,13 @@
 <tr>
   <td valign="top" align="left">
   <center>
-    <table class="w320" cellspacing="0" cellpadding="0" width="600">
+    <table class="w320" cellspacing="0" cellpadding="0" width="600" height="723">
       <tr>
 
         <td>
         <table cellspacing="0" cellpadding="0" width="100%">
           <tr>
-            <td class="col-1">
+            <td class="col-1" >
 
               <table cellspacing="0" cellpadding="0" width="100%">
                 <tr>
@@ -200,86 +264,103 @@
         </td>
 
         <td valign="top" class="col-2">
-          <table cellspacing="0" cellpadding="15" width="100%">
+          <table cellspacing="0" cellpadding="0" width="100%">
             <tr>
-              <td valign="top">
-                <table cellspacing="0" cellpadding="0" width="100%">
+              <td class="body-cell body-cell-left-pad" width="355" height="661" valign="top">
+                <table cellpadding="0" cellspacing="0">
                   <tr>
-                    <td style="padding:15px; padding-top:45px;">
-
-                      <table cellspacing="0" cellpadding="10" width="100%">
+                    <td width="355">
+                      <h1>
+                        Invoice:
+                        <span class="swu-variable" data-swu-variable='{"name": "invoice.id", "preview": "2NV6E1xiRXOrPr", "readonly": true}'>
+                          2NV6E1xiRXOrPr
+                        </span>
+                      </h1>
+                      <h2>
+                        <span class="swu-variable" data-swu-variable='{"name": "invoice.date", "preview": "05/16/2013", "readonly": true}'>
+                          05/16/2013
+                        </span>
+                      </h2>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Hello Bob,<br/>
+                      <br/>
+                      We would like you to know that your order has shipped! To track your order or make any changes please click the "my order" button below.
+                    </td>
+                  </tr>
+                </table>
+                <table cellspacing="0" cellpadding="10" width="100%">
+                  <tr>
+                    <td class="hide-for-mobile"  width="94" style="width:94px !important;">
+                            &nbsp;
+                    </td>
+                    <td width="150" style="width:150px !important; padding-top: 30px; padding-bottom:30px;">
+                      <div style="text-align:center; background-color:#48be19;"><!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:35px;v-text-anchor:middle;width:150px;" arcsize="8%" stroke="f" fillcolor="#48be19">
+                        <w:anchorlock/>
+                        <center style="color:#ffffff;font-family:sans-serif;font-size:16px;">My Order</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        <!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#48be19;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;line-height:35px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">My Order</span></td></tr></table></a>
+                        <!--<![endif]-->
+                      </div>
+                      </td>
+                      <td class="hide-for-mobile"  width="94" style="width:94px !important;">
+                            &nbsp;
+                      </td>
+                    </tr>
+                  </table>
+                  <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td width="355">
+                      <table class="data-table" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td class="hide-for-desktop-text">
-                          <b>
-                          <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
-                          </b>
-                          <br>
-                          <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria,<br/> BC A1B 2C3</span>
-                          <br/>
-                          </td>
+                          <th>
+                            Shipping Address
+                          </th>
                         </tr>
-                      </table>
-
-
-                      <table cellspacing="0" cellpadding="10" width="100%">
-                        <tr>
-                          <td class="mobile-padding">
-                            Hi {{ first_name }},
-                          </td>
-                          <td class="mobile-padding" style="text-align:right ;">
-                            05/10/2014
-                          </td>
-                        </tr>
-                      </table>
-
-                      <table cellspacing="0" cellpadding="10" width="100%">
                         <tr>
                           <td>
-                            <b>Welcome to Awesome Co!</b><br/>
-                            We're really excited for you to join our community! You're just one click away from activate your account.
-                          </td>
-                        </tr>
-                      </table>
-
-                      <table cellspacing="0" cellpadding="10" width="100%">
-                        <tr>
-                          <td class="hide-for-mobile"  width="94" style="width:94px !important;">
-                            &nbsp;
-                          </td>
-                          <td width="150" style="width:150px !important;">
-                            <div style="text-align:center; background-color:#48be19;"><!--[if mso]>
-                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:35px;v-text-anchor:middle;width:150px;" arcsize="8%" stroke="f" fillcolor="#48be19">
-                                    <w:anchorlock/>
-                                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;">Activate Now!</center>
-                                  </v:roundrect>
-                                <![endif]-->
-                                <!--[if !mso]><!-- --><a href="#"><table cellspacing="0" cellpadding="0" width="100%"><tr><td style="background-color:#48be19;border-radius:5px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;line-height:45px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;"><span style="color:#ffffff">Activate Now!</span></td></tr></table></a>
-                                <!--<![endif]-->
-                              </div>
-                          </td>
-                          <td class="hide-for-mobile"  width="94" style="width:94px !important;">
-                            &nbsp;
-                          </td>
-                        </tr>
-                      </table>
-
-                      <table cellspacing="0" cellpadding="0" width="100%">
-                        <tr>
-                          <td style="text-align:center; padding:10px; padding-top:30px;">
-                            <img src="https://www.filepicker.io/api/file/F7k2y1vcTu2AVmcPTkPJ" alt="signature" />
+                            <span>
+                              Lavender Ave,<br/>
+                              Victoria, BC<br/>
+                              V9S 2P2<br/>
+                            </span>
                           </td>
                         </tr>
                         <tr>
-                          <td class="hide-for-desktop-image">
-                            <img class="hide-for-desktop-image" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+                          <th>
+                            Shipping Date
+                          </th>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td>
+                                  <span data-swu-variable='{"name": "charge.amount", "preview": "$49.99", "readonly": true}'>
+                                    Monday, 13th July 2014
+                                  </span>
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                         </tr>
                       </table>
                     </td>
                   </tr>
+                  <tr>
+                    <td width="355" class="footer">
+                      <center>
+                        <img width="213" height="48" src="https://www.filepicker.io/api/file/2KMVSEJSOaxy1uHWWt1A">
+                      </center>
+                    </td>
+                  </tr>
                 </table>
-
               </td>
+
             </tr>
           </table>
         </td>
