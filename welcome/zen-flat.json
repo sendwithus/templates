@@ -1,7 +1,7 @@
 {
   "thumbnail"   : "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
   "image"       : "https://www.filepicker.io/api/file/mDUovpmSH21StHOElZAt",
-  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/Invitation/airmail.html",
-  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/README.md",
+  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/welcome/zen-flat.html",
+  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/zen-flat.html",
   "test_url"    : "https://litmus.com/pub/8753221/screenshots"
 }

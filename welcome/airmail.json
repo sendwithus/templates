@@ -1,7 +1,7 @@
 {
   "thumbnail"   : "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
   "image"       : "https://www.filepicker.io/api/file/0mPjvpkSL27GZI8bPt8K",
-  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/Invitation/airmail.html",
-  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/README.md",
+  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/welcome/airmail.html",
+  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/airmail.html",
   "test_url"    : "https://litmus.com/pub/6145919/screenshots"
 }

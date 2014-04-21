@@ -1,7 +1,7 @@
 {
   "thumbnail"   : "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_2_column.png",
   "image"       : "https://www.filepicker.io/api/file/hIBl95ERAKAce6niDWkh",
-  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/Invitation/airmail.html",
-  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/README.md",
+  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/confirm/cleave.html",
+  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/cleave.html",
   "test_url"    : "https://litmus.com/pub/608a8dc"
 }
