@@ -1,7 +1,7 @@
 {
-  "thumbnail"   : "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
+  "thumbnail"   : "https://www.filepicker.io/api/file/yEFcLyqASzy6wNhDGK3X",
   "image"       : "https://www.filepicker.io/api/file/yEFcLyqASzy6wNhDGK3X",
-  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/Invitation/airmail.html",
-  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/README.md",
+  "contrib_url" : "https://github.com/sendwithus/templates/edit/master/upsell/skyline.html",
+  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/skyline.html",
   "test_url"    : "https://litmus.com/pub/cded0d8/screenshots"
 }
