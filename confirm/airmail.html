@@ -6,122 +6,128 @@
   <title>Airmail Invoice</title>
   <style type="text/css">
 
-  /* ----- Client Fixes ----- */
+    /* ----- Client Fixes ----- */
 
-      /* Force Outlook to provide a "view in browser" message */
-      #outlook a {
-        padding: 0;
-      }
+    /* Force Outlook to provide a "view in browser" message */
+    #outlook a {
+      padding: 0;
+    }
 
-      /* Force Hotmail to display emails at full width */
-      .ReadMsgBody {
-        width: 100%;
-      }
+    /* Force Hotmail to display emails at full width */
+    .ReadMsgBody {
+      width: 100%;
+    }
 
-      .ExternalClass {
-        width: 100%;
-      }
+    .ExternalClass {
+      width: 100%;
+    }
 
-      /* Force Hotmail to display normal line spacing */
-      .ExternalClass,
-      .ExternalClass p,
-      .ExternalClass span,
-      .ExternalClass font,
-      .ExternalClass td,
-      .ExternalClass div {
-        line-height: 100%;
-      }
-
-
-       /* Prevent WebKit and Windows mobile changing default text sizes */
-      body, table, td, p, a, li, blockquote {
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-      }
-
-      /* Remove spacing between tables in Outlook 2007 and up */
-      table, td {
-        mso-table-lspace: 0pt;
-        mso-table-rspace: 0pt;
-      }
-
-      /* Allow smoother rendering of resized image in Internet Explorer */
-      img {
-        -ms-interpolation-mode: bicubic;
-      }
-
-       /* ----- Reset ----- */
-
-      html,
-      body,
-      .body-wrap,
-      .body-wrap-cell {
-        margin: 0;
-        padding: 0;
-        background: #ffffff;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: #464646;
-        text-align: left;
-      }
-
-      img {
-        border: 0;
-        line-height: 100%;
-        outline: none;
-        text-decoration: none;
-      }
-
-      table {
-        border-collapse: collapse !important;
-      }
-
-      td, th {
-        text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: #464646;
-        line-height:1.5em;
-      }
-
-      a {
-        text-decoration: none;
-        color: #464646;
-      }
-
-      /* ----- General ----- */
-
-      td.center {
-        text-align: center;
-      }
-
-      .left {
-        text-align: left;
-      }
-
-      .body-padding {
-        padding: 40px;
-      }
-
-      .border-bottom {
-        border-bottom: 1px solid #D8D8D8;
-      }
+    /* Force Hotmail to display normal line spacing */
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
 
 
-      /* ----- Header ----- */
-      .header {
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 16px;
-        height: 16px;
-        padding-top: 19px;
-        padding-bottom: 7px;
-      }
+     /* Prevent WebKit and Windows mobile changing default text sizes */
+    body, table, td, p, a, li, blockquote {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
 
-      .header a {
-        color: #464646;
-        text-decoration: none;
-      }
+    /* Remove spacing between tables in Outlook 2007 and up */
+    table, td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    /* Allow smoother rendering of resized image in Internet Explorer */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+     /* ----- Reset ----- */
+
+    html,
+    body,
+    .body-wrap,
+    .body-wrap-cell {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #464646;
+      text-align: left;
+    }
+
+    img {
+      border: 0;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
+
+    table {
+      border-collapse: collapse !important;
+    }
+
+    td, th {
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      color: #464646;
+      line-height:1.5em;
+    }
+
+    b a,
+    .footer a {
+      text-decoration: none;
+      color: #464646;
+    }
+
+    a.blue-link {
+      color: blue;
+      text-decoration: underline;
+    }
+
+    /* ----- General ----- */
+
+    td.center {
+      text-align: center;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .body-padding {
+      padding: 40px;
+    }
+
+    .border-bottom {
+      border-bottom: 1px solid #D8D8D8;
+    }
+
+
+    /* ----- Header ----- */
+    .header {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      height: 16px;
+      padding-top: 19px;
+      padding-bottom: 7px;
+    }
+
+    .header a {
+      color: #464646;
+      text-decoration: none;
+    }
 
     /* ----- Header ----- */
 
@@ -131,7 +137,7 @@
   </style>
 
   <style type="text/css" media="only screen and (max-width: 650px)">
-     @media only screen and (max-width: 650px) {
+    @media only screen and (max-width: 650px) {
       * {
         font-size: 16px !important;
       }
@@ -209,7 +215,7 @@
                       <br/>
                       We would like you to know that your order has shipped! To view your order or make any changes please click the "my order" button below.<br/>
                       <br/>
-                      <b><a style="color:blue; text-decoration:underline;" href="">Track shipping</a></b>
+                      <b><a class="blue-link" href="#">Track shipping</a></b>
 
                     </td>
                   </tr>
