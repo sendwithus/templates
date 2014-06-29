@@ -176,6 +176,8 @@
   .status .status-cell {
     border: 1px solid #b3b3b3;
     height: 50px;
+    font-size: 16px;
+    line-height: 23px;
   }
   .status .status-cell.success,
   .status .status-cell.active {
@@ -184,18 +186,11 @@
   .status .status-cell.success {
     background: #f2ffeb;
     color: #51da42;
-  }
-  .status .status-cell.success .status-title {
     font-size: 15px;
   }
   .status .status-cell.active {
     background: #fffde0;
     width: 135px;
-  }
-  .status .status-title {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 23px;
   }
   .status .status-image {
     vertical-align: text-bottom;
@@ -348,17 +343,9 @@
     table[class="status"] td[class*="status-cell"].active {
       display: block !important;
       width: auto !important;
-    }
-
-    table[class="status"] td[class*="status-cell"],
-    table[class="status"] td[class*="status-cell"].active,
-    table[class="status"] td[class*="status-cell"] [class*="status-title"] {
-      line-height: 65px !important;
+      height: auto !important;
+      padding: 15px !important;
       font-size: 18px !important;
-    }
-
-    table[class="status"] td[class*="status-cell"].active [class*="status-title"] {
-      display: inline !important;
     }
 
     table[class="btn"] td {
@@ -411,22 +398,16 @@
                   <table class="status" bgcolor="#fffeea" cellspacing="0">
                     <tr>
                       <td class="status-cell success">
-                        <div class="status-title">
-                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;Step 1
-                        </div>
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;<b>Step&nbsp;1</b>
                       </td>
                       <td class="status-cell success">
-                        <div class="status-title">
-                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;Step 2
-                        </div>
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓">&nbsp;<b>Step&nbsp;2</b>
                       </td>
                       <td class="status-cell success">
-                        <div class="status-title">
-                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓"> &nbsp;Step 3
-                        </div>
+                          <img class="status-image" src="https://www.filepicker.io/api/file/gd9yTMfATWV8fPJlmyRC" alt="✓"> &nbsp;<b>Step&nbsp;3</b>
                       </td>
                       <td class="status-cell active">
-                        <div class="status-title">Step 4</div>
+                        <div><b>Step&nbsp;4</b></div>
                         Add Info
                       </td>
                     </tr>
