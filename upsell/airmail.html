@@ -4,14 +4,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>Airmail Upsell</title>
-  <style type="text/css">
+    <style type="text/css">
   /* -------------------------------------
-      GLOBAL
+    GLOBAL
   ------------------------------------- */
   * {
     margin:0;
     padding:0;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
   }
 
   img {
@@ -37,7 +37,7 @@
     background-color: #ffffff;
   }
   h1,h2,h3,h4,h5,h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     line-height: 1.1;
   }
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -74,10 +74,11 @@
   }
 
   .collapse {
-    margin:0!important;
+    margin: 0 !important;
   }
 
   td, div {
+    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
   }
 
@@ -113,46 +114,8 @@
   ------------------------------------- */
 
 
-  .btn {
-    width: 190px !important;
-  }
-
-  .btn td {
-    color: #ffffff;
-    border: 1px solid #407429;
-    padding: 10px 18px;
-    margin-right: 10px;
-    text-align: center;
-    display: block;
-    cursor: pointer;
-    text-shadow: -1px -1px #47A54B;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    width: 190px;
-    height: 20px;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    padding-left: 18px;
-    padding-right: 18px;
-    background: #41CC00 url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);
-  }
-
-  .btn td a {
-    color: #ffffff;
-    display: inline-block;
-    width: 100%;
-    font-size: 17px;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-
-
-
-
   table.head-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
     background-color: #f9f8f8;
     border-bottom: 1px solid #d8d8d8;
@@ -161,12 +124,6 @@
   .head-wrap * {
     margin: 0;
     padding: 0;
-  }
-
-  .head-stripes {
-    background-position: center top;
-    background-repeat: repeat-x;
-    background-image: url(https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC);
   }
 
   .header-background {
@@ -212,12 +169,15 @@
   .content .status-container.single .status-padding {
     width: 80px;
   }
+
   .content .status {
     width: 90%;
   }
+
   .content .status-container.single .status {
-    width: 300px;
+      width: 300px;
   }
+
   .status {
     border-collapse: collapse;
     margin-left: 15px;
@@ -226,6 +186,8 @@
   .status .status-cell {
     border: 1px solid #b3b3b3;
     height: 50px;
+    font-size: 16px;
+    line-height: 23px;
   }
   .status .status-cell.success,
   .status .status-cell.active {
@@ -234,18 +196,11 @@
   .status .status-cell.success {
     background: #f2ffeb;
     color: #51da42;
-  }
-  .status .status-cell.success .status-title {
     font-size: 15px;
   }
   .status .status-cell.active {
     background: #fffde0;
     width: 135px;
-  }
-  .status .status-title {
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 23px;
   }
   .status .status-image {
     vertical-align: text-bottom;
@@ -286,34 +241,34 @@
 
 
   .footer-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
-    clear:both !important;
+    clear: both !important;
     background-color: #e5e5e5;
     border-top: 1px solid #b3b3b3;
     font-size: 12px;
     color: #656565;
     line-height: 30px;
   }
-  .footer-wrap .container {
+  .footer-wrap td {
     padding: 14px 0;
   }
-  .footer-wrap .container .content {
+  .footer-wrap td .content {
     padding: 0;
   }
-  .footer-wrap .container .footer-lead {
+  .footer-wrap td .footer-lead {
     font-size: 14px;
   }
-  .footer-wrap .container .footer-lead a {
+  .footer-wrap td .footer-lead a {
     font-size: 14px;
     font-weight: bold;
     color: #535353;
   }
-  .footer-wrap .container a {
+  .footer-wrap td a {
     font-size: 12px;
     color: #656565;
   }
-  .footer-wrap .container a.last {
+  .footer-wrap td a.last {
     margin-right: 0;
   }
   .footer-wrap .footer-group {
@@ -353,6 +308,13 @@
     clear: both;
   }
 
+  table.full-width-gmail-android {
+    width: 100% !important;
+  }
+
+</style>
+<style type="text/css" media="only screen">
+
 
   /* -------------------------------------------
       PHONE
@@ -370,53 +332,21 @@
     td[class*="container"] {
       margin: 0 auto !important;
     }
-
-    td[class="head-stripes"] {
-      background-color: transparent !important;
-      height: 8px !important;
-    }
-
-    td[class="head-stripes"] img {
-      display: none !important;
-    }
   }
 
   @media only screen and (max-width: 505px) {
+
+    *[class*="w320"] {
+      width: 320px !important;
+    }
 
     table[class="status"] td[class*="status-cell"],
     table[class="status"] td[class*="status-cell"].active {
       display: block !important;
       width: auto !important;
-    }
-
-    table[class="status-container single"] table[class="status"] {
-      width: 270px !important;
-      margin-left: 0;
-    }
-
-    table[class="status"] td[class*="status-cell"],
-    table[class="status"] td[class*="status-cell"].active,
-    table[class="status"] td[class*="status-cell"] [class*="status-title"] {
-      line-height: 65px !important;
+      height: auto !important;
+      padding: 15px !important;
       font-size: 18px !important;
-    }
-
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"],
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"].active,
-    table[class="status-container single"] table[class="status"] td[class*="status-cell"] [class*="status-title"] {
-      line-height: 51px !important;
-    }
-
-    table[class="status"] td[class*="status-cell"].active [class*="status-title"] {
-      display: inline !important;
-    }
-
-    table[class="btn"] td {
-      font-size: 14px !important;
-      display: block !important;
-      width: auto !important;
-      margin-bottom: 10px !important;
-      margin-right: 0 !important;
     }
 
   }
@@ -426,14 +356,23 @@
 <body bgcolor="#ffffff">
 
   <div align="center">
-    <table class="head-wrap" bgcolor="#f9f8f8" cellspacing="0">
+    <table class="head-wrap w320 full-width-gmail-android" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td class="head-stripes" colspan="3">
-          <img class="image-fix" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" width="505" height="8">
+        <td background="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" bgcolor="#ffffff" width="100%" height="8" valign="top">
+          <!--[if gte mso 9]>
+          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="mso-width-percent:1000;height:8px;">
+            <v:fill type="tile" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" color="#ffffff" />
+            <v:textbox inset="0,0,0,0">
+          <![endif]-->
+          <div height="8">
+          </div>
+          <!--[if gte mso 9]>
+            </v:textbox>
+          </v:rect>
+          <![endif]-->
         </td>
       </tr>
       <tr class="header-background">
-        <td></td>
         <td class="header container" align="center">
           <div class="content">
             <span class="brand">
@@ -443,11 +382,10 @@
             </span>
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
 
-    <table class="body-wrap">
+    <table class="body-wrap w320">
       <tr>
         <td></td>
         <td class="container">
@@ -487,11 +425,16 @@
                             </td>
                           </tr>
                         </table>
-                        <table class="btn" width="190" cellspacing="0" cellpadding="0">
-                          <tr>
-                            <td align="center" width="190" bgcolor="#41CC00"><a href="#">Upgrade now!</a></td>
-                          </tr>
-                        </table>
+
+                        <div><!--[if mso]>
+                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:38px;v-text-anchor:middle;width:210px;" arcsize="10%" strokecolor="#407429" fill="t">
+                            <v:fill type="tile" src="https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7" color="#41CC00" />
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:17px;font-weight:bold;">Add more info here</center>
+                          </v:roundrect>
+                        <![endif]--><a href="#"
+                        style="background-color:#41CC00;background-image:url(https://www.filepicker.io/api/file/N8GiNGsmT6mK6ORk00S7);border:1px solid #407429;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:17px;font-weight:bold;line-height:38px;text-align:center;text-decoration:none;width:210px;-webkit-text-size-adjust:none;mso-hide:all;">Upgrade now!</a></div>
+
                         <table class="body-signature-block">
                           <tr>
                             <td class="body-signature-cell">
@@ -513,21 +456,18 @@
       </tr>
     </table>
 
-    <table class="footer-wrap" bgcolor="#e5e5e5">
+    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
       <tr>
-        <td></td>
-        <td class="container">
+        <td>
           <div class="content footer-lead">
             <a href="#"><b>Get in touch</b></a> if you have any questions or feedback
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
-    <table class="footer-wrap" bgcolor="#e5e5e5">
+    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
       <tr>
-        <td></td>
-        <td class="container">
+        <td>
           <div class="content">
             <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <span class="footer-group">
@@ -537,7 +477,6 @@
             </span>
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
   </div>
