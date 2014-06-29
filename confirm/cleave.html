@@ -104,15 +104,20 @@
       font-size: 17px;
     }
 
+    .outer-padding {
+      padding: 50px 0;
+    }
+
     .col-1 {
       border-right: 1px solid #D9DADA;
       width: 180px;
     }
 
     td.hide-for-desktop-text {
-      font-size: 0 !important;
-      height: 0 !important;
-      display: none !important;
+      font-size: 0;
+      height: 0;
+      display: none;
+      color: #ffffff;
     }
 
     img.hide-for-desktop-image {
@@ -173,44 +178,53 @@
 
   <style type="text/css" media="only screen and (max-width: 650px)">
     @media only screen and (max-width: 650px) {
-      table[class="w320"] {
+      table[class*="w320"] {
         width: 320px !important;
       }
 
-      td[class="col-1"] {
+      td[class*="col-1"] {
         border: none;
       }
 
-      td[class='hide-for-mobile'] {
+      td[class*="hide-for-mobile"] {
         font-size: 0 !important; line-height: 0 !important; width: 0 !important;
         height: 0 !important; display: none !important;
       }
 
-      img[class="hide-for-desktop-image"]{
+      img[class*="hide-for-desktop-image"]{
         width: 176px !important;
         height: 135px !important;
         display:block !important;
         padding-left: 60px;
       }
 
-      td[class="hide-for-desktop-image"] {
+      td[class*="hide-for-desktop-image"] {
         width: 100% !important;
         display: block !important;
         text-align: right !important;
       }
 
-      td[class="hide-for-desktop-text"] {
+      td[class*="hide-for-desktop-text"] {
         display: block !important;
-        text-align: left !important;
+        text-align: center !important;
         font-size: 16px !important;
         height: 61px !important;
-        width: 100%;
-        border-bottom: 1px solid #D9DADA;
-        padding-bottom: 25px;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+        color: #89898D !important;
       }
 
-      td[class="mobile-padding"] {
+      td[class*="mobile-padding"] {
         padding-top: 15px;
+      }
+
+      td[class*="outer-padding"] {
+        padding: 0 !important;
+      }
+
+      td[class*="body-cell-left-pad"] {
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
 
@@ -218,14 +232,14 @@
 </head>
 
 <body class="body" style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
-<table width="100%" border="0" cellspacing="0" cellpadding="50" bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
 <tr>
-  <td valign="top" align="left">
+  <td class="outer-padding" valign="top" align="left">
   <center>
     <table class="w320" cellspacing="0" cellpadding="0" width="600" height="723">
       <tr>
 
-        <td class="col-1">
+        <td class="col-1 hide-for-mobile">
 
           <table cellspacing="0" cellpadding="0" width="100%">
             <tr>
@@ -239,8 +253,8 @@
                 <b>
                   <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
                   </b>
-                  <br>
-                  <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria, BC A1B 2C3</span>
+                <br>
+                <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane Victoria, BC A1B 2C3</span>
               </td>
             </tr>
 
@@ -345,6 +359,18 @@
                       <center>
                         <img width="213" height="48" src="https://www.filepicker.io/api/file/2KMVSEJSOaxy1uHWWt1A">
                       </center>
+                    </td>
+                  </tr>
+                </table>
+
+                <table cellspacing="0" cellpadding="0" width="100%">
+                  <tr>
+                    <td class="hide-for-desktop-text">
+                      <b>
+                        <span data-bind="initFromMarkup: { text: 'company_name' }, initFromMarkupArray: 'template_vars'">Awesome Co</span>
+                      </b>
+                      <br>
+                      <span data-bind="initFromMarkup: { html: 'company_address' }, initFromMarkupArray: 'template_vars'">1337 Swuby Lane<br>Victoria, BC A1B 2C3</span>
                     </td>
                   </tr>
                 </table>
