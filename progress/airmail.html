@@ -74,7 +74,7 @@
   }
 
   .collapse {
-    margin:0!important;
+    margin: 0 !important;
   }
 
   td, div {
@@ -115,7 +115,7 @@
 
 
   table.head-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
     background-color: #f9f8f8;
     border-bottom: 1px solid #d8d8d8;
@@ -236,34 +236,34 @@
 
 
   .footer-wrap {
-    width: 505px;
+    width: 100%;
     margin: 0 auto;
-    clear:both !important;
+    clear: both !important;
     background-color: #e5e5e5;
     border-top: 1px solid #b3b3b3;
     font-size: 12px;
     color: #656565;
     line-height: 30px;
   }
-  .footer-wrap .container {
+  .footer-wrap td {
     padding: 14px 0;
   }
-  .footer-wrap .container .content {
+  .footer-wrap td .content {
     padding: 0;
   }
-  .footer-wrap .container .footer-lead {
+  .footer-wrap td .footer-lead {
     font-size: 14px;
   }
-  .footer-wrap .container .footer-lead a {
+  .footer-wrap td .footer-lead a {
     font-size: 14px;
     font-weight: bold;
     color: #535353;
   }
-  .footer-wrap .container a {
+  .footer-wrap td a {
     font-size: 12px;
     color: #656565;
   }
-  .footer-wrap .container a.last {
+  .footer-wrap td a.last {
     margin-right: 0;
   }
   .footer-wrap .footer-group {
@@ -303,6 +303,10 @@
     clear: both;
   }
 
+  table.full-width-gmail-android {
+    width: 100% !important;
+  }
+
 </style>
 <style type="text/css" media="only screen">
 
@@ -336,6 +340,9 @@
 
   @media only screen and (max-width: 505px) {
 
+    *[class*="w320"] {
+      width: 320px !important;
+    }
 
     table[class="status"] td[class*="status-cell"],
     table[class="status"] td[class*="status-cell"].active {
@@ -369,14 +376,13 @@
 <body bgcolor="#ffffff">
 
   <div align="center">
-    <table class="head-wrap" bgcolor="#f9f8f8" cellspacing="0">
+    <table class="head-wrap w320 full-width-gmail-android" bgcolor="#f9f8f8" cellpadding="0" cellspacing="0" border="0">
       <tr>
         <td class="head-stripes" colspan="3">
           <img class="image-fix" src="https://www.filepicker.io/api/file/UOesoVZTFObSHCgUDygC" width="505" height="8">
         </td>
       </tr>
       <tr class="header-background">
-        <td></td>
         <td class="header container" align="center">
           <div class="content">
             <span class="brand">
@@ -386,11 +392,10 @@
             </span>
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
 
-    <table class="body-wrap">
+    <table class="body-wrap w320">
       <tr>
         <td></td>
         <td class="container">
@@ -469,21 +474,18 @@
       </tr>
     </table>
 
-    <table class="footer-wrap" bgcolor="#e5e5e5">
+    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
       <tr>
-        <td></td>
-        <td class="container">
+        <td>
           <div class="content footer-lead">
             <a href="#"><b>Get in touch</b></a> if you have any questions or feedback
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
-    <table class="footer-wrap" bgcolor="#e5e5e5">
+    <table class="footer-wrap w320 full-width-gmail-android" bgcolor="#e5e5e5">
       <tr>
-        <td></td>
-        <td class="container">
+        <td>
           <div class="content">
             <a href="#">Contact Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <span class="footer-group">
@@ -493,7 +495,6 @@
             </span>
           </div>
         </td>
-        <td></td>
       </tr>
     </table>
   </div>
