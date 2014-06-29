@@ -2,6 +2,6 @@
   "thumbnail"   : "https://www.filepicker.io/api/file/L4t7Hb9IQjGKFGetWDmz",
   "image"       : "https://www.filepicker.io/api/file/L4t7Hb9IQjGKFGetWDmz",
   "contrib_url" : "https://github.com/sendwithus/templates/edit/master/invoice/sunday.html",
-  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/invoice/welcome/sunday.html",
+  "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/sunday.html",
   "test_url"    : "https://litmus.com/pub/34d7d47/screenshots"
 }
