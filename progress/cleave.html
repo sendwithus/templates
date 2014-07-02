@@ -173,6 +173,12 @@
       font-size: 20px;
     }
 
+    .progress-cell,
+    .progress-cell img {
+      width: 90px;
+      height: 48px;
+    }
+
 
   </style>
 
@@ -225,6 +231,20 @@
       td[class*="body-cell-left-pad"] {
         padding-left: 20px;
         padding-right: 20px;
+      }
+
+      td[class*="progress-cell"],
+      td[class*="progress-cell"] img {
+        width: 65px !important;
+        height: 35px !important;
+      }
+
+      td[class*="progress-text"] {
+        font-size: 14px !important;
+      }
+
+      td[class*="progress-text-padded"] {
+        padding-right: 9px !important;
       }
     }
 
@@ -280,16 +300,16 @@
                           <td>
                             <table cellspacing="0" cellpadding="0" width="100%">
                               <tr>
-                                <td width="90" height="48"><img width="90" height="48" src="https://www.filepicker.io/api/file/HinwfjSQL6AAV2jjJujg"></td>
-                                <td width="90" height="48"><img width="90" height="48" src="https://www.filepicker.io/api/file/bXzK3In5QWikXR5CB1qv"></td>
-                                <td width="90" height="48"><img width="90" height="48" src="https://www.filepicker.io/api/file/PALnCdfBQOaA4FhFi5Yj"></td>
-                                <td width="90" height="48"><img width="90" height="48" src="https://www.filepicker.io/api/file/rFO4xTWnSVquW0Uo1Ujw"></td>
+                                <td class="progress-cell"><img src="https://www.filepicker.io/api/file/HinwfjSQL6AAV2jjJujg"></td>
+                                <td class="progress-cell"><img src="https://www.filepicker.io/api/file/bXzK3In5QWikXR5CB1qv"></td>
+                                <td class="progress-cell"><img src="https://www.filepicker.io/api/file/PALnCdfBQOaA4FhFi5Yj"></td>
+                                <td class="progress-cell"><img src="https://www.filepicker.io/api/file/rFO4xTWnSVquW0Uo1Ujw"></td>
                               </tr>
                               <tr>
-                                <td>Step One</td>
-                                <td>Step Two</td>
-                                <td style="text-align:right;">Step Three</td>
-                                <td style="text-align:right;"><b>Done!</b></td>
+                                <td class="progress-text progress-text-padded">Step One</td>
+                                <td class="progress-text progress-text-padded">Step Two</td>
+                                <td class="progress-text progress-text-padded" style="padding-left:10px">Step Three</td>
+                                <td class="progress-text" style="text-align:right"><b>Done!</b></td>
                               </tr>
                             </table>
                           </td>
