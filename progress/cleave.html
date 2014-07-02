@@ -6,147 +6,225 @@
   <title>Cleave Progress</title>
   <style type="text/css" media="screen">
 
-  /* ----- Client Fixes ----- */
+    /* ----- Client Fixes ----- */
 
-      /* Force Outlook to provide a "view in browser" message */
-      #outlook a {
-        padding: 0;
-      }
+    /* Force Outlook to provide a "view in browser" message */
+    #outlook a {
+      padding: 0;
+    }
 
-      /* Force Hotmail to display emails at full width */
-      .ReadMsgBody {
-        width: 100%;
-      }
+    /* Force Hotmail to display emails at full width */
+    .ReadMsgBody {
+      width: 100%;
+    }
 
-      .ExternalClass {
-        width: 100%;
-      }
+    .ExternalClass {
+      width: 100%;
+    }
 
-      /* Force Hotmail to display normal line spacing */
-      .ExternalClass,
-      .ExternalClass p,
-      .ExternalClass span,
-      .ExternalClass font,
-      .ExternalClass td,
-      .ExternalClass div {
-        line-height: 100%;
-      }
+    /* Force Hotmail to display normal line spacing */
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
 
 
-       /* Prevent WebKit and Windows mobile changing default text sizes */
-      body, table, td, p, a, li, blockquote {
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-      }
+     /* Prevent WebKit and Windows mobile changing default text sizes */
+    body, table, td, p, a, li, blockquote {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
 
-      /* Remove spacing between tables in Outlook 2007 and up */
-      table, td {
-        mso-table-lspace: 0pt;
-        mso-table-rspace: 0pt;
-      }
+    /* Remove spacing between tables in Outlook 2007 and up */
+    table, td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
 
-      /* Allow smoother rendering of resized image in Internet Explorer */
-      img {
-        -ms-interpolation-mode: bicubic;
-      }
+    /* Allow smoother rendering of resized image in Internet Explorer */
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
 
-       /* ----- Reset ----- */
+     /* ----- Reset ----- */
 
-      html,
-      body,
-      .body-wrap,
-      .body-wrap-cell {
-        margin: 0;
-        padding: 0;
-        background: #ffffff;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        color: #89898D;
-        text-align: left;
-      }
+    html,
+    body,
+    .body-wrap,
+    .body-wrap-cell {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #89898D;
+      text-align: left;
+    }
 
-      img {
-        border: 0;
-        line-height: 100%;
-        outline: none;
-        text-decoration: none;
-      }
+    img {
+      border: 0;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+    }
 
-      table {
-        border-collapse: collapse !important;
-      }
+    table {
+      border-collapse: collapse !important;
+    }
 
-      td, th {
-        text-align: left;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-        color: #89898D;
-        line-height:1.5em;
-      }
+    td, th {
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      color: #89898D;
+      line-height:1.5em;
+    }
 
-      /* ----- General ----- */
+    /* ----- General ----- */
 
-      .col-1 {
-        border-right: 1px solid #D9DADA;
-        width: 180px;
-      }
+    h1, h2 {
+      line-height: 1.1;
+      text-align: right;
+    }
 
-      td.hide-for-desktop-text {
-        font-size: 0 !important;
-        height: 0 !important;
-        display: none !important;
-      }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
 
-      img.hide-for-desktop-image {
-        font-size: 0 !important;
-        line-height: 0 !important;
-        width: 0 !important;
-        height: 0 !important;
-        display: none !important;
-      }
+    h2 {
+      margin-top: 0;
+      margin-bottom: 60px;
+      font-weight: normal;
+      font-size: 17px;
+    }
 
-</style>
+    .outer-padding {
+      padding: 50px 0;
+    }
 
-<style type="text/css" media="only screen and (max-width: 650px)">
-     @media only screen and (max-width: 650px) {
-      table[class="w320"] {
+    .col-1 {
+      border-right: 1px solid #D9DADA;
+      width: 180px;
+    }
+
+    td.hide-for-desktop-text {
+      font-size: 0;
+      height: 0;
+      display: none;
+      color: #ffffff;
+    }
+
+    img.hide-for-desktop-image {
+      font-size: 0 !important;
+      line-height: 0 !important;
+      width: 0 !important;
+      height: 0 !important;
+      display: none !important;
+    }
+
+    .body-cell {
+      background-color: #ffffff;
+      padding-top: 60px;
+      vertical-align: top;
+    }
+
+    .body-cell-left-pad {
+      padding-left: 30px;
+      padding-right: 14px;
+    }
+
+    /* ----- Modules ----- */
+
+    .brand td {
+      padding-top: 25px;
+    }
+
+    .brand a {
+      font-size: 16px;
+      line-height: 59px;
+      font-weight: bold;
+    }
+
+    .data-table th,
+    .data-table td {
+      width: 350px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+    }
+
+    .data-table th {
+      background-color: #f9f9f9;
+      color: #f8931e;
+    }
+
+    .data-table td {
+      padding-bottom: 30px;
+    }
+
+    .data-table .data-table-amount {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+
+  </style>
+
+  <style type="text/css" media="only screen and (max-width: 650px)">
+    @media only screen and (max-width: 650px) {
+      table[class*="w320"] {
         width: 320px !important;
       }
 
-      td[class="col-1"] {
+      td[class*="col-1"] {
         border: none;
       }
 
-      td[class='hide-for-mobile'] {
+      td[class*="hide-for-mobile"] {
         font-size: 0 !important; line-height: 0 !important; width: 0 !important;
         height: 0 !important; display: none !important;
       }
 
-      img[class="hide-for-desktop-image"]{
+      img[class*="hide-for-desktop-image"]{
         width: 176px !important;
         height: 135px !important;
         display:block !important;
         padding-left: 60px;
       }
 
-      td[class="hide-for-desktop-image"] {
+      td[class*="hide-for-desktop-image"] {
         width: 100% !important;
         display: block !important;
         text-align: right !important;
       }
 
-      td[class="hide-for-desktop-text"] {
+      td[class*="hide-for-desktop-text"] {
         display: block !important;
-        text-align: left !important;
+        text-align: center !important;
         font-size: 16px !important;
         height: 61px !important;
-        width: 100%;
-        border-bottom: 1px solid #D9DADA;
-        padding-bottom: 25px;
+        padding-top: 30px !important;
+        padding-bottom: 20px !important;
+        color: #89898D !important;
       }
 
-      td[class="mobile-padding"] {
+      td[class*="mobile-padding"] {
         padding-top: 15px;
+      }
+
+      td[class*="outer-padding"] {
+        padding: 0 !important;
+      }
+
+      td[class*="body-cell-left-pad"] {
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
 
@@ -154,66 +232,47 @@
 </head>
 
 <body class="body" style="padding:0 !important; margin:0 !important; display:block !important; background:#ffffff; -webkit-text-size-adjust:none" bgcolor="#ffffff">
-<table width="100%" border="0" cellspacing="0" cellpadding="50" bgcolor="#ffffff">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
 <tr>
-  <td valign="top" align="left">
+  <td class="outer-padding" valign="top" align="left">
   <center>
     <table class="w320" cellspacing="0" cellpadding="0" width="600">
       <tr>
 
-        <td>
-        <table cellspacing="0" cellpadding="0" width="100%">
-          <tr>
-            <td class="col-1">
+        <td class="col-1 hide-for-mobile">
 
-              <table cellspacing="0" cellpadding="0" width="100%">
-                <tr>
-                  <td class="hide-for-mobile" style="padding:30px 0 10px 0;">
-                    <img width="40" height="31" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
-                  </td>
-                </tr>
+          <table cellspacing="0" cellpadding="0" width="100%">
+            <tr>
+              <td class="hide-for-mobile" style="padding:30px 0 10px 0;">
+                <img width="40" height="31" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+              </td>
+            </tr>
 
-                <tr>
-                  <td class="hide-for-mobile"  height="150" valign="top" >
-                    <b>
-                      <span>Awesome Co</span>
-                      </b>
-                      <br>
-                      <span>1337 Swuby Lane Victoria, BC A1B 2C3</span>
-                  </td>
-                </tr>
+            <tr>
+              <td class="hide-for-mobile"  height="150" valign="top" >
+                <b>
+                  <span>Awesome Co</span>
+                  </b>
+                <br>
+                <span>1337 Swuby Lane Victoria, BC A1B 2C3</span>
+              </td>
+            </tr>
 
-                <tr>
-                  <td class="hide-for-mobile" style="height:180px; width:299px;">
-                    <img width="180" height="299"src="https://www.filepicker.io/api/file/3UaTJxcRScNj3PEVofl4" alt="large logo" />
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-        </table>
+            <tr>
+              <td class="hide-for-mobile" style="height:180px; width:299px;">
+                <img width="180" height="299"src="https://www.filepicker.io/api/file/3UaTJxcRScNj3PEVofl4" alt="large logo" />
+              </td>
+            </tr>
+          </table>
         </td>
 
         <td valign="top" class="col-2">
-          <table cellspacing="0" cellpadding="15" width="100%">
+          <table cellspacing="0" cellpadding="0" width="100%">
             <tr>
-              <td valign="top">
+              <td class="body-cell body-cell-left-pad">
                 <table cellspacing="0" cellpadding="0" width="100%">
                   <tr>
-                    <td style="padding:15px; padding-top:10px;">
-
-                      <table cellspacing="0" cellpadding="10" width="100%">
-                        <tr>
-                          <td class="hide-for-desktop-text">
-                          <b>
-                          <span>Awesome Co</span>
-                          </b>
-                          <br>
-                          <span>1337 Swuby Lane Victoria,<br/> BC A1B 2C3</span>
-                          <br/>
-                          </td>
-                        </tr>
-                      </table>
+                    <td>
 
 
                       <table cellspacing="0" cellpadding="10" width="100%">
@@ -270,13 +329,20 @@
 
                       <table cellspacing="0" cellpadding="0" width="100%">
                         <tr>
-                          <td style="text-align:center; padding:10px; padding-top:30px;">
+                          <td style="text-align:center;padding-top:30px;">
                             <img src="https://www.filepicker.io/api/file/F7k2y1vcTu2AVmcPTkPJ" alt="signature" />
                           </td>
                         </tr>
+                      </table>
+
+                      <table cellspacing="0" cellpadding="0" width="100%">
                         <tr>
-                          <td class="hide-for-desktop-image">
-                            <img class="hide-for-desktop-image" src="https://www.filepicker.io/api/file/GNoaqKTQX6VXtdvaywb1" alt="logo" />
+                          <td class="hide-for-desktop-text">
+                            <b>
+                              <span>Awesome Co</span>
+                            </b>
+                            <br>
+                            <span>1337 Swuby Lane<br>Victoria, BC A1B 2C3</span>
                           </td>
                         </tr>
                       </table>
