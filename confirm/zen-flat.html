@@ -61,20 +61,17 @@
       outline: none;
       text-decoration: none;
       -ms-interpolation-mode: bicubic;
-      max-width: 100%;
-      height: auto;
     }
 
     a img {
       border: none;
     }
 
-    body,
     .background {
       background-color: #333333;
     }
 
-    .background {
+    table.background {
       margin: 0;
       padding: 0;
       width: 100% !important;
@@ -106,9 +103,7 @@
     }
 
     .wrap {
-      max-width: 600px;
-      min-width: 240px;
-      margin: 0 auto;
+      width: 600px;
     }
 
     .wrap-cell {
@@ -143,33 +138,75 @@
       padding-bottom: 30px;
     }
 
+    .card {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .data-heading {
+      text-align: right;
+      padding: 10px;
+      background-color: #ffffff;
+      font-weight: bold;
+    }
+
+    .data-value {
+      text-align: left;
+      padding: 10px;
+      background-color: #ffffff;
+    }
+
+    .force-full-width {
+      width: 100% !important;
+    }
+
   </style>
   <style type="text/css" media="only screen and (max-width: 600px)">
     @media only screen and (max-width: 600px) {
-      table[class="wrap"] { width: 100% !important; }
-      td[class="wrap-cell"] { padding-top: 0 !important; padding-bottom: 0 !important; }
+      body[class*="background"],
+      table[class*="background"],
+      td[class*="background"] {
+        background: #eeeeee !important;
+      }
+
+      table[class="card"] {
+        width: auto !important;
+      }
+
+      td[class="data-heading"],
+      td[class="data-value"] {
+        display: block !important;
+        text-align: left !important;
+      }
+
+      table[class="wrap"] {
+        width: 100% !important;
+      }
+
+      td[class="wrap-cell"] {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
     }
   </style>
 </head>
 
-<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="">
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="" class="background">
   <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" class="background">
     <tr>
-      <td align="center" valign="top" bgcolor="" background="" width="100%">
+      <td align="center" valign="top" width="100%" class="background">
         <center>
           <table cellpadding="0" cellspacing="0" width="600" class="wrap">
             <tr>
               <td valign="top" class="wrap-cell" style="padding-top:30px; padding-bottom:30px;">
-                <table cellpadding="0" cellspacing="0" width="100%" class="header">
+                <table cellpadding="0" cellspacing="0" class="force-full-width">
                   <tr>
                    <td height="60" valign="top" class="header-cell">
                       <img width="196" height="60" src="https://www.filepicker.io/api/file/SU2YFOjPQzahL7orjBgl" alt="logo">
                     </td>
                   </tr>
-                </table>
-                <table cellpadding="0" cellspacing="0" width="100%" class="body" bgcolor="#ffffff">
                   <tr>
-                    <td valign="top" class="body-cell" style="padding-right:20px; padding-left:20px;">
+                    <td valign="top" class="body-cell">
                       <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
                         <tr>
                           <td valign="top" style="padding-bottom:20px; background-color:#ffffff;">
@@ -183,7 +220,7 @@
                             <tr>
                               <td align="center" style="padding:20px 0;">
                                 <center>
-                                  <table cellspacing="0" cellpadding="0" width="400">
+                                  <table cellspacing="0" cellpadding="0" class="card">
                                     <tr>
                                       <td style="background-color:green; text-align:center; padding:10px; color:white; ">
                                         Shipping Details
@@ -196,24 +233,25 @@
                                             <td>
                                               <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
                                                 <tr>
-                                                <td width="150" style="text-align:right; padding:10px; background-color:#ffffff;">
-                                                <b>Shipping Date:</b>
-                                                </td>
-                                                <td style="text-align:left; padding:10px; background-color:#ffffff;">
-                                                  January 4th, 2014
-                                                </td>
-                                              </tr>
-                                              <tr>
-                                                <td width="150" style="text-align:right; padding:10px; background-color:#ffffff;">
-                                                  <b>Shipping Address:</b>
-                                                </td>
-                                                <td style="text-align:left; padding:10px; background-color:#ffffff;">
-                                                  Lavender St<br>
-                                                  Victoria, BC<br>
-                                                  V8P 2W2
-                                                </td>
-                                              </tr>
-                                            </table>
+                                                  <td width="150" class="data-heading">
+                                                    Shipping Date:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    January 4th, 2014
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td width="150" class="data-heading">
+                                                    Shipping Address:
+                                                  </td>
+                                                  <td class="data-value">
+                                                    Lavender St<br>
+                                                    Victoria, BC<br>
+                                                    V8P 2W2
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                            </td>
                                           </tr>
                                         </table>
                                       </td>
@@ -234,11 +272,6 @@
                       </table>
                     </td>
                   </tr>
-                </table>
-
-
-
-                <table cellpadding="0" cellspacing="0" width="100%" class="footer">
                   <tr>
                     <td valign="top" class="footer-cell">
                       Awesome Co<br>
