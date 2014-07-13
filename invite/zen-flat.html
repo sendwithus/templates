@@ -57,24 +57,20 @@
     }
 
     img {
-      line-height: 100%;
       outline: none;
       text-decoration: none;
       -ms-interpolation-mode: bicubic;
-      max-width: 100%;
-      height: auto;
     }
 
     a img {
       border: none;
     }
 
-    body,
     .background {
       background-color: #333333;
     }
 
-    .background {
+    table.background {
       margin: 0;
       padding: 0;
       width: 100% !important;
@@ -106,9 +102,7 @@
     }
 
     .wrap {
-      max-width: 600px;
-      min-width: 240px;
-      margin: 0 auto;
+      width: 600px;
     }
 
     .wrap-cell {
@@ -143,31 +137,77 @@
       padding-bottom: 30px;
     }
 
+    .card {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .data-heading {
+      text-align: right;
+      padding: 10px;
+      background-color: #ffffff;
+      font-weight: bold;
+    }
+
+    .data-value {
+      text-align: left;
+      padding: 10px;
+      background-color: #ffffff;
+    }
+
+    .force-full-width {
+      width: 100% !important;
+    }
+
   </style>
   <style type="text/css" media="only screen and (max-width: 600px)">
     @media only screen and (max-width: 600px) {
-      table[class="wrap"] { width: 100% !important; }
-      td[class="wrap-cell"] { padding-top: 0 !important; padding-bottom: 0 !important; }
+      body[class*="background"],
+      table[class*="background"],
+      td[class*="background"] {
+        background: #eeeeee !important;
+      }
+
+      table[class="card"] {
+        width: auto !important;
+      }
+
+      td[class="data-heading"],
+      td[class="data-value"] {
+        display: block !important;
+      }
+
+      td[class="data-heading"] {
+        text-align: left !important;
+        padding: 10px 10px 0;
+      }
+
+      table[class="wrap"] {
+        width: 100% !important;
+      }
+
+      td[class="wrap-cell"] {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
     }
   </style>
 </head>
 
-<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="">
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" bgcolor="" class="background">
   <table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" class="background">
     <tr>
-      <td align="center" valign="top" bgcolor="" background="" width="100%">
+      <td align="center" valign="top" width="100%" class="background">
         <center>
           <table cellpadding="0" cellspacing="0" width="600" class="wrap">
             <tr>
-              <td valign="top" class="wrap-cell">
-                <table cellpadding="0" cellspacing="0" width="100%" class="header">
+              <td valign="top" class="wrap-cell" style="padding-top:30px; padding-bottom:30px;">
+                <table cellpadding="0" cellspacing="0" class="force-full-width">
                   <tr>
                    <td height="60" valign="top" class="header-cell">
                       <img width="196" height="60" src="https://www.filepicker.io/api/file/SU2YFOjPQzahL7orjBgl" alt="logo">
                     </td>
                   </tr>
-                </table>
-                <table cellpadding="0" cellspacing="0" width="100%" class="body" bgcolor="#ffffff">
                   <tr>
                     <td valign="top" class="body-cell">
                       <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
@@ -180,12 +220,14 @@
                       <table cellspacing="0" cellpadding="0" width="100%">
                         <tr>
                           <td>
-                            <table>
+                            <table cellpadding="0" cellspacing="0" width="82" height="82">
                                 <tr>
-                                  <td width="80" height="80" style="text-align:left;">
-                                    <a href=""><img style="border: 1px solid grey;" width="80" height="80" src="https://www.filepicker.io/api/file/OqRXT4JuRbmXSgbxccgK"></a>
+                                  <td style="text-align:left;border: 1px solid #808080;">
+                                    <img width="80" height="80" style="display:block" src="https://www.filepicker.io/api/file/OqRXT4JuRbmXSgbxccgK">
                                   </td>
                                 </tr>
+                              </table>
+                              <table cellpadding="0" cellspacing="0">
                                 <tr>
                                   <td style="font-size:12px; padding-top:5px; text-align:left;">
                                     User: <a style="color:blue;" href="">Jon Doe</a>
@@ -227,15 +269,12 @@
                           </td>
                         </tr>
                       </table>
-
                     </td>
                   </tr>
-                </table>
-                <table cellpadding="0" cellspacing="0" width="100%" class="footer">
                   <tr>
                     <td valign="top" class="footer-cell">
                       Awesome Co<br>
-                      the best company ever
+                      an Awesome Co Technologies, INC company
                     </td>
                   </tr>
                 </table>
