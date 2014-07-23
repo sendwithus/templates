@@ -11,7 +11,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/confirm.html",
           "image": "https://www.filepicker.io/api/file/SLbH3jOTSG6yX7yrGnRw",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/0bdd681/screenshots",
@@ -19,7 +19,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/invite.html",
           "image": "https://www.filepicker.io/api/file/G7gNHUQFTLSTF5qqSIU6",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/a5ea6dd/screenshots",
@@ -27,7 +27,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/invoice.html",
           "image": "https://www.filepicker.io/api/file/uuBDpnqyScWqIZ96Am1s",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/851d334/screenshots",
@@ -35,7 +35,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/ping.html",
           "image": "https://www.filepicker.io/api/file/6yPKVR1RQXGN6xdlPWHn",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/b1f5875/screenshots",
@@ -43,7 +43,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/progress.html",
           "image": "https://www.filepicker.io/api/file/PpqGNn9oSRG7GChhs7MO",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/d63bf43/screenshots",
@@ -51,7 +51,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/reignite.html",
           "image": "https://www.filepicker.io/api/file/bJSsrzrvRlCZZcfRebF1",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/9fc658c/screenshots",
@@ -59,7 +59,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/upsell.html",
           "image": "https://www.filepicker.io/api/file/hVrEcPUESaDeihOAcn9a",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/dadda27/screenshots",
@@ -67,7 +67,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/airmail.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/airmail.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/airmail/welcome.html",
           "image": "https://www.filepicker.io/api/file/0mPjvpkSL27GZI8bPt8K",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/426d364/screenshots",
@@ -81,7 +81,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/confirm.html",
           "image": "https://www.filepicker.io/api/file/EvyW8TAmR0S54AwTJauU",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_2_column.png",
           "test_url": "https://litmus.com/pub/d13446b/screenshots",
@@ -89,7 +89,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/invite.html",
           "image": "https://www.filepicker.io/api/file/tyiDWV54TtWrPl3Ji5oA",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/1eec5a0/screenshots",
@@ -97,7 +97,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/invoice.html",
           "image": "https://www.filepicker.io/api/file/veVYHj2BShuqmrjS0kIa",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/f799420/screenshots",
@@ -105,7 +105,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/ping.html",
           "image": "https://www.filepicker.io/api/file/dWSRN2f6SA6A9DHReA96",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/cad0bc8/screenshots",
@@ -113,7 +113,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/progress.html",
           "image": "https://www.filepicker.io/api/file/7O1W9U7gTFWnwcQdvTNO",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/7b14e06/screenshots",
@@ -121,7 +121,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/reignite.html",
           "image": "https://www.filepicker.io/api/file/NU2HQ8YyR9yOXTbOJDGe",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/206de25/screenshots",
@@ -129,7 +129,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/upsell.html",
           "image": "https://www.filepicker.io/api/file/vf9EPV38SHmJhEP1y6GW",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/8277a76/screenshots",
@@ -137,7 +137,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/cleave.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/cleave.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/cleave/welcome.html",
           "image": "https://www.filepicker.io/api/file/CtAIYcthQjimxSlPdtk5",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/9a759a7/screenshots",
@@ -151,7 +151,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/confirm.html",
           "image": "https://www.filepicker.io/api/file/k8UTZYobRfCiO9PULctA",
           "thumbnail": "https://www.filepicker.io/api/file/k8UTZYobRfCiO9PULctA",
           "test_url": "https://litmus.com/pub/e71e483/screenshots",
@@ -159,7 +159,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/invite.html",
           "image": "https://www.filepicker.io/api/file/py3UlSqZQIG9aaUKA3wb",
           "thumbnail": "https://www.filepicker.io/api/file/py3UlSqZQIG9aaUKA3wb",
           "test_url": "https://litmus.com/pub/b49d6a8/screenshots",
@@ -167,7 +167,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/invoice.html",
           "image": "https://www.filepicker.io/api/file/nYFlpb4ETfm9yrYfxALA",
           "thumbnail": "https://www.filepicker.io/api/file/nYFlpb4ETfm9yrYfxALA",
           "test_url": "https://litmus.com/pub/b579fd0/screenshots",
@@ -175,7 +175,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/ping.html",
           "image": "https://www.filepicker.io/api/file/vUIKhEDHQ36XyOinJnxn",
           "thumbnail": "https://www.filepicker.io/api/file/vUIKhEDHQ36XyOinJnxn",
           "test_url": "https://litmus.com/pub/df5bef6/screenshots",
@@ -183,7 +183,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/progress.html",
           "image": "https://www.filepicker.io/api/file/TrcNRfQdKm7dTMHAK4eA",
           "thumbnail": "https://www.filepicker.io/api/file/TrcNRfQdKm7dTMHAK4eA",
           "test_url": "https://litmus.com/pub/590f82a/screenshots",
@@ -191,7 +191,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/reignite.html",
           "image": "https://www.filepicker.io/api/file/Wep0L1XORUO62V2mGURA",
           "thumbnail": "https://www.filepicker.io/api/file/Wep0L1XORUO62V2mGURA",
           "test_url": "https://litmus.com/pub/92e39c0/screenshots",
@@ -199,7 +199,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/upsell.html",
           "image": "https://www.filepicker.io/api/file/7ADjAffpSeg7T5AzaGeO",
           "thumbnail": "https://www.filepicker.io/api/file/7ADjAffpSeg7T5AzaGeO",
           "test_url": "https://litmus.com/pub/e677379/screenshots",
@@ -207,7 +207,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/go.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/go.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/go/welcome.html",
           "image": "https://www.filepicker.io/api/file/4eot1VHsRLudKlxUuoax",
           "thumbnail": "https://www.filepicker.io/api/file/4eot1VHsRLudKlxUuoax",
           "test_url": "https://litmus.com/pub/afb27e1/screenshots",
@@ -221,7 +221,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/confirm.html",
           "image": "https://www.filepicker.io/api/file/J6tSUr8QHarnbi1BBkKQ",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_metro.png",
           "test_url": "https://litmus.com/pub/0336c44/screenshots",
@@ -229,7 +229,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/invite.html",
           "image": "https://www.filepicker.io/api/file/rtXTYazjS72UDKzUycup",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/a426d45/screenshots",
@@ -237,7 +237,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/invoice.html",
           "image": "https://www.filepicker.io/api/file/WcJdzW1SbSnLH1OG5K0g",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/bcf6c17/screenshots",
@@ -245,7 +245,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/ping.html",
           "image": "https://www.filepicker.io/api/file/XqNGS6l1TLuqkbj64Ds2",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/d873265/screenshots",
@@ -253,7 +253,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/progress.html",
           "image": "https://www.filepicker.io/api/file/KkcNhD9SDqzcHMXROsHI",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/495e494/screenshots",
@@ -261,7 +261,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/reignite.html",
           "image": "https://www.filepicker.io/api/file/N3oq9G4TQ16nazsoTVUA",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/43b09dc/screenshots",
@@ -269,7 +269,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/upsell.html",
           "image": "https://www.filepicker.io/api/file/r3BNAB5yRv20qYhV8Xwb",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/7cbd8da/screenshots",
@@ -277,7 +277,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/narrative.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/narrative.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/narrative/welcome.html",
           "image": "https://www.filepicker.io/api/file/PdWQsj1kTymCnBwdBBst",
           "thumbnail": "https://d16dj8pvh3duka.cloudfront.net/img/etpl/theme_preview_airmail.png",
           "test_url": "https://litmus.com/pub/0e27058/screenshots",
@@ -291,7 +291,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/confirm.html",
           "image": "https://www.filepicker.io/api/file/KL5ZJFrjTFuR0P6KbLbU",
           "thumbnail": "https://www.filepicker.io/api/file/KL5ZJFrjTFuR0P6KbLbU",
           "test_url": "https://litmus.com/pub/6ae08c0/screenshots",
@@ -299,7 +299,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/invite.html",
           "image": "https://www.filepicker.io/api/file/lcKe68TaeKW6pAsn4YWA",
           "thumbnail": "https://www.filepicker.io/api/file/lcKe68TaeKW6pAsn4YWA",
           "test_url": "https://litmus.com/pub/effde1e/screenshots",
@@ -307,7 +307,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/invoice.html",
           "image": "https://www.filepicker.io/api/file/VE1ShjHDRmekGhHnjCSO",
           "thumbnail": "https://www.filepicker.io/api/file/VE1ShjHDRmekGhHnjCSO",
           "test_url": "https://litmus.com/pub/d5d4445/screenshots",
@@ -315,7 +315,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/ping.html",
           "image": "https://www.filepicker.io/api/file/Ec8XyHhPQ9eNr5Rs42Y2",
           "thumbnail": "https://www.filepicker.io/api/file/Ec8XyHhPQ9eNr5Rs42Y2",
           "test_url": "https://litmus.com/pub/37d93a6/screenshots",
@@ -323,7 +323,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/progress.html",
           "image": "https://www.filepicker.io/api/file/Q6AFQOR4yAp0ZcYzdaxw",
           "thumbnail": "https://www.filepicker.io/api/file/Q6AFQOR4yAp0ZcYzdaxw",
           "test_url": "https://litmus.com/pub/96e1885/screenshots",
@@ -331,7 +331,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/reignite.html",
           "image": "https://www.filepicker.io/api/file/SGGVMSCQyCRqzMsHufjQ",
           "thumbnail": "https://www.filepicker.io/api/file/SGGVMSCQyCRqzMsHufjQ",
           "test_url": "https://litmus.com/pub/0878247/screenshots",
@@ -339,7 +339,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/upsell.html",
           "image": "https://www.filepicker.io/api/file/xa6aChdTUThsXN0YETQw",
           "thumbnail": "https://www.filepicker.io/api/file/xa6aChdTUThsXN0YETQw",
           "test_url": "https://litmus.com/pub/0bb0afe/screenshots",
@@ -347,7 +347,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/neopolitan.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/neopolitan.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/neopolitan/welcome.html",
           "image": "https://www.filepicker.io/api/file/5mxuaGNQQtSlG8Tp2EXB",
           "thumbnail": "https://www.filepicker.io/api/file/5mxuaGNQQtSlG8Tp2EXB",
           "test_url": "https://litmus.com/pub/d6765fd/screenshots",
@@ -361,7 +361,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/confirm.html",
           "image": "https://www.filepicker.io/api/file/YGncYIkFRxOtYKYXMavZ",
           "thumbnail": "https://www.filepicker.io/api/file/YGncYIkFRxOtYKYXMavZ",
           "test_url": "https://litmus.com/pub/6c8a090/screenshots",
@@ -369,7 +369,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/invite.html",
           "image": "https://www.filepicker.io/api/file/ZA0NzD9dSESSMtYYwrdN",
           "thumbnail": "https://www.filepicker.io/api/file/ZA0NzD9dSESSMtYYwrdN",
           "test_url": "https://litmus.com/pub/0e833b3/screenshots",
@@ -377,7 +377,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/invoice.html",
           "image": "https://www.filepicker.io/api/file/iR0iJaqQSKmvFR7Qx0jp",
           "thumbnail": "https://www.filepicker.io/api/file/iR0iJaqQSKmvFR7Qx0jp",
           "test_url": "https://litmus.com/pub/bd87cb8/screenshots",
@@ -385,7 +385,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/ping.html",
           "image": "https://www.filepicker.io/api/file/k9GTEtTQ7isksQ0bKT6k",
           "thumbnail": "https://www.filepicker.io/api/file/k9GTEtTQ7isksQ0bKT6k",
           "test_url": "https://litmus.com/pub/49afc3c/screenshots",
@@ -393,7 +393,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/progress.html",
           "image": "https://www.filepicker.io/api/file/uy1fD65jTVK7IPbNJKUS",
           "thumbnail": "https://www.filepicker.io/api/file/uy1fD65jTVK7IPbNJKUS",
           "test_url": "https://litmus.com/pub/906b799/screenshots",
@@ -401,7 +401,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/reignite.html",
           "image": "https://www.filepicker.io/api/file/PFBrcgjhT8mHtt0qAH4a",
           "thumbnail": "https://www.filepicker.io/api/file/PFBrcgjhT8mHtt0qAH4a",
           "test_url": "https://litmus.com/pub/cb2f984/screenshots",
@@ -409,7 +409,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/upsell.html",
           "image": "https://www.filepicker.io/api/file/yEFcLyqASzy6wNhDGK3X",
           "thumbnail": "https://www.filepicker.io/api/file/yEFcLyqASzy6wNhDGK3X",
           "test_url": "https://litmus.com/pub/d19e4f3/screenshots",
@@ -417,7 +417,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/skyline.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/skyline.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/skyline/welcome.html",
           "image": "https://www.filepicker.io/api/file/tX320JiZS1OGI2cY6Aw1",
           "thumbnail": "https://www.filepicker.io/api/file/tX320JiZS1OGI2cY6Aw1",
           "test_url": "https://litmus.com/pub/dfa156a/screenshots",
@@ -431,7 +431,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/confirm.html",
           "image": "https://www.filepicker.io/api/file/FG0bLYoWTCCKUpk9j2K3",
           "thumbnail": "https://www.filepicker.io/api/file/FG0bLYoWTCCKUpk9j2K3",
           "test_url": "https://litmus.com/pub/540269e/screenshots",
@@ -439,7 +439,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/invite.html",
           "image": "https://www.filepicker.io/api/file/M7kqdMpxToGjKjpHtZpV",
           "thumbnail": "https://www.filepicker.io/api/file/M7kqdMpxToGjKjpHtZpV",
           "test_url": "https://litmus.com/pub/043cd51/screenshots",
@@ -447,7 +447,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/invoice.html",
           "image": "https://www.filepicker.io/api/file/L4t7Hb9IQjGKFGetWDmz",
           "thumbnail": "https://www.filepicker.io/api/file/L4t7Hb9IQjGKFGetWDmz",
           "test_url": "https://litmus.com/pub/34d7d47/screenshots",
@@ -455,7 +455,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/ping.html",
           "image": "https://www.filepicker.io/api/file/QsOvFoNTDCEmuXMBLaZw",
           "thumbnail": "https://www.filepicker.io/api/file/QsOvFoNTDCEmuXMBLaZw",
           "test_url": "https://litmus.com/pub/b52613a/screenshots",
@@ -463,7 +463,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/progress.html",
           "image": "https://www.filepicker.io/api/file/T6TtOtARS8wBQdebC2Uw",
           "thumbnail": "https://www.filepicker.io/api/file/T6TtOtARS8wBQdebC2Uw",
           "test_url": "https://litmus.com/pub/0768f5f/screenshots",
@@ -471,7 +471,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/reignite.html",
           "image": "https://www.filepicker.io/api/file/zlFlHfGRBCuPMOzWUB8g",
           "thumbnail": "https://www.filepicker.io/api/file/zlFlHfGRBCuPMOzWUB8g",
           "test_url": "https://litmus.com/pub/e4adf0a/screenshots",
@@ -479,7 +479,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/upsell.html",
           "image": "https://www.filepicker.io/api/file/gi39jVpBRN6F6UJFISUH",
           "thumbnail": "https://www.filepicker.io/api/file/gi39jVpBRN6F6UJFISUH",
           "test_url": "https://litmus.com/pub/514fa25/screenshots",
@@ -487,7 +487,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/sunday.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/sunday.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/sunday/welcome.html",
           "image": "https://www.filepicker.io/api/file/nhuM2SNpTz67sXMPjmrU",
           "thumbnail": "https://www.filepicker.io/api/file/nhuM2SNpTz67sXMPjmrU",
           "test_url": "https://litmus.com/pub/af9ab571/screenshots",
@@ -501,7 +501,7 @@
       "templates": [
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/confirm/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/confirm/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/confirm-flat.html",
           "image": "https://www.filepicker.io/api/file/T1tAxQzSKGQFwTjfNeNH",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/76cb26b/screenshots",
@@ -509,7 +509,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invite/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invite/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/invite-flat.html",
           "image": "https://www.filepicker.io/api/file/RULLAfBQhS0SNCb5diIw",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/5a5078e/screenshots",
@@ -517,7 +517,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/invoice/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/invoice/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/invoice-flat.html",
           "image": "https://www.filepicker.io/api/file/KdecgjLCTQeaFlGXNbVv",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/2cda368/screenshots",
@@ -525,7 +525,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/ping/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/ping/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/ping-flat.html",
           "image": "https://www.filepicker.io/api/file/Egr3gVszRW24ySieCuvr",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/4b68596/screenshots",
@@ -533,7 +533,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/progress/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/progress/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/progress-flat.html",
           "image": "https://www.filepicker.io/api/file/7PvaG54SKakE8ZFqBsQh",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/a4e1289/screenshots",
@@ -541,7 +541,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/reignite/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/reignite/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/reignite-flat.html",
           "image": "https://www.filepicker.io/api/file/ZhDrRAxQe6U4lo1uh0xg",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/aa95bd5/screenshots",
@@ -549,7 +549,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/upsell/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/upsell/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/upsell-flat.html",
           "image": "https://www.filepicker.io/api/file/FNXKyRIKTjqjXEZPGtXC",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/1cb3843/screenshots",
@@ -557,7 +557,7 @@
         },
         {
           "download_url": "https://raw.githubusercontent.com/sendwithus/templates/master/welcome/zen-flat.html",
-          "contrib_url": "https://github.com/sendwithus/templates/edit/master/welcome/zen-flat.html",
+          "contrib_url": "https://github.com/sendwithus/templates/edit/master/templates/zen/welcome-flat.html",
           "image": "https://www.filepicker.io/api/file/mDUovpmSH21StHOElZAt",
           "thumbnail": "https://www.filepicker.io/api/file/JGTE640TY2bMMju3gx5A",
           "test_url": "https://litmus.com/pub/f560666/screenshots",
