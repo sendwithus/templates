@@ -2,7 +2,7 @@
   "themes": [
     {
       "title": "neopolitan",
-      "description": "Neopolitan is a lightweight powerhouse that’s perfect for mobile devices. Its clean, minimal style is great for every type of transactional email. ",
+      "description": "Neopolitan is a lightweight powerhouse that’s perfect for mobile devices. Its clean, minimal style is great for every type of transactional email." ,
       "templates": [
         {
           "title": "confirm",
@@ -94,7 +94,7 @@
     },
     {
       "title": "go",
-      "description": "Go is flexible two-column template with a simple, flat design meant to highlight your email’s call-to-action and social media links.",
+      "description": "Go is flexible two-column template with a simple, flat design meant to highlight your email’s call-to-action and social media links." ,
       "templates": [
         {
           "title": "confirm",
@@ -143,7 +143,7 @@
     },
     {
       "title": "sunday",
-      "description": "Sunday is a clean and modern email template for desktop and mobile, great for updates, receipts, and promotions.",
+      "description": "Sunday is a clean and modern email template for desktop and mobile, great for updates, receipts, and promotions." ,
       "templates": [
         {
           "title": "confirm",
