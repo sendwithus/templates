@@ -1,17 +1,16 @@
 Open Source Template Project
 =========
 
-The Sendwithus Open Source Template Project is a collection of free email templates created and managed by the sendwithus team and community.
+The [Sendwithus Open Source Template Project](https://www.sendwithus.com/resources/templates) is a collection of free email templates created and managed by the sendwithus team and community.
 
 Anyone may contribute new themes and templates, or make impactful updates to the existing ones.
 
-Links:
 - [Browse and Download Templates](https://www.sendwithus.com/resources/templates)
 - [Learn More About The Open Source Template Project](https://www.sendwithus.com/resources/templates/about)
 
 Managed and Maintained by [sendwithus.com](https://www.sendwithus.com).
 
-### Contributing
+## Contributing
 
 All pull requests are welcome, whether you're submitting a brand new theme or tweaking the look and feel of an existing one, send it our way. We want to see it.
 
