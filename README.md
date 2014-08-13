@@ -8,6 +8,8 @@ Anyone may contribute new themes and templates, or make impactful updates to the
 - [Browse and Download Templates](https://www.sendwithus.com/resources/templates)
 - [Learn More About The Open Source Template Project](https://www.sendwithus.com/resources/templates/about)
 
+For best results with inlining, use the same version of [premailer](https://github.com/sendwithus/premailer/tree/4b40a7fb2e56f369f82b5ea2a0e35d9aba8baecb) that we do.
+
 Managed and Maintained by [sendwithus.com](https://www.sendwithus.com).
 
 ## Contributing
