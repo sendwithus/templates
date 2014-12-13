@@ -417,7 +417,7 @@
       "description": "",
       "templates": [
         {
-          "title": "confirm",
+          "title": "plain",
           "image_url": "https://www.filepicker.io/api/file/ni9VWH2vTN2l7pBubvJG",
           "litmus_url": "https://litmus.com/pub/680e295/screenshots"
         }
