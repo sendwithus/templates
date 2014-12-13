@@ -411,6 +411,17 @@
           "litmus_url": "https://litmus.com/pub/f560666/screenshots"
         }
       ]
+    },
+    {
+      "title": "plain-jane",
+      "description": "",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://www.filepicker.io/api/file/ni9VWH2vTN2l7pBubvJG",
+          "litmus_url": "https://litmus.com/pub/680e295/screenshots"
+        }
+      ]
     }
   ]
 }
