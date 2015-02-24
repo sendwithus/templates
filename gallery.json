@@ -1,6 +1,57 @@
 {
   "themes": [
     {
+      "title": "oxygen",
+      "description": "Oxygen is a modern, fresh design that can incorporate any brand and work for every type of transactional email.",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/WYWd0GAUTRSINU7Ifk1E_confirm.jpg",
+          "litmus_url": "https://litmus.com/pub/909e54f/screenshots"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/DVxhnNowQha4JJajcAn9_invite.jpg",
+          "litmus_url": "https://litmus.com/pub/00aaf1e/screenshots"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/AZxkDqnsTp6mWFP3xtET_invoice.jpg",
+          "litmus_url": "https://litmus.com/pub/4911554/screenshots"
+        },
+        {
+          "title": "ping",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/OLqQkRbeQGC5gi2abFpN_ping.jpg",
+          "litmus_url": "https://litmus.com/pub/690e1bd/screenshots"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/HQE7dlTETEieg295a4jN_progress.jpg",
+          "litmus_url": "https://litmus.com/pub/852a932/screenshots"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/R0jmXOT2g3HSczlVFwAZ_reignite.jpg",
+          "litmus_url": "https://litmus.com/pub/cf4d4ce/screenshots"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/she3eogQIiIjHJ4rySwy_survey.jpg",
+          "litmus_url": "https://litmus.com/pub/3afe4c1/screenshots"
+        },
+        {
+          "title": "upsell",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/O4zRrhyWQuGuysEstSkL_upsell.jpg",
+          "litmus_url": "https://litmus.com/pub/6e3329a/screenshots"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://s3.amazonaws.com/swu-filepicker/2RwX33oARNmqP4qEmtfg_welcome.jpg",
+          "litmus_url": "https://litmus.com/pub/c45d48a/screenshots"
+        }
+      ]
+    },
+    {
       "title": "neopolitan",
       "description": "Neopolitan is a lightweight powerhouse that’s perfect for mobile devices. Its clean, minimal style is great for every type of transactional email." ,
       "templates": [
@@ -58,7 +109,7 @@
         {
           "title": "confirm",
           "image_url": "https://www.filepicker.io/api/file/YGncYIkFRxOtYKYXMavZ",
-          "litmus_url": "https://litmus.com/pub/6c8a090/screenshots"
+          "litmus_url": "https://litmus.com/pub/146794c/screenshots"
         },
         {
           "title": "invite",
@@ -409,6 +460,17 @@
           "title": "welcome",
           "image_url": "https://www.filepicker.io/api/file/mDUovpmSH21StHOElZAt",
           "litmus_url": "https://litmus.com/pub/f560666/screenshots"
+        }
+      ]
+    },
+    {
+      "title": "plain-jane",
+      "description": "",
+      "templates": [
+        {
+          "title": "plain",
+          "image_url": "https://www.filepicker.io/api/file/ni9VWH2vTN2l7pBubvJG",
+          "litmus_url": "https://litmus.com/pub/680e295/screenshots"
         }
       ]
     }
