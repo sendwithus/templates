@@ -23,3 +23,10 @@ Pull requests are welcome. Whether you're submitting a brand new theme or tweaki
 Don’t have a Github account? Send your template designs directly to us at [community@sendwithus.com](mailto:community@sendwithus.com) and we’ll feature them on our resources page.
 
 Any contributions are made under the contribution terms of the Apahce 2.0 license.
+
+## Notes
+Some email platforms aren't compatible with `@import` statements. Simply switch the `@import` to an html `<link>` to fix. EG:
+
+```html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:400,700">
+```
