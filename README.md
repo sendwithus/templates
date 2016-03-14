@@ -29,5 +29,17 @@ Any contributions are made under the contribution terms of the Apahce 2.0 licens
 Some email platforms aren't compatible with `@import` statements. Simply switch the `@import` to an html `<link>` to fix. EG:
 
 ```html
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen:400,700">
+<!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+    <!--[if mso]>
+        <style>
+            * {
+                font-family: sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+
+    <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+    <!--[if !mso]><!-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <!--<![endif]-->
 ```
