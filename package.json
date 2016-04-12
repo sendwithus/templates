@@ -1,14 +1,14 @@
 {
-  "name": "foundation-emails-template",
+  "name": "fork-foundation-emails-template",
   "version": "1.0.0",
-  "description": "Basic template for a Foundation for Emails project.",
-  "repository": "zurb/foundation-emails-template",
+  "description": "Fork of zurb foundation to generate open source templates.",
+  "repository": "sendwithus/templates",
   "main": "gulpfile.babel.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp --production"
+    "build": "gulp build --production"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "sendwithus <us@sendwithus.com>",
   "license": "MIT",
   "dependencies": {
     "foundation-emails": "2.0.0"
