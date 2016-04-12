@@ -1,6 +1,57 @@
 {
   "themes": [
     {
+      "title": "meow",
+      "description": "Meow is a simple theme that places emphasize on a large header and concise messaging, features new digest email layouts.",
+      "templates": [
+        {
+          "title": "confirmation",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "coupon",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "receipt",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "digest-left",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "digest-right",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "progress",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "survey",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "welcome",
+          "image_url": "",
+          "litmus_url": ""
+        }, 
+        {
+          "title": "two-column",
+          "image_url": "",
+          "litmus_url": ""
+        }
+      ]
+    },
+    {
       "title": "oxygen",
       "description": "Oxygen is a modern, fresh design that can incorporate any brand and work for every type of transactional email.",
       "templates": [
