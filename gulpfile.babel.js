@@ -13,10 +13,11 @@ const $ = plugins();
 
 // Look for the --production flag
 const PRODUCTION = !!(yargs.argv.production);
+const TEMPLATE_DIR = 'templates/meow';
 
 // Build the "dist" folder by running all of the above tasks
 gulp.task('build',
-  gulp.series(clean, pages, sass, images, inline));
+  gulp.series(clean, swuify, sass, inline, images));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
@@ -25,7 +26,8 @@ gulp.task('default',
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
-  rimraf('dist', done);
+  //rimraf('dist', done);
+  rimraf(TEMPLATE_DIR, done);
 }
 
 // Compile layouts, pages, and partials into flat HTML files
@@ -40,6 +42,20 @@ function pages() {
     }))
     .pipe(inky())
     .pipe(gulp.dest('dist'));
+}
+
+// Get templates ready for SWU Resources
+// Merge pages and dump in templates digest folder
+function swuify() {
+  return gulp.src('src/pages/**/*.html')
+    .pipe(panini({
+      root: 'src/pages',
+      layouts: 'src/layouts',
+      partials: 'src/partials',
+      helpers: 'src/helpers'
+    }))
+    .pipe(inky())
+    .pipe(gulp.dest(TEMPLATE_DIR));
 }
 
 // Reset Panini's cache of layouts and partials
@@ -68,25 +84,34 @@ function images() {
 
 // Inline CSS and minify HTML
 function inline() {
-  return gulp.src('dist/**/*.html')
-    .pipe($.if(PRODUCTION, inliner('dist/css/app.css')))
-    .pipe(gulp.dest('dist'));
+  return gulp.src(TEMPLATE_DIR + '/*.html')
+    .pipe(mergeCss('dist/css/app.css'))
+    .pipe(gulp.dest(TEMPLATE_DIR));
 }
 
 // Start a server with LiveReload to preview the site in
 function server(done) {
   browser.init({
-    server: 'dist'
+    server: TEMPLATE_DIR
   });
   done();
 }
 
 // Watch for file changes
 function watch() {
-  gulp.watch('src/pages/**/*.html', gulp.series(pages, inline, browser.reload));
-  gulp.watch(['src/layouts/**/*', 'src/partials/**/*'], gulp.series(resetPages, pages, inline, browser.reload));
-  gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'], gulp.series(sass, pages, inline, browser.reload));
+  gulp.watch('src/pages/**/*.html', gulp.series(swuify, sass, inline, browser.reload));
+  gulp.watch(['src/layouts/**/*', 'src/partials/**/*'], gulp.series(resetPages, swuify, sass, inline, browser.reload));
+  //gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'], gulp.series(sass, swuify, inline, browser.reload));
   gulp.watch('src/assets/img/**/*', gulp.series(images, browser.reload));
+}
+
+function mergeCss(css) {
+  var css = fs.readFileSync(css).toString();
+
+  var pipe = lazypipe()
+  .pipe($.injectString.replace, '<!-- <style> -->', `<style type="text/css">${css}</style>`);
+
+  return pipe();
 }
 
 // Inlines CSS into HTML, adds media query CSS into the <style> tag of the email, and compresses the HTML
