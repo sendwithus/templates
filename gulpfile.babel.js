@@ -101,7 +101,7 @@ function server(done) {
 function watch() {
   gulp.watch('src/pages/**/*.html', gulp.series(swuify, sass, inline, browser.reload));
   gulp.watch(['src/layouts/**/*', 'src/partials/**/*'], gulp.series(resetPages, swuify, sass, inline, browser.reload));
-  //gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'], gulp.series(sass, swuify, inline, browser.reload));
+  gulp.watch(['../scss/**/*.scss', 'src/assets/scss/**/*.scss'], gulp.series(sass, swuify, inline, browser.reload));
   gulp.watch('src/assets/img/**/*', gulp.series(images, browser.reload));
 }
 
