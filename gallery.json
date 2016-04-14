@@ -6,47 +6,47 @@
       "templates": [
         {
           "title": "confirmation",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/confirmation.png",
           "litmus_url": ""
         }, 
         {
           "title": "coupon",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/coupon.png",
           "litmus_url": ""
         }, 
         {
           "title": "receipt",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/receipt.png",
           "litmus_url": ""
         }, 
         {
           "title": "digest-left",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-left.png",
           "litmus_url": ""
         }, 
         {
           "title": "digest-right",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-right.png",
           "litmus_url": ""
         }, 
         {
           "title": "progress",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/progress.png",
           "litmus_url": ""
         }, 
         {
           "title": "survey",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/survey.png",
           "litmus_url": ""
         }, 
         {
           "title": "welcome",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/welcome.png",
           "litmus_url": ""
         }, 
         {
           "title": "two-column",
-          "image_url": "",
+          "image_url": "https://wwww.sendwithus.com/assets/img/meow/two-column.png",
           "litmus_url": ""
         }
       ]
