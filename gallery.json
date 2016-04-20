@@ -2,7 +2,7 @@
   "themes": [
     {
       "title": "meow",
-      "description": "Meow is a simple theme built with <a href='#'>Foundation for Emails</a> by Zurb. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about reponsive email design at the <a href='#'>Reponsive Email Master Class</a> by Zurb University.",
+      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by Zurb. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about reponsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Reponsive Email Master Class</a> by Zurb University.",
       "templates": [
         {
           "title": "confirmation",
