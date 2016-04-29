@@ -2,52 +2,52 @@
   "themes": [
     {
       "title": "meow",
-      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by Zurb. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about reponsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Reponsive Email Master Class</a> by Zurb University.",
+      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by ZURB. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about reponsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Reponsive Email Master Class</a> by ZURB University.",
       "templates": [
         {
           "title": "confirmation",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/confirmation.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/af46e10"
         }, 
         {
           "title": "coupon",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/coupon.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/4360468"
         }, 
         {
           "title": "receipt",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/receipt.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/73042e6"
         }, 
         {
           "title": "digest-left",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-left.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/bab421d"
         }, 
         {
           "title": "digest-right",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-right.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/a61d599"
         }, 
         {
           "title": "progress",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/progress.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/698f6a7"
         }, 
         {
           "title": "survey",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/survey.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/43b00ae"
         }, 
         {
           "title": "welcome",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/welcome.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/0956101"
         }, 
         {
           "title": "two-column",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/two-column.png",
-          "litmus_url": ""
+          "litmus_url": "https://litmus.com/checklist/emails/public/34a2415"
         }
       ]
     },
