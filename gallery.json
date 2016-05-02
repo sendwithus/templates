@@ -516,7 +516,7 @@
     },
     {
       "title": "plain-jane",
-      "description": "",
+      "description": "An example of a plain text email, because sometimes that's all you need.",
       "templates": [
         {
           "title": "plain",
