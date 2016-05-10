@@ -2,7 +2,7 @@
   "themes": [
     {
       "title": "meow",
-      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by ZURB. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about reponsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Reponsive Email Master Class</a> by ZURB University.",
+      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by ZURB. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about responsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Responsive Email Master Class</a> by ZURB University.",
       "templates": [
         {
           "title": "confirmation",
@@ -568,7 +568,7 @@
     },
     {
       "title": "plain-jane",
-      "description": "",
+      "description": "An example of a plain text email, because sometimes that's all you need.",
       "templates": [
         {
           "title": "plain",
