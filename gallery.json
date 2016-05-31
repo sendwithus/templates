@@ -1,6 +1,57 @@
 {
   "themes": [
     {
+      "title": "goldstar",
+      "description": "Goldstar is a premium template theme from our friends at <a href='http://www.mailbakery.com'>MailBakery</a>. It features a classic style and a unique birthday template.",
+      "templates": [
+        {
+          "title": "confirm",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/confirm.png",
+          "litmus_url": "https://litmus.com/pub/a3b95f6"
+        },
+        {
+          "title": "birthday",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/birthday.png",
+          "litmus_url": "https://litmus.com/pub/8e95e27"
+        },
+        {
+          "title": "invite",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invite.png",
+          "litmus_url": "https://litmus.com/pub/2af0a6a"
+        },
+        {
+          "title": "invoice",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invoice.png",
+          "litmus_url": "https://litmus.com/pub/d5c2f0d"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/progress.png",
+          "litmus_url": "https://litmus.com/pub/f2e37fd"
+        },
+        {
+          "title": "reignite",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/reignite.png",
+          "litmus_url": "https://litmus.com/pub/8e4048b"
+        },
+        {
+          "title": "survey",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/survey.png",
+          "litmus_url": "https://litmus.com/pub/5c9189b"
+        },
+        {
+          "title": "update",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/update.png",
+          "litmus_url": "https://litmus.com/pub/9702488"
+        },
+        {
+          "title": "welcome",
+          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/welcome.png",
+          "litmus_url": "https://litmus.com/pub/c82a9a4"
+        }
+      ]
+    },
+    {
       "title": "meow",
       "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by ZURB. It emphasizes a large header image and a unique digest layout.<br><br> Learn more about responsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Responsive Email Master Class</a> by ZURB University.",
       "templates": [
@@ -511,58 +562,6 @@
           "title": "welcome",
           "image_url": "https://www.filepicker.io/api/file/mDUovpmSH21StHOElZAt",
           "litmus_url": "https://litmus.com/pub/8e9eb16"
-        }
-      ]
-    },
-
-    {
-      "title": "goldstar",
-      "description": "Goldstar is a premium template from our friends at <a href='http://www.mailbakery.com'>MailBakery</a>. It features a classic style and a unique birthday template.",
-      "templates": [
-        {
-          "title": "confirm",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/confirm.png",
-          "litmus_url": "https://litmus.com/pub/a3b95f6"
-        },
-        {
-          "title": "birthday",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/birthday.png",
-          "litmus_url": "https://litmus.com/pub/8e95e27"
-        },
-        {
-          "title": "invite",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invite.png",
-          "litmus_url": "https://litmus.com/pub/2af0a6a"
-        },
-        {
-          "title": "invoice",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invoice.png",
-          "litmus_url": "https://litmus.com/pub/d5c2f0d"
-        },
-        {
-          "title": "progress",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/progress.png",
-          "litmus_url": "https://litmus.com/pub/f2e37fd"
-        },
-        {
-          "title": "reignite",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/reignite.png",
-          "litmus_url": "https://litmus.com/pub/8e4048b"
-        },
-        {
-          "title": "survey",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/survey.png",
-          "litmus_url": "https://litmus.com/pub/5c9189b"
-        },
-        {
-          "title": "update",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/update.png",
-          "litmus_url": "https://litmus.com/pub/9702488"
-        },
-        {
-          "title": "welcome",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/welcome.png",
-          "litmus_url": "https://litmus.com/pub/c82a9a4"
         }
       ]
     },
