@@ -9,7 +9,7 @@ Anyone may contribute new themes and templates, or make impactful updates to the
 - [Learn More About The Open Source Template Project](https://www.sendwithus.com/resources/templates/about)
 
 ## Use with CSS Inliner
-To achieve the best compatibility, use a css inliner like [premailer](https://github.com/peterbe/premailer/).
+To achieve the best compatibility, use a css inliner like [premailer](https://github.com/peterbe/premailer/) or the [Sendwithus CSS Inliner](https://www.sendwithus.com/resources/inliner).
 
 Managed and Maintained by [sendwithus.com](https://www.sendwithus.com).
 
@@ -23,7 +23,7 @@ Pull requests are welcome. Whether you're submitting a brand new theme or tweaki
 
 Don’t have a Github account? Send your template designs directly to us at [community@sendwithus.com](mailto:community@sendwithus.com) and we’ll feature them on our resources page.
 
-Any contributions are made under the contribution terms of the Apahce 2.0 license.
+Any contributions are made under the contribution terms of the Apache 2.0 license.
 
 ## Notes
 Some email platforms aren't compatible with `@import` statements. Simply switch the `@import` to an html `<link>` to fix. EG:
