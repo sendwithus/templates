@@ -103,6 +103,27 @@
       ]
     },
     {
+      "title": "cerberus",
+      "description": "Cerberus is an execellent starter template with really informative comments by<a href='http://tedgoas.github.io/Cerberus/'>Ted Goas</a>",
+      "templates": [
+        {
+          "title": "fluid",
+          "image_url": "https://wwww.sendwithus.com/assets/img/cerberus/fluid.png",
+          "litmus_url": "https://litmus.com/checklist/emails/public/bfb6328"
+        }, 
+        {
+          "title": "hybrid",
+          "image_url": "https://wwww.sendwithus.com/assets/img/cerberus/hybrid.png",
+          "litmus_url": "https://litmus.com/checklist/emails/public/1df1adc"
+        }, 
+        {
+          "title": "responsive",
+          "image_url": "https://wwww.sendwithus.com/assets/img/cerberus/responsive.png",
+          "litmus_url": "https://litmus.com/checklist/emails/public/09806a7"
+        }
+      ]
+    },
+    {
       "title": "oxygen",
       "description": "Oxygen is a modern, fresh design that can incorporate any brand and work for every type of transactional email.",
       "templates": [
