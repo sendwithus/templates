@@ -2,7 +2,7 @@
   "themes": [
     {
       "title": "goldstar",
-      "description": "Goldstar is a premium template theme from our friends at <a href='http://www.mailbakery.com'>MailBakery</a>. It features a classic style and a unique birthday template.",
+      "description": "Goldstar is a premium template theme from our friends at <a href='http://www.mailbakery.com' target='_blank'>MailBakery</a>. It features a classic style and a unique birthday template.",
       "templates": [
         {
           "title": "confirm",
@@ -53,7 +53,7 @@
     },
     {
       "title": "meow",
-      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html'>Foundation for Emails</a> by ZURB. Learn more about responsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation'>Responsive Email Master Class</a> by ZURB University.",
+      "description": "Meow is a simple theme built with <a href='http://foundation.zurb.com/emails.html' target='_blank'>Foundation for Emails</a> by ZURB. Learn more about responsive email design at the <a href='http://zurb.com/university/responsive-emails-foundation' target='_blank'>Responsive Email Master Class</a> by ZURB University.",
       "templates": [
         {
           "title": "confirmation",
