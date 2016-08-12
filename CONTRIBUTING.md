@@ -50,3 +50,10 @@ The following guidelines apply to all templates whether submitted via email or p
 	* Each layout must have `title` and `image_url` specified
 	* Link so public litmus test (`litmus_url`) is *optional* but preferred - it saves us time from creating them for you 
 
+## Why wasn't my contribution accepted?
+
+We reserve the right to refuse any contribution, but here are some things that will definitely make us reluctant:
+
+* Not following the submission guidelines, specifically updates to the `gallery.json` and creating template screenshots
+* Not following the template guidelines, specifically your template is not responsive or doesn't include 9 layouts
+* You don't have rights to submit your template under the Apache 2.0 license (i.e. it's someone else's template)
