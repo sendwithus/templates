@@ -1,52 +1,106 @@
 {
   "themes": [
     {
+      "title": "mantra",
+      "description": "Mantra is a premium template theme from our friends at <a href='http://www.emailmonks.com' target='_blank'>Email Monks</a>. Its styling keeps things simple and on point.",
+      "templates": [
+        {
+          "title": "welcome",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/welcome.png",
+          "litmus_url": "https://litmus.com/checklist/public/4ae9e38"
+        },
+        {
+          "title": "update",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/update.png",
+          "litmus_url": "https://litmus.com/checklist/public/6f481fb"
+        },
+        {
+          "title": "rating",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/rating.png",
+          "litmus_url": "https://litmus.com/checklist/public/1a79923"
+        },
+        {
+          "title": "coupon",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/coupon.png",
+          "litmus_url": "https://litmus.com/checklist/public/1bda060"
+        },
+        {
+          "title": "progress",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/progress.png",
+          "litmus_url": "https://litmus.com/checklist/public/67b359d"
+        },
+        {
+          "title": "receipt",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/receipt.png",
+          "litmus_url": "https://litmus.com/checklist/public/4573981"
+        },
+        {
+          "title": "activation",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/activation.png",
+          "litmus_url": "https://litmus.com/checklist/public/44c747f"
+        },
+        {
+          "title": "birthday",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/birthday.png",
+          "litmus_url": "https://litmus.com/checklist/public/b86c870"
+        },
+        {
+          "title": "shipped",
+          "image_url": "https://www.sendwithus.com/assets/img/emailmonks/shipped.png",
+          "litmus_url": "https://litmus.com/checklist/public/430c3af"
+        }
+      ]
+    },
+
+{
+  "themes": [
+    {
       "title": "goldstar",
       "description": "Goldstar is a premium template theme from our friends at <a href='http://www.mailbakery.com' target='_blank'>MailBakery</a>. It features a classic style and a unique birthday template.",
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/confirm.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/confirm.png",
           "litmus_url": "https://litmus.com/pub/a3b95f6"
         },
         {
           "title": "birthday",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/birthday.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/birthday.png",
           "litmus_url": "https://litmus.com/pub/8e95e27"
         },
         {
           "title": "invite",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invite.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/invite.png",
           "litmus_url": "https://litmus.com/pub/2af0a6a"
         },
         {
           "title": "invoice",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/invoice.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/invoice.png",
           "litmus_url": "https://litmus.com/pub/d5c2f0d"
         },
         {
           "title": "progress",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/progress.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/progress.png",
           "litmus_url": "https://litmus.com/pub/f2e37fd"
         },
         {
           "title": "reignite",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/reignite.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/reignite.png",
           "litmus_url": "https://litmus.com/pub/8e4048b"
         },
         {
           "title": "survey",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/survey.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/survey.png",
           "litmus_url": "https://litmus.com/pub/5c9189b"
         },
         {
           "title": "update",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/update.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/update.png",
           "litmus_url": "https://litmus.com/pub/9702488"
         },
         {
           "title": "welcome",
-          "image_url": "https://wwww.sendwithus.com/assets/img/mailbakery/welcome.png",
+          "image_url": "https://www.sendwithus.com/assets/img/mailbakery/welcome.png",
           "litmus_url": "https://litmus.com/pub/c82a9a4"
         }
       ]
