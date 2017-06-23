@@ -882,8 +882,7 @@
         width: auto !important;
         text-align: left;
         color: #fefefe;
-        background: #f7931d;
-        border: 2px solid #f7931d; }
+        }
         table.button table td.radius {
             border-radius: 3px; }
     table.button table td.rounded {
@@ -893,6 +892,8 @@
             font-size: 16px;
             font-weight: bold;
             color: #fefefe;
+            background: #f7931d;
+            border: 2px solid #f7931d;
             text-decoration: none;
             display: inline-block;
             padding: 8px 16px 8px 16px;
@@ -946,13 +947,14 @@
     table.button:hover table td,
     table.button:visited table td,
     table.button:active table td {
-        background: #d97908;
-        color: #fefefe; }
+    }
 
     table.button:hover table a,
     table.button:visited table a,
     table.button:active table a {
-        border: 0px solid #d97908; }
+        border: 0px solid #d97908;
+        background: #d97908;
+        color: #fefefe; }
 
     table.button.secondary table td {
         background: #777777;
