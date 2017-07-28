@@ -109,47 +109,47 @@
         {
           "title": "confirmation",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/confirmation.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/af46e10"
+          "litmus_url": "https://litmus.com/builder/0275e56"
         }, 
         {
           "title": "coupon",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/coupon.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/4360468"
+          "litmus_url": "https://litmus.com/builder/aa7be41"
         }, 
         {
           "title": "receipt",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/receipt.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/73042e6"
+          "litmus_url": "https://litmus.com/builder/85b1da9"
         }, 
         {
           "title": "digest-left",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-left.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/bab421d"
+          "litmus_url": "https://litmus.com/builder/7273792"
         }, 
         {
           "title": "digest-right",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/digest-right.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/a61d599"
+          "litmus_url": "https://litmus.com/builder/1f2bf4b"
         }, 
         {
           "title": "progress",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/progress.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/698f6a7"
+          "litmus_url": "https://litmus.com/builder/3b95cf0"
         }, 
         {
           "title": "survey",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/survey.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/43b00ae"
+          "litmus_url": "https://litmus.com/builder/31f76ff"
         }, 
         {
           "title": "welcome",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/welcome.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/0956101"
+          "litmus_url": "https://litmus.com/builder/3a88d3e"
         }, 
         {
           "title": "two-column",
           "image_url": "https://wwww.sendwithus.com/assets/img/meow/two-column.png",
-          "litmus_url": "https://litmus.com/checklist/emails/public/34a2415"
+          "litmus_url": "https://litmus.com/builder/63062c3"
         }
       ]
     },
