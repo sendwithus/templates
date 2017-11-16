@@ -829,6 +829,17 @@
     a:visited {
         color: #f7931d; }
 
+    .button a {
+        color: #fefefe;
+        text-decoration: none; }
+    .button a:hover {
+        color: #fefefe; }
+    .button a:active {
+        color: #fefefe; }
+    .button a:visited {
+        color: #fefefe; }
+
+
     h1 a,
     h1 a:visited,
     h2 a,
@@ -873,64 +884,7 @@
     p + .stat {
         margin-top: -16px;
         Margin-top: -16px; }
-
-    table.button {
-        width: auto !important;
-        margin: 0 0 16px 0;
-        Margin: 0 0 16px 0; }
-    table.button table td {
-        width: auto !important;
-        text-align: center;
-        color: #fefefe;
-        }
-        table.button table td.radius {
-            border-radius: 3px; }
-    table.button table td.rounded {
-        border-radius: 500px; }
-        table.button table td a {
-            font-family: Helvetica, Arial, sans-serif;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fefefe;
-            background: #f7931d;
-            border: 2px solid #f7931d;
-            text-decoration: none;
-            display: inline-block;
-            padding: 8px 16px 8px 16px;
-            border: 0px solid #f7931d;
-            border-radius: 3px; }
-
-    table.button:hover table tr td a,
-    table.button:active table tr td a,
-    table.button table tr td a:visited,
-    table.button.tiny:hover table tr td a,
-    table.button.tiny:active table tr td a,
-    table.button.tiny table tr td a:visited,
-    table.button.small:hover table tr td a,
-    table.button.small:active table tr td a,
-    table.button.small table tr td a:visited,
-    table.button.large:hover table tr td a,
-    table.button.large:active table tr td a,
-    table.button.large table tr td a:visited {
-        color: #fefefe; }
-
-    table.button.tiny table td,
-    table.button.tiny table a {
-        padding: 4px 8px 4px 8px; }
-
-    table.button.tiny table a {
-        font-size: 10px;
-        font-weight: normal; }
-
-    table.button.small table td,
-    table.button.small table a {
-        padding: 5px 10px 5px 10px;
-        font-size: 12px; }
-
-    table.button.large table a {
-        padding: 10px 20px 10px 20px;
-        font-size: 20px; }
-
+        
     table.expand,
     table.expanded {
         width: 100% !important; }
@@ -943,70 +897,6 @@
     table.expand center,
     table.expanded center {
         min-width: 0; }
-
-    table.button:hover table td,
-    table.button:visited table td,
-    table.button:active table td {
-    }
-
-    table.button:hover table a,
-    table.button:visited table a,
-    table.button:active table a {
-        border: 0px solid #d97908; 
-        background: #d97908;
-        color: #fefefe;
-    }
-
-    table.button.secondary table td {
-        background: #777777;
-        color: #fefefe;
-        border: 2px solid #777777; }
-
-    table.button.secondary table a {
-        color: #fefefe;
-        border: 0px solid #777777; }
-
-    table.button.secondary:hover table td {
-        background: #919191;
-        color: #fefefe; }
-
-    table.button.secondary:hover table a {
-        border: 0px solid #919191; }
-
-    table.button.secondary:hover table td a {
-        color: #fefefe; }
-
-    table.button.secondary:active table td a {
-        color: #fefefe; }
-
-    table.button.secondary table td a:visited {
-        color: #fefefe; }
-
-    table.button.success table td {
-        background: #3adb76;
-        border: 2px solid #3adb76; }
-
-    table.button.success table a {
-        border: 0px solid #3adb76; }
-
-    table.button.success:hover table td {
-        background: #23bf5d; }
-
-    table.button.success:hover table a {
-        border: 0px solid #23bf5d; }
-
-    table.button.alert table td {
-        background: #ec5840;
-        border: 2px solid #ec5840; }
-
-    table.button.alert table a {
-        border: 0px solid #ec5840; }
-
-    table.button.alert:hover table td {
-        background: #e23317; }
-
-    table.button.alert:hover table a {
-        border: 0px solid #e23317; }
 
     table.callout {
         margin-bottom: 16px;
@@ -1415,9 +1305,6 @@
         display: block !important; }
     table.menu[align="center"] {
         width: auto !important; }
-    table.button.expand {
-        width: 100% !important; }
-    }
 </style>
 
 <style type="text/css" media="only screen and (max-width: 596px)">
@@ -1553,7 +1440,15 @@
                   <center data-parsed="">
                     <br align="center" class="text-center"><br align="center" class="text-center">
                     <h5 align="center" class="text-center">Woah! Look at this Offer! Such Value.</h5>
-                    <table class="button text-center"><tr><td><table><tr><td><a href="#">Centered CTA!</a></td></tr></table></td></tr></table>
+                    <div class="button">
+                      <!--[if mso]>
+                          <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:40px;v-text-anchor:middle;width:150px;" arcsize="8%" strokecolor="#f7931d" fillcolor="#f7931d">
+                            <w:anchorlock/>
+                            <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">Centered CTA!</center>
+                          </v:roundrect>
+                      <![endif]-->
+                      <a href="#" style="background-color:#f7931d;border:0px solid #f7931d;border-radius:3px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;">Centered CTA!</a>
+                    </div>
                     <br align="center" class="text-center">
                   </center>
                 </th>
