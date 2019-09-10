@@ -9,9 +9,7 @@ Anyone may contribute new themes and templates, or make impactful updates to the
 - [Learn More About The Open Source Template Project](https://www.sendwithus.com/resources/templates/about)
 
 ## Use with CSS Inliner
-To achieve the best compatibility, use a css inliner like [premailer](https://github.com/peterbe/premailer/) or the [Sendwithus CSS Inliner](https://www.sendwithus.com/resources/inliner).
-
-Managed and Maintained by [sendwithus.com](https://www.sendwithus.com).
+To achieve the best compatibility, use a css inliner like [premailer](https://github.com/peterbe/premailer/).
 
 ## License
 
