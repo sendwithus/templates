@@ -6,47 +6,47 @@
       "templates": [
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/welcome.png",
           "litmus_url": "https://litmus.com/checklist/public/4ae9e38"
         },
         {
           "title": "update",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/update.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/update.png",
           "litmus_url": "https://litmus.com/checklist/public/6f481fb"
         },
         {
           "title": "rating",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/rating.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/rating.png",
           "litmus_url": "https://litmus.com/checklist/public/1a79923"
         },
         {
           "title": "coupon",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/coupon.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/coupon.png",
           "litmus_url": "https://litmus.com/checklist/public/1bda060"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/progress.png",
           "litmus_url": "https://litmus.com/checklist/public/67b359d"
         },
         {
           "title": "receipt",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/receipt.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/receipt.png",
           "litmus_url": "https://litmus.com/checklist/public/4573981"
         },
         {
           "title": "activation",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/activation.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/activation.png",
           "litmus_url": "https://litmus.com/checklist/public/44c747f"
         },
         {
           "title": "birthday",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/birthday.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/birthday.png",
           "litmus_url": "https://litmus.com/checklist/public/b86c870"
         },
         {
           "title": "shipped",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/mantra/shipped.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/mantra/shipped.png",
           "litmus_url": "https://litmus.com/checklist/public/430c3af"
         }
       ]
@@ -57,47 +57,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/confirm.png",
           "litmus_url": "https://litmus.com/pub/a3b95f6"
         },
         {
           "title": "birthday",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/birthday.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/birthday.png",
           "litmus_url": "https://litmus.com/pub/8e95e27"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/invite.png",
           "litmus_url": "https://litmus.com/pub/2af0a6a"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/invoice.png",
           "litmus_url": "https://litmus.com/pub/d5c2f0d"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/progress.png",
           "litmus_url": "https://litmus.com/pub/f2e37fd"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/reignite.png",
           "litmus_url": "https://litmus.com/pub/8e4048b"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/survey.png",
           "litmus_url": "https://litmus.com/pub/5c9189b"
         },
         {
           "title": "update",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/update.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/update.png",
           "litmus_url": "https://litmus.com/pub/9702488"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/goldstar/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/goldstar/welcome.png",
           "litmus_url": "https://litmus.com/pub/c82a9a4"
         }
       ]
@@ -108,47 +108,47 @@
       "templates": [
         {
           "title": "confirmation",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/confirmation.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/confirmation.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/af46e10"
         }, 
         {
           "title": "coupon",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/coupon.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/coupon.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/4360468"
         }, 
         {
           "title": "receipt",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/receipt.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/receipt.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/73042e6"
         }, 
         {
           "title": "digest-left",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/digest-left.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/digest-left.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/bab421d"
         }, 
         {
           "title": "digest-right",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/digest-right.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/digest-right.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/a61d599"
         }, 
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/progress.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/698f6a7"
         }, 
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/survey.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/43b00ae"
         }, 
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/welcome.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/0956101"
         }, 
         {
           "title": "two-column",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/meow/two-column.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/meow/two-column.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/34a2415"
         }
       ]
@@ -159,17 +159,17 @@
       "templates": [
         {
           "title": "fluid",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cerberus/fluid.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cerberus/fluid.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/bfb6328"
         }, 
         {
           "title": "hybrid",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cerberus/hybrid.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cerberus/hybrid.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/1df1adc"
         }, 
         {
           "title": "responsive",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cerberus/responsive.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cerberus/responsive.png",
           "litmus_url": "https://litmus.com/checklist/emails/public/09806a7"
         }
       ]
@@ -180,47 +180,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/confirm.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/confirm.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/48bd518"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/invite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/invite.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/80bd51d"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/invoice.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/invoice.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/27383ca"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/ping.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/ping.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/ee70c70"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/progress.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/progress.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/e6beed2"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/reignite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/reignite.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/04decc1"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/survey.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/survey.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/537f907"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/upsell.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/upsell.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/a884e2f"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/oxygen/welcome.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/oxygen/welcome.jpg",
           "litmus_url": "https://litmus.com/checklist/emails/public/233cb0b"
         }
       ]
@@ -231,47 +231,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/confirm.png",
           "litmus_url": "https://litmus.com/pub/8a5937f"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/invite.png",
           "litmus_url": "https://litmus.com/pub/0c5a058"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/invoice.png",
           "litmus_url": "https://litmus.com/pub/5bbdede"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/ping.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/ping.png",
           "litmus_url": "https://litmus.com/pub/352cef4"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/progress.png",
           "litmus_url": "https://litmus.com/pub/b944d2c"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/reignite.png",
           "litmus_url": "https://litmus.com/pub/cc46980"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/survey.png",
           "litmus_url": "https://litmus.com/pub/0b98e66"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/upsell.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/upsell.png",
           "litmus_url": "https://litmus.com/pub/0e8bc45"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/neopolitan/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/neopolitan/welcome.png",
           "litmus_url": "https://litmus.com/pub/26935c2"
         }
       ]
@@ -282,47 +282,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/confirm.png",
           "litmus_url": "https://litmus.com/pub/ef52e21"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/invite.png",
           "litmus_url": "https://litmus.com/pub/af62469"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/invoice.png",
           "litmus_url": "https://litmus.com/pub/b76a6f1"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/ping.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/ping.png",
           "litmus_url": "https://litmus.com/pub/4d3aa47"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/progress.png",
           "litmus_url": "https://litmus.com/pub/0d0d5a6"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/reignite.png",
           "litmus_url": "https://litmus.com/pub/a9e75be"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/survey.png",
           "litmus_url": "https://litmus.com/pub/62ef716"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/upsell.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/upsell.png",
           "litmus_url": "https://litmus.com/pub/18bf416"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/skyline/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/skyline/welcome.png",
           "litmus_url": "https://litmus.com/pub/7ccc4d1"
         }
       ]
@@ -333,50 +333,50 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/confirm.png",
           "litmus_url": "https://litmus.com/pub/e9179df"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/invite.png",
           "litmus_url": "https://litmus.com/pub/00d964b"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/invoice.png",
           "litmus_url": "https://litmus.com/pub/5b966ff"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/ping.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/ping.png",
           "litmus_url": "https://litmus.com/pub/0a552f0"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/progress.png",
           "litmus_url": "https://litmus.com/pub/7a739e0"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/reignite.png",
           "litmus_url": "https://litmus.com/pub/1acab60"
 
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/survey.png",
           "litmus_url": "https://litmus.com/pub/804b439"
 
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/upsell.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/upsell.png",
           "litmus_url": "https://litmus.com/pub/997d5ef"
 
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/go/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/go/welcome.png",
           "litmus_url": "https://litmus.com/pub/6a7220a"
 
         }
@@ -388,47 +388,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/confirm.png",
           "litmus_url": "https://litmus.com/pub/cce33dd"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/invite.png",
           "litmus_url": "https://litmus.com/pub/a494ed7"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/invoice.png",
           "litmus_url": "https://litmus.com/pub/cfa659d"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/ping.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/ping.png",
           "litmus_url": "https://litmus.com/pub/254149f"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/progress.png",
           "litmus_url": "https://litmus.com/pub/bd298bc"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/reignite.png",
           "litmus_url": "https://litmus.com/pub/11a6b60"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/survey.png",
           "litmus_url": "https://litmus.com/pub/ad884aa"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/upsell.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/upsell.png",
           "litmus_url": "https://litmus.com/pub/9487b06"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/sunday/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/sunday/welcome.png",
           "litmus_url": "https://litmus.com/pub/8cd29fc"
         }
       ]
@@ -439,47 +439,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/confirm.png",
           "litmus_url": "https://litmus.com/pub/4596e51"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/invite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/invite.png",
           "litmus_url": "https://litmus.com/pub/c3dbc52"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/invoice.png",
           "litmus_url": "https://litmus.com/pub/27abb5f"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/ping.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/ping.png",
           "litmus_url": "https://litmus.com/pub/c69b823"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/progress.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/progress.png",
           "litmus_url": "https://litmus.com/pub/c81883c"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/reignite.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/reignite.png",
           "litmus_url": "https://litmus.com/pub/e05ce74"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/survey.png",
           "litmus_url": "https://litmus.com/pub/0f3b30c"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/upsell.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/upsell.png",
           "litmus_url": "https://litmus.com/pub/9bbf449"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/airmail/welcome.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/airmail/welcome.png",
           "litmus_url": "https://litmus.com/pub/baa3998"
         }
       ]
@@ -490,47 +490,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/confirm.png",
           "litmus_url": "https://litmus.com/pub/d13446b"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/invite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/invite.jpg",
           "litmus_url": "https://litmus.com/pub/1eec5a0"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/invoice.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/invoice.png",
           "litmus_url": "https://litmus.com/pub/f799420"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/ping.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/ping.jpg",
           "litmus_url": "https://litmus.com/pub/a476650"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/progress.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/progress.jpg",
           "litmus_url": "https://litmus.com/pub/cbd015b"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/reignite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/reignite.jpg",
           "litmus_url": "https://litmus.com/pub/5ef53a5"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/survey.png",
           "litmus_url": "https://litmus.com/pub/4ac497c"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/upsell.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/upsell.jpg",
           "litmus_url": "https://litmus.com/pub/5c3324f"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/cleave/welcome.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/cleave/welcome.jpg",
           "litmus_url": "https://litmus.com/pub/5b0d829"
         }
       ]
@@ -541,47 +541,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/confirm.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/confirm.jpg",
           "litmus_url": "https://litmus.com/pub/4fa78de"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/invite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/invite.jpg",
           "litmus_url": "https://litmus.com/pub/7e7620c"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/invoice.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/invoice.jpg",
           "litmus_url": "https://litmus.com/pub/9f7d859"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/ping.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/ping.jpg",
           "litmus_url": "https://litmus.com/pub/053c259"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/progress.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/progress.jpg",
           "litmus_url": "https://litmus.com/pub/f71b1c3"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/reignite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/reignite.jpg",
           "litmus_url": "https://litmus.com/pub/ce4e6fe"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/survey.png",
           "litmus_url": "https://litmus.com/pub/e6ed313"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/upsell.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/upsell.jpg",
           "litmus_url": "https://litmus.com/pub/daa20de"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/narrative/welcome.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/narrative/welcome.jpg",
           "litmus_url": "https://litmus.com/pub/c58a73b"
         }
       ]
@@ -592,47 +592,47 @@
       "templates": [
         {
           "title": "confirm",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/confirm.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/confirm.png",
           "litmus_url": "https://litmus.com/pub/aef7d4d"
         },
         {
           "title": "invite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/invite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/invite.jpg",
           "litmus_url": "https://litmus.com/pub/777c047"
         },
         {
           "title": "invoice",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/invoice.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/invoice.jpg",
           "litmus_url": "https://litmus.com/pub/31c16e0"
         },
         {
           "title": "ping",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/ping.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/ping.jpg",
           "litmus_url": "https://litmus.com/pub/0d1fa02"
         },
         {
           "title": "progress",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/progress.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/progress.jpg",
           "litmus_url": "https://litmus.com/pub/f172e5c"
         },
         {
           "title": "reignite",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/reignite.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/reignite.jpg",
           "litmus_url": "https://litmus.com/pub/a9fdc7b"
         },
         {
           "title": "survey",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/survey.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/survey.png",
           "litmus_url": "https://litmus.com/pub/50460bc"
         },
         {
           "title": "upsell",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/upsell.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/upsell.jpg",
           "litmus_url": "https://litmus.com/pub/4406ce8"
         },
         {
           "title": "welcome",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/zen-flat/welcome.jpg",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/zen-flat/welcome.jpg",
           "litmus_url": "https://litmus.com/pub/8e9eb16"
         }
       ]
@@ -643,7 +643,7 @@
       "templates": [
         {
           "title": "plain",
-          "image_url": "https://d3nrsroguvxsk0.cloudfront.net/img/opensource-tpl-screens/plain-jane/lipsum.png",
+          "image_url": "https://d2mzb86nwy3n8i.cloudfront.net/img/opensource-tpl-screens/plain-jane/lipsum.png",
           "litmus_url": "https://litmus.com/pub/87509a4"
         }
       ]
